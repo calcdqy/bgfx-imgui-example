@@ -3,4 +3,3 @@
 *.h linguist-language=C++
 *.cpp linguist-language=C++
 *.hpp linguist-language=C++
-*.mm linguist-language=C++
