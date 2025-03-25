@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DAE41E7A-624A-3A4F-A036-5445BF784BF3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>examples</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/bgfx.cmake/cmake/bgfx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example" "-BC:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build" --check-stamp-file "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/libs/bgfx.cmake/cmake/bgfx/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\dear-imgui.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\fcpp.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\glsl-optimizer.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\glslang.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\meshoptimizer.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\spirv-cross.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\spirv-opt.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\webgpu.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\bgfx.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\examples.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\generated\shader.cpp.in;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\generated\vertexlayout.cpp.in;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\geometryc.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\geometryv.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\shaderc.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\shared.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\texturev.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\util\ConfigureDebugging.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfxToolUtils.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/bgfx.cmake/cmake/bgfx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example" "-BC:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build" --check-stamp-file "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/libs/bgfx.cmake/cmake/bgfx/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\dear-imgui.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\fcpp.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\glsl-optimizer.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\glslang.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\meshoptimizer.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\spirv-cross.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\spirv-opt.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\webgpu.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\bgfx.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\examples.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\generated\shader.cpp.in;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\generated\vertexlayout.cpp.in;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\geometryc.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\geometryv.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\shaderc.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\shared.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\texturev.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\util\ConfigureDebugging.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfxToolUtils.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/bgfx.cmake/cmake/bgfx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example" "-BC:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build" --check-stamp-file "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/libs/bgfx.cmake/cmake/bgfx/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\dear-imgui.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\fcpp.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\glsl-optimizer.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\glslang.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\meshoptimizer.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\spirv-cross.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\spirv-opt.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\webgpu.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\bgfx.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\examples.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\generated\shader.cpp.in;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\generated\vertexlayout.cpp.in;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\geometryc.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\geometryv.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\shaderc.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\shared.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\texturev.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\util\ConfigureDebugging.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfxToolUtils.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/bgfx.cmake/cmake/bgfx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example" "-BC:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build" --check-stamp-file "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/libs/bgfx.cmake/cmake/bgfx/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\dear-imgui.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\fcpp.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\glsl-optimizer.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\glslang.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\meshoptimizer.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\spirv-cross.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\spirv-opt.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\webgpu.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\bgfx.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\examples.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\generated\shader.cpp.in;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\generated\vertexlayout.cpp.in;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\geometryc.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\geometryv.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\shaderc.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\shared.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\texturev.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\util\ConfigureDebugging.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfxToolUtils.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\ZERO_CHECK.vcxproj">
+      <Project>{A422E3E6-A329-35F2-BBDC-FC46E441E9EC}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-00-helloworld.vcxproj">
+      <Project>{6301C868-6496-36D1-B1FC-2CA4008A231C}</Project>
+      <Name>example-00-helloworld</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-01-cubes.vcxproj">
+      <Project>{CA99A66F-673F-36A4-A97D-E79E8C6D8532}</Project>
+      <Name>example-01-cubes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-02-metaballs.vcxproj">
+      <Project>{640C7085-E5A3-3B76-9BB2-DAD613F3F103}</Project>
+      <Name>example-02-metaballs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-03-raymarch.vcxproj">
+      <Project>{11C62D09-2DD9-3970-A978-A31DC8280399}</Project>
+      <Name>example-03-raymarch</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-04-mesh.vcxproj">
+      <Project>{62037A86-DEB5-383F-9554-92999DADED8A}</Project>
+      <Name>example-04-mesh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-05-instancing.vcxproj">
+      <Project>{F43A7A7B-43F9-30B1-B528-30DBDB49800C}</Project>
+      <Name>example-05-instancing</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-06-bump.vcxproj">
+      <Project>{723D8BB4-C7B0-3810-8FF7-EA7FD45CF010}</Project>
+      <Name>example-06-bump</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-07-callback.vcxproj">
+      <Project>{EC7A4196-27CE-36E7-8433-11D9D20192AB}</Project>
+      <Name>example-07-callback</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-08-update.vcxproj">
+      <Project>{0DEF23FA-6E50-38FC-A662-5FB1C82FC746}</Project>
+      <Name>example-08-update</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-09-hdr.vcxproj">
+      <Project>{DEAC4761-8598-30D2-AEF7-CD1053BBDE22}</Project>
+      <Name>example-09-hdr</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-10-font.vcxproj">
+      <Project>{3388F0AF-E90A-3938-AF88-20FFCC0C4C50}</Project>
+      <Name>example-10-font</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-11-fontsdf.vcxproj">
+      <Project>{53F8D424-FD9E-38B3-AB07-3DC537CE44FA}</Project>
+      <Name>example-11-fontsdf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-12-lod.vcxproj">
+      <Project>{E0B94DCA-DFA4-3A7A-A295-2BB800D34C63}</Project>
+      <Name>example-12-lod</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-13-stencil.vcxproj">
+      <Project>{9AF97F04-27DB-32EF-9574-A5953DC590EE}</Project>
+      <Name>example-13-stencil</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-14-shadowvolumes.vcxproj">
+      <Project>{B8D37950-BCDC-3A65-9466-8112480E765C}</Project>
+      <Name>example-14-shadowvolumes</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-15-shadowmaps-simple.vcxproj">
+      <Project>{43FFCC0F-A5D7-32A1-BCDF-7456FCA63D78}</Project>
+      <Name>example-15-shadowmaps-simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-16-shadowmaps.vcxproj">
+      <Project>{A2F07EA5-59FD-3A3F-A5C1-0F73826EE6E3}</Project>
+      <Name>example-16-shadowmaps</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-17-drawstress.vcxproj">
+      <Project>{944726DC-AB4D-3716-A86F-D25892805109}</Project>
+      <Name>example-17-drawstress</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-18-ibl.vcxproj">
+      <Project>{DC80E891-F06F-32CB-8FA7-BAF700E2445F}</Project>
+      <Name>example-18-ibl</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-19-oit.vcxproj">
+      <Project>{DBECAD6C-9606-382A-9E31-8232B796CBC7}</Project>
+      <Name>example-19-oit</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-20-nanovg.vcxproj">
+      <Project>{08814922-E3A0-3CCF-AB75-32E3D2BA0729}</Project>
+      <Name>example-20-nanovg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-22-windows.vcxproj">
+      <Project>{0F308B98-34D3-34F5-8131-2158D1379785}</Project>
+      <Name>example-22-windows</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-23-vectordisplay.vcxproj">
+      <Project>{E01A1B4C-B0F4-3464-949A-7D18E774C31E}</Project>
+      <Name>example-23-vectordisplay</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-24-nbody.vcxproj">
+      <Project>{B8FF699E-8BE9-3703-A8DE-FC73E7A64006}</Project>
+      <Name>example-24-nbody</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-25-c99.vcxproj">
+      <Project>{E6F29A24-730E-3AD9-B5C2-3015BAF75C7A}</Project>
+      <Name>example-25-c99</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-26-occlusion.vcxproj">
+      <Project>{4B3FE4D2-F8A5-3CBB-B370-9249A78CF94A}</Project>
+      <Name>example-26-occlusion</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-27-terrain.vcxproj">
+      <Project>{DE6AC406-3B0D-3DFB-B560-93E87F5D9DA3}</Project>
+      <Name>example-27-terrain</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-28-wireframe.vcxproj">
+      <Project>{7DB3A4B6-03DF-3C27-B902-6BF83849321F}</Project>
+      <Name>example-28-wireframe</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-29-debugdraw.vcxproj">
+      <Project>{C4540D2E-4CE2-3A8B-8DA5-5B1B5594A5AE}</Project>
+      <Name>example-29-debugdraw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-30-picking.vcxproj">
+      <Project>{84A9A4DB-5420-38E9-8993-8725BBDFB03D}</Project>
+      <Name>example-30-picking</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-31-rsm.vcxproj">
+      <Project>{E80C2C67-C44C-3AA3-8015-F908E2AC20E0}</Project>
+      <Name>example-31-rsm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-32-particles.vcxproj">
+      <Project>{EFB276AD-C0C3-397C-A456-B8A132A70A97}</Project>
+      <Name>example-32-particles</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-33-pom.vcxproj">
+      <Project>{97010047-4195-3C77-A334-A6826186110A}</Project>
+      <Name>example-33-pom</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-34-mvs.vcxproj">
+      <Project>{38CF3CFB-9E7C-316E-9763-311F4EC55A13}</Project>
+      <Name>example-34-mvs</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-35-dynamic.vcxproj">
+      <Project>{07D46E63-3E91-3541-9CC4-62F7332C512F}</Project>
+      <Name>example-35-dynamic</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-36-sky.vcxproj">
+      <Project>{1463DA75-D3A6-3D16-A17A-9FC76379AC85}</Project>
+      <Name>example-36-sky</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-38-bloom.vcxproj">
+      <Project>{1A8A2E62-0DE3-3954-A6DE-5146C8030461}</Project>
+      <Name>example-38-bloom</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-39-assao.vcxproj">
+      <Project>{E818A91C-3C5B-3C0A-AD7E-E54D07DA1AFB}</Project>
+      <Name>example-39-assao</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-40-svt.vcxproj">
+      <Project>{34A13BA2-D929-3F3C-80FD-1CB8B1A91799}</Project>
+      <Name>example-40-svt</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-42-bunnylod.vcxproj">
+      <Project>{B1ABE525-F93E-3A3E-895C-38597CC1F6EE}</Project>
+      <Name>example-42-bunnylod</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-43-denoise.vcxproj">
+      <Project>{9C92994B-8149-3356-A398-3A02E2DE1D1A}</Project>
+      <Name>example-43-denoise</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-44-sss.vcxproj">
+      <Project>{DB3BA0B3-400C-3D76-8749-0A756B83C4DB}</Project>
+      <Name>example-44-sss</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-45-bokeh.vcxproj">
+      <Project>{0C61A029-681C-3A8A-BB1F-BB0EA7C021B0}</Project>
+      <Name>example-45-bokeh</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-46-fsr.vcxproj">
+      <Project>{786755B3-A58C-371A-A294-33AF79354055}</Project>
+      <Name>example-46-fsr</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\example-47-pixelformats.vcxproj">
+      <Project>{41A954DE-F387-3794-A682-F4A33D7A2FE7}</Project>
+      <Name>example-47-pixelformats</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

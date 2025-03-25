@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\src\shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\src\shader_dxbc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\src\shader_spirv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\tools\shaderc\shaderc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\tools\shaderc\shaderc_glsl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\tools\shaderc\shaderc_hlsl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\tools\shaderc\shaderc_metal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\tools\shaderc\shaderc_pssl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\tools\shaderc\shaderc_spirv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\generated\vertexlayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\src\shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\src\shader_dxbc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\src\shader_spirv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\tools\shaderc\shaderc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D92C0A64-ED8B-39A6-9A0A-0570F131B336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{859F2598-65E2-3184-80FC-561AA5CFB94B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

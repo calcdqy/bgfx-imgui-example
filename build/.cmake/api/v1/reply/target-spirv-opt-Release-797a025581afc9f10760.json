@@ -1,0 +1,3037 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "libs/Release/spirv-opt.lib"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"add_compile_options",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"libs/bgfx.cmake/cmake/bgfx/3rdparty/spirv-opt.cmake",
+			"libs/bgfx.cmake/cmake/bgfx/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 137,
+				"parent" : 2
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 26,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 142,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++17 -MT"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/MT"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/bgfx.cmake/bgfx/3rdparty/spirv-tools"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/include/generated"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/bgfx.cmake/bgfx/3rdparty/spirv-headers/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				5,
+				7,
+				10,
+				12,
+				14,
+				20,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				34,
+				36,
+				38,
+				40,
+				42,
+				44,
+				46,
+				48,
+				50,
+				52,
+				54,
+				56,
+				58,
+				60,
+				62,
+				64,
+				66,
+				68,
+				70,
+				72,
+				74,
+				76,
+				78,
+				80,
+				82,
+				84,
+				86,
+				88,
+				90,
+				92,
+				94,
+				96,
+				98,
+				100,
+				103,
+				105,
+				107,
+				109,
+				111,
+				113,
+				115,
+				117,
+				119,
+				121,
+				123,
+				125,
+				127,
+				129,
+				131,
+				133,
+				135,
+				137,
+				139,
+				142,
+				144,
+				147,
+				149,
+				151,
+				153,
+				155,
+				157,
+				160,
+				162,
+				163,
+				165,
+				167,
+				169,
+				171,
+				173,
+				175,
+				177,
+				179,
+				181,
+				183,
+				185,
+				188,
+				190,
+				191,
+				193,
+				196,
+				198,
+				200,
+				202,
+				204,
+				207,
+				209,
+				211,
+				213,
+				215,
+				217,
+				219,
+				221,
+				224,
+				225,
+				227,
+				229,
+				231,
+				233,
+				235,
+				237,
+				239,
+				241,
+				243,
+				245,
+				248,
+				250,
+				252,
+				254,
+				256,
+				258,
+				260,
+				262,
+				264,
+				266,
+				268,
+				270,
+				272,
+				274,
+				276,
+				278,
+				280,
+				282,
+				284,
+				286,
+				288,
+				290,
+				292,
+				294,
+				296,
+				298,
+				300,
+				302,
+				304,
+				306,
+				308,
+				310,
+				312,
+				314,
+				316,
+				318,
+				320,
+				322,
+				324,
+				326,
+				328,
+				330,
+				332,
+				335,
+				337,
+				338,
+				339,
+				341,
+				343,
+				345,
+				347,
+				349,
+				351,
+				355,
+				357,
+				360,
+				361,
+				363,
+				364,
+				365,
+				367,
+				368,
+				369,
+				370,
+				371,
+				372,
+				373,
+				374,
+				375,
+				376,
+				377,
+				378,
+				379,
+				380,
+				381,
+				382,
+				383,
+				384,
+				385,
+				386,
+				387,
+				388,
+				389,
+				390,
+				391,
+				392,
+				393,
+				394,
+				395,
+				396,
+				397,
+				398,
+				399,
+				400,
+				401,
+				402,
+				403,
+				404,
+				405,
+				406
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "bgfx"
+	},
+	"id" : "spirv-opt::@455da43f6415cef8105b",
+	"name" : "spirv-opt",
+	"nameOnDisk" : "spirv-opt.lib",
+	"paths" : 
+	{
+		"build" : "libs/bgfx.cmake/cmake/bgfx",
+		"source" : "libs/bgfx.cmake/cmake/bgfx"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				5,
+				7,
+				10,
+				12,
+				14,
+				20,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				34,
+				36,
+				38,
+				40,
+				42,
+				44,
+				46,
+				48,
+				50,
+				52,
+				54,
+				56,
+				58,
+				60,
+				62,
+				64,
+				66,
+				68,
+				70,
+				72,
+				74,
+				76,
+				78,
+				80,
+				82,
+				84,
+				86,
+				88,
+				90,
+				92,
+				94,
+				96,
+				98,
+				100,
+				103,
+				105,
+				107,
+				109,
+				111,
+				113,
+				115,
+				117,
+				119,
+				121,
+				123,
+				125,
+				127,
+				129,
+				131,
+				133,
+				135,
+				137,
+				139,
+				142,
+				144,
+				147,
+				149,
+				151,
+				153,
+				155,
+				157,
+				160,
+				162,
+				163,
+				165,
+				167,
+				169,
+				171,
+				173,
+				175,
+				177,
+				179,
+				181,
+				183,
+				185,
+				188,
+				190,
+				191,
+				193,
+				196,
+				198,
+				200,
+				202,
+				204,
+				207,
+				209,
+				211,
+				213,
+				215,
+				217,
+				219,
+				221,
+				224,
+				225,
+				227,
+				229,
+				231,
+				233,
+				235,
+				237,
+				239,
+				241,
+				243,
+				245,
+				248,
+				250,
+				252,
+				254,
+				256,
+				258,
+				260,
+				262,
+				264,
+				266,
+				268,
+				270,
+				272,
+				274,
+				276,
+				278,
+				280,
+				282,
+				284,
+				286,
+				288,
+				290,
+				292,
+				294,
+				296,
+				298,
+				300,
+				302,
+				304,
+				306,
+				308,
+				310,
+				312,
+				314,
+				316,
+				318,
+				320,
+				322,
+				324,
+				326,
+				328,
+				330,
+				332,
+				335,
+				337,
+				338,
+				339,
+				341,
+				343,
+				345,
+				347,
+				349,
+				351,
+				355,
+				357,
+				360,
+				361,
+				363,
+				364,
+				365,
+				367,
+				368,
+				369,
+				370,
+				371,
+				372,
+				373,
+				374,
+				375,
+				376,
+				377,
+				378,
+				379,
+				380,
+				381,
+				382,
+				383,
+				384,
+				385,
+				386,
+				387,
+				388,
+				389,
+				390,
+				391,
+				392,
+				393,
+				394,
+				395,
+				396,
+				397,
+				398,
+				399,
+				400,
+				401,
+				402,
+				403,
+				404,
+				405,
+				406
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				4,
+				6,
+				8,
+				9,
+				11,
+				13,
+				15,
+				16,
+				17,
+				18,
+				19,
+				21,
+				23,
+				25,
+				27,
+				29,
+				31,
+				33,
+				35,
+				37,
+				39,
+				41,
+				43,
+				45,
+				47,
+				49,
+				51,
+				53,
+				55,
+				57,
+				59,
+				61,
+				63,
+				65,
+				67,
+				69,
+				71,
+				73,
+				75,
+				77,
+				79,
+				81,
+				83,
+				85,
+				87,
+				89,
+				91,
+				93,
+				95,
+				97,
+				99,
+				101,
+				102,
+				104,
+				106,
+				108,
+				110,
+				112,
+				114,
+				116,
+				118,
+				120,
+				122,
+				124,
+				126,
+				128,
+				130,
+				132,
+				134,
+				136,
+				138,
+				140,
+				141,
+				143,
+				145,
+				146,
+				148,
+				150,
+				152,
+				154,
+				156,
+				158,
+				159,
+				161,
+				164,
+				166,
+				168,
+				170,
+				172,
+				174,
+				176,
+				178,
+				180,
+				182,
+				184,
+				186,
+				187,
+				189,
+				192,
+				194,
+				195,
+				197,
+				199,
+				201,
+				203,
+				205,
+				206,
+				208,
+				210,
+				212,
+				214,
+				216,
+				218,
+				220,
+				222,
+				223,
+				226,
+				228,
+				230,
+				232,
+				234,
+				236,
+				238,
+				240,
+				242,
+				244,
+				246,
+				247,
+				249,
+				251,
+				253,
+				255,
+				257,
+				259,
+				261,
+				263,
+				265,
+				267,
+				269,
+				271,
+				273,
+				275,
+				277,
+				279,
+				281,
+				283,
+				285,
+				287,
+				289,
+				291,
+				293,
+				295,
+				297,
+				299,
+				301,
+				303,
+				305,
+				307,
+				309,
+				311,
+				313,
+				315,
+				317,
+				319,
+				321,
+				323,
+				325,
+				327,
+				329,
+				331,
+				333,
+				334,
+				336,
+				340,
+				342,
+				344,
+				346,
+				348,
+				350,
+				352,
+				353,
+				354,
+				356,
+				358,
+				359,
+				362,
+				366
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/assembly_grammar.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/assembly_grammar.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/binary.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/binary.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/cfa.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/diagnostic.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/diagnostic.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/disassemble.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/disassemble.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/enum_set.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/enum_string_mapping.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/enum_string_mapping.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/ext_inst.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/ext_inst.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/extensions.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/extensions.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/instruction.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/latest_version_glsl_std_450_header.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/latest_version_opencl_std_header.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/latest_version_spirv_header.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/libspirv.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/macro.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/name_mapper.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/name_mapper.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opcode.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opcode.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/operand.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/operand.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/aggressive_dead_code_elim_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/aggressive_dead_code_elim_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/amd_ext_to_khr.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/amd_ext_to_khr.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/analyze_live_input_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/analyze_live_input_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/basic_block.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/basic_block.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/block_merge_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/block_merge_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/block_merge_util.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/block_merge_util.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/build_module.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/build_module.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/ccp_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/ccp_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/cfg.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/cfg.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/cfg_cleanup_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/cfg_cleanup_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/code_sink.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/code_sink.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/combine_access_chains.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/combine_access_chains.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/compact_ids_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/compact_ids_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/composite.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/composite.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/const_folding_rules.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/const_folding_rules.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/constants.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/constants.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/control_dependence.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/control_dependence.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/convert_to_half_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/convert_to_half_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/convert_to_sampled_image_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/convert_to_sampled_image_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/copy_prop_arrays.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/copy_prop_arrays.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/dataflow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/dataflow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/dead_branch_elim_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/dead_branch_elim_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/dead_insert_elim_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/dead_insert_elim_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/dead_variable_elimination.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/dead_variable_elimination.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/debug_info_manager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/debug_info_manager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/decoration_manager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/decoration_manager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/def_use_manager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/def_use_manager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/desc_sroa.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/desc_sroa.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/desc_sroa_util.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/desc_sroa_util.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/dominator_analysis.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/dominator_analysis.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/dominator_tree.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/dominator_tree.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/eliminate_dead_constant_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/eliminate_dead_constant_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/eliminate_dead_functions_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/eliminate_dead_functions_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/eliminate_dead_functions_util.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/eliminate_dead_functions_util.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/eliminate_dead_io_components_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/eliminate_dead_io_components_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/eliminate_dead_members_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/eliminate_dead_members_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/eliminate_dead_output_stores_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/eliminate_dead_output_stores_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/empty_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/feature_manager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/feature_manager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/fix_func_call_arguments.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/fix_func_call_arguments.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/fix_storage_class.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/fix_storage_class.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/flatten_decoration_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/flatten_decoration_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/fold.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/fold.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/fold_spec_constant_op_and_composite_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/fold_spec_constant_op_and_composite_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/folding_rules.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/folding_rules.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/freeze_spec_constant_value_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/freeze_spec_constant_value_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/function.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/function.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/graphics_robust_access_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/graphics_robust_access_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/if_conversion.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/if_conversion.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/inline_exhaustive_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/inline_exhaustive_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/inline_opaque_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/inline_opaque_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/inline_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/inline_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/instruction.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/instruction.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/instruction_list.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/instruction_list.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/interface_var_sroa.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/interface_var_sroa.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/interp_fixup_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/interp_fixup_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/invocation_interlock_placement_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/invocation_interlock_placement_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/ir_builder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/ir_context.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/ir_context.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/ir_loader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/ir_loader.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/iterator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/licm_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/licm_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/liveness.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/liveness.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/local_access_chain_convert_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/local_access_chain_convert_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/local_redundancy_elimination.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/local_redundancy_elimination.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/local_single_block_elim_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/local_single_block_elim_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/local_single_store_elim_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/local_single_store_elim_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/log.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/loop_dependence.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/loop_dependence.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/loop_dependence_helpers.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/loop_descriptor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/loop_descriptor.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/loop_fission.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/loop_fission.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/loop_fusion.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/loop_fusion.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/loop_fusion_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/loop_fusion_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/loop_peeling.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/loop_peeling.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/loop_unroller.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/loop_unroller.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/loop_unswitch_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/loop_unswitch_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/loop_utils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/loop_utils.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/mem_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/mem_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/merge_return_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/merge_return_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/modify_maximal_reconvergence.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/modify_maximal_reconvergence.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/module.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/module.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/null_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/opextinst_forward_ref_fixup_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/opextinst_forward_ref_fixup_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/optimizer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/pass_manager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/pass_manager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/passes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/pch_source_opt.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/pch_source_opt.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/private_to_local_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/private_to_local_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/propagator.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/propagator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/reduce_load_size.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/reduce_load_size.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/redundancy_elimination.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/redundancy_elimination.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/reflect.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/register_pressure.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/register_pressure.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/relax_float_ops_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/relax_float_ops_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/remove_dontinline_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/remove_dontinline_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/remove_duplicates_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/remove_duplicates_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/remove_unused_interface_variables_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/remove_unused_interface_variables_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/replace_desc_array_access_using_var_index.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/replace_desc_array_access_using_var_index.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/replace_invalid_opc.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/replace_invalid_opc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/scalar_analysis.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/scalar_analysis.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/scalar_analysis_nodes.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/scalar_analysis_simplification.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/scalar_replacement_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/scalar_replacement_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/set_spec_constant_default_value_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/set_spec_constant_default_value_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/simplification_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/simplification_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/spread_volatile_semantics.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/spread_volatile_semantics.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/ssa_rewrite_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/ssa_rewrite_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/strength_reduction_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/strength_reduction_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/strip_debug_info_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/strip_debug_info_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/strip_nonsemantic_info_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/strip_nonsemantic_info_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/struct_cfg_analysis.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/struct_cfg_analysis.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/struct_packing_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/struct_packing_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/switch_descriptorset_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/switch_descriptorset_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/tree_iterator.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/trim_capabilities_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/trim_capabilities_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/type_manager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/type_manager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/types.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/types.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/unify_const_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/unify_const_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/upgrade_memory_model.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/upgrade_memory_model.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/value_number_table.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/value_number_table.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/vector_dce.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/vector_dce.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/workaround1209.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/workaround1209.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/wrap_opkill.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/opt/wrap_opkill.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/parsed_operand.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/parsed_operand.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/print.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/print.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/change_operand_reduction_opportunity.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/change_operand_reduction_opportunity.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/change_operand_to_undef_reduction_opportunity.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/change_operand_to_undef_reduction_opportunity.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/conditional_branch_to_simple_conditional_branch_opportunity_finder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/conditional_branch_to_simple_conditional_branch_opportunity_finder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/conditional_branch_to_simple_conditional_branch_reduction_opportunity.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/conditional_branch_to_simple_conditional_branch_reduction_opportunity.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/merge_blocks_reduction_opportunity.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/merge_blocks_reduction_opportunity.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/merge_blocks_reduction_opportunity_finder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/merge_blocks_reduction_opportunity_finder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/operand_to_const_reduction_opportunity_finder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/operand_to_const_reduction_opportunity_finder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/operand_to_dominating_id_reduction_opportunity_finder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/operand_to_dominating_id_reduction_opportunity_finder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/operand_to_undef_reduction_opportunity_finder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/operand_to_undef_reduction_opportunity_finder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/pch_source_reduce.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/pch_source_reduce.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/reducer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/reducer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/reduction_opportunity.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/reduction_opportunity.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/reduction_opportunity_finder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/reduction_opportunity_finder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/reduction_pass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/reduction_pass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/reduction_util.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/reduction_util.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/remove_block_reduction_opportunity.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/remove_block_reduction_opportunity.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/remove_block_reduction_opportunity_finder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/remove_block_reduction_opportunity_finder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/remove_function_reduction_opportunity.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/remove_function_reduction_opportunity.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/remove_function_reduction_opportunity_finder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/remove_function_reduction_opportunity_finder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/remove_instruction_reduction_opportunity.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/remove_instruction_reduction_opportunity.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/remove_selection_reduction_opportunity.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/remove_selection_reduction_opportunity.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/remove_selection_reduction_opportunity_finder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/remove_selection_reduction_opportunity_finder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/remove_struct_member_reduction_opportunity.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/remove_struct_member_reduction_opportunity.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/remove_unused_instruction_reduction_opportunity_finder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/remove_unused_instruction_reduction_opportunity_finder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/remove_unused_struct_member_reduction_opportunity_finder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/remove_unused_struct_member_reduction_opportunity_finder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/simple_conditional_branch_to_branch_opportunity_finder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/simple_conditional_branch_to_branch_opportunity_finder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/simple_conditional_branch_to_branch_reduction_opportunity.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/simple_conditional_branch_to_branch_reduction_opportunity.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/structured_construct_to_block_reduction_opportunity.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/structured_construct_to_block_reduction_opportunity.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/structured_construct_to_block_reduction_opportunity_finder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/structured_construct_to_block_reduction_opportunity_finder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/structured_loop_to_selection_reduction_opportunity.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/structured_loop_to_selection_reduction_opportunity.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/structured_loop_to_selection_reduction_opportunity_finder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/reduce/structured_loop_to_selection_reduction_opportunity_finder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/software_version.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/spirv_constant.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/spirv_definition.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/spirv_endian.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/spirv_endian.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/spirv_optimizer_options.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/spirv_reducer_options.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/spirv_target_env.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/spirv_target_env.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/spirv_validator_options.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/spirv_validator_options.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/table.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/table.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/text.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/text.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/text_handler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/text_handler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/to_string.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/to_string.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/util/bit_vector.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/util/bit_vector.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/util/bitutils.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/util/hex_float.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/util/parse_number.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/util/parse_number.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/util/string_utils.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/util/string_utils.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/util/timer.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/basic_block.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/construct.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/decoration.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/function.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/instruction.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_adjacency.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_annotation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_arithmetics.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_atomics.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_barriers.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_bitwise.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_builtins.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_capability.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_cfg.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_composites.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_constants.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_conversion.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_debug.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_decorations.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_derivatives.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_execution_limitations.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_extensions.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_function.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_id.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_image.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_instruction.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_interfaces.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_layout.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_literals.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_logicals.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_memory.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_memory_semantics.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_mesh_shading.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_misc.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_mode_setting.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_non_uniform.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_primitives.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_ray_query.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_ray_tracing.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_ray_tracing_reorder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_scopes.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_small_type_uses.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_tensor_layout.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validate_type.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/spirv-tools/source/val/validation_state.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

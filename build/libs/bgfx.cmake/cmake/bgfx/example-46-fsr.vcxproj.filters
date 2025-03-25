@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\46-fsr\app.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\46-fsr\fsr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\46-fsr\cs_fsr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\46-fsr\ffx_a.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\46-fsr\ffx_fsr1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\46-fsr\fsr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\46-fsr\cs_fsr_bilinear_16.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\46-fsr\cs_fsr_bilinear_32.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\46-fsr\cs_fsr_easu_16.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\46-fsr\cs_fsr_easu_32.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\46-fsr\cs_fsr_rcas_16.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\46-fsr\cs_fsr_rcas_32.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\46-fsr\fs_fsr_copy_linear_to_gamma.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\46-fsr\fs_fsr_forward.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\46-fsr\fs_fsr_forward_grid.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\46-fsr\vs_fsr_forward.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\46-fsr\vs_fsr_screenquad.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\46-fsr\varying.def.sc">
+      <Filter>Shader Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D92C0A64-ED8B-39A6-9A0A-0570F131B336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{FDE76015-B606-3A88-8411-1BD4F9BC540F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{859F2598-65E2-3184-80FC-561AA5CFB94B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

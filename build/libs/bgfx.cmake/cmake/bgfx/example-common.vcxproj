@@ -1,0 +1,567 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E357D11E-B2B0-34E0-A498-0DE32525EACA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>example-common</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">example-common.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">example-common</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">example-common.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">example-common</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">example-common.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">example-common</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">example-common.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">example-common</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\include;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\include;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\3rdparty;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\include\compat\msvc;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bimg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;__STDC_FORMAT_MACROS;ENTRY_CONFIG_IMPLEMENT_MAIN=1;BX_CONFIG_DEBUG=1;BGFX_CONFIG_DEBUG_ANNOTATION=1;BGFX_CONFIG_MULTITHREADED=1;__STDC_LIMIT_MACROS;__STDC_CONSTANT_MACROS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;__STDC_FORMAT_MACROS;ENTRY_CONFIG_IMPLEMENT_MAIN=1;BX_CONFIG_DEBUG=1;BGFX_CONFIG_DEBUG_ANNOTATION=1;BGFX_CONFIG_MULTITHREADED=1;__STDC_LIMIT_MACROS;__STDC_CONSTANT_MACROS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\include;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\include;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\3rdparty;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\include\compat\msvc;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bimg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\include;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\include;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\3rdparty;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\include\compat\msvc;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bimg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/bgfx.cmake/bgfx/examples/runtime/" "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/libs/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\include;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\include;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\3rdparty;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\include\compat\msvc;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bimg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;__STDC_FORMAT_MACROS;ENTRY_CONFIG_IMPLEMENT_MAIN=1;BX_CONFIG_DEBUG=0;BGFX_CONFIG_DEBUG_ANNOTATION=0;BGFX_CONFIG_MULTITHREADED=1;__STDC_LIMIT_MACROS;__STDC_CONSTANT_MACROS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;__STDC_FORMAT_MACROS;ENTRY_CONFIG_IMPLEMENT_MAIN=1;BX_CONFIG_DEBUG=0;BGFX_CONFIG_DEBUG_ANNOTATION=0;BGFX_CONFIG_MULTITHREADED=1;__STDC_LIMIT_MACROS;__STDC_CONSTANT_MACROS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\include;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\include;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\3rdparty;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\include\compat\msvc;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bimg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\include;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\include;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\3rdparty;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\include\compat\msvc;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bimg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/bgfx.cmake/bgfx/examples/runtime/" "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/libs/Release"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\include;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\include;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\3rdparty;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\include\compat\msvc;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bimg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;__STDC_FORMAT_MACROS;ENTRY_CONFIG_IMPLEMENT_MAIN=1;BX_CONFIG_DEBUG=0;BGFX_CONFIG_DEBUG_ANNOTATION=0;BGFX_CONFIG_MULTITHREADED=1;__STDC_LIMIT_MACROS;__STDC_CONSTANT_MACROS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;__STDC_FORMAT_MACROS;ENTRY_CONFIG_IMPLEMENT_MAIN=1;BX_CONFIG_DEBUG=0;BGFX_CONFIG_DEBUG_ANNOTATION=0;BGFX_CONFIG_MULTITHREADED=1;__STDC_LIMIT_MACROS;__STDC_CONSTANT_MACROS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\include;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\include;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\3rdparty;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\include\compat\msvc;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bimg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\include;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\include;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\3rdparty;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\include\compat\msvc;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bimg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/bgfx.cmake/bgfx/examples/runtime/" "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/libs/MinSizeRel"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\include;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\include;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\3rdparty;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\include\compat\msvc;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bimg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /Zc:__cplusplus</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;__STDC_FORMAT_MACROS;ENTRY_CONFIG_IMPLEMENT_MAIN=1;BX_CONFIG_DEBUG=0;BGFX_CONFIG_DEBUG_ANNOTATION=0;BGFX_CONFIG_MULTITHREADED=1;__STDC_LIMIT_MACROS;__STDC_CONSTANT_MACROS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;__STDC_FORMAT_MACROS;ENTRY_CONFIG_IMPLEMENT_MAIN=1;BX_CONFIG_DEBUG=0;BGFX_CONFIG_DEBUG_ANNOTATION=0;BGFX_CONFIG_MULTITHREADED=1;__STDC_LIMIT_MACROS;__STDC_CONSTANT_MACROS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\include;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\include;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\3rdparty;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\include\compat\msvc;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bimg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\include;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\include;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\3rdparty;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bx\include\compat\msvc;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bimg\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -E copy_directory "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/bgfx.cmake/bgfx/examples/runtime/" "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/libs/RelWithDebInfo"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/bgfx.cmake/cmake/bgfx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example" "-BC:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build" --check-stamp-file "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/libs/bgfx.cmake/cmake/bgfx/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\dear-imgui.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\fcpp.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\glsl-optimizer.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\glslang.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\meshoptimizer.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\spirv-cross.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\spirv-opt.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\webgpu.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\bgfx.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\examples.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\generated\shader.cpp.in;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\generated\vertexlayout.cpp.in;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\geometryc.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\geometryv.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\shaderc.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\shared.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\texturev.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\util\ConfigureDebugging.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfxToolUtils.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/bgfx.cmake/cmake/bgfx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example" "-BC:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build" --check-stamp-file "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/libs/bgfx.cmake/cmake/bgfx/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\dear-imgui.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\fcpp.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\glsl-optimizer.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\glslang.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\meshoptimizer.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\spirv-cross.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\spirv-opt.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\webgpu.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\bgfx.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\examples.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\generated\shader.cpp.in;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\generated\vertexlayout.cpp.in;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\geometryc.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\geometryv.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\shaderc.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\shared.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\texturev.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\util\ConfigureDebugging.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfxToolUtils.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/bgfx.cmake/cmake/bgfx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example" "-BC:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build" --check-stamp-file "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/libs/bgfx.cmake/cmake/bgfx/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\dear-imgui.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\fcpp.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\glsl-optimizer.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\glslang.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\meshoptimizer.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\spirv-cross.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\spirv-opt.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\webgpu.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\bgfx.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\examples.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\generated\shader.cpp.in;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\generated\vertexlayout.cpp.in;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\geometryc.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\geometryv.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\shaderc.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\shared.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\texturev.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\util\ConfigureDebugging.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfxToolUtils.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/bgfx.cmake/cmake/bgfx/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example" "-BC:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build" --check-stamp-file "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/libs/bgfx.cmake/cmake/bgfx/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\dear-imgui.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\fcpp.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\glsl-optimizer.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\glslang.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\meshoptimizer.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\spirv-cross.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\spirv-opt.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\3rdparty\webgpu.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\bgfx.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\examples.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\generated\shader.cpp.in;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\generated\vertexlayout.cpp.in;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\geometryc.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\geometryv.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\shaderc.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\shared.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\texturev.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\util\ConfigureDebugging.cmake;C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfxToolUtils.cmake;D:\Program Files\CMake\share\cmake-3.31\Modules\CMakeParseArguments.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\debugdraw\debugdraw.cpp" />
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\debugdraw\debugdraw.h" />
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\debugdraw\fs_debugdraw_fill.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\debugdraw\fs_debugdraw_fill.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\debugdraw\fs_debugdraw_fill_lit.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\debugdraw\fs_debugdraw_fill_lit.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\debugdraw\fs_debugdraw_fill_texture.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\debugdraw\fs_debugdraw_fill_texture.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\debugdraw\fs_debugdraw_lines.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\debugdraw\fs_debugdraw_lines.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\debugdraw\fs_debugdraw_lines_stipple.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\debugdraw\fs_debugdraw_lines_stipple.sc">
+    </None>
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\debugdraw\varying.def.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\debugdraw\vs_debugdraw_fill.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\debugdraw\vs_debugdraw_fill.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\debugdraw\vs_debugdraw_fill_lit.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\debugdraw\vs_debugdraw_fill_lit.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\debugdraw\vs_debugdraw_fill_lit_mesh.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\debugdraw\vs_debugdraw_fill_lit_mesh.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\debugdraw\vs_debugdraw_fill_mesh.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\debugdraw\vs_debugdraw_fill_mesh.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\debugdraw\vs_debugdraw_fill_texture.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\debugdraw\vs_debugdraw_fill_texture.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\debugdraw\vs_debugdraw_lines.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\debugdraw\vs_debugdraw_lines.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\debugdraw\vs_debugdraw_lines_stipple.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\debugdraw\vs_debugdraw_lines_stipple.sc">
+    </None>
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\entry\cmd.cpp" />
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\entry\cmd.h" />
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\entry\dbg.h" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\entry\dialog.cpp" />
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\entry\dialog.h" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\entry\entry.cpp" />
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\entry\entry.h" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\entry\entry_android.cpp" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\entry\entry_glfw.cpp" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\entry\entry_html5.cpp" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\entry\entry_noop.cpp" />
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\entry\entry_p.h" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\entry\entry_sdl.cpp" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\entry\entry_windows.cpp" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\entry\entry_x11.cpp" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\entry\input.cpp" />
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\entry\input.h" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\font_manager.cpp" />
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\font_manager.h" />
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\fs_font_basic.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\fs_font_basic.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\fs_font_distance_field.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\fs_font_distance_field.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\fs_font_distance_field_drop_shadow.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\fs_font_distance_field_drop_shadow.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\fs_font_distance_field_drop_shadow_image.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\fs_font_distance_field_drop_shadow_image.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\fs_font_distance_field_outline.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\fs_font_distance_field_outline.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\fs_font_distance_field_outline_drop_shadow_image.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\fs_font_distance_field_outline_drop_shadow_image.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\fs_font_distance_field_outline_image.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\fs_font_distance_field_outline_image.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\fs_font_distance_field_subpixel.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\fs_font_distance_field_subpixel.sc">
+    </None>
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\text_buffer_manager.cpp" />
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\text_buffer_manager.h" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\text_metrics.cpp" />
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\text_metrics.h" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\utf8.cpp" />
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\utf8.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\varying.def.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\vs_font_basic.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\vs_font_basic.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\vs_font_distance_field.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\vs_font_distance_field.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\vs_font_distance_field_drop_shadow.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\vs_font_distance_field_drop_shadow.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\vs_font_distance_field_drop_shadow_image.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\vs_font_distance_field_drop_shadow_image.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\vs_font_distance_field_outline.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\vs_font_distance_field_outline.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\vs_font_distance_field_outline_drop_shadow_image.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\vs_font_distance_field_outline_drop_shadow_image.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\vs_font_distance_field_outline_image.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\vs_font_distance_field_outline_image.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\vs_font_distance_field_subpixel.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\font\vs_font_distance_field_subpixel.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\imgui\droidsans.ttf.h" />
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\imgui\fs_imgui_image.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\imgui\fs_imgui_image.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\imgui\fs_ocornut_imgui.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\imgui\fs_ocornut_imgui.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\imgui\icons_font_awesome.ttf.h" />
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\imgui\icons_kenney.ttf.h" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\imgui\imgui.cpp">
+      <ObjectFileName>$(IntDir)/__/__/bgfx/examples/common/imgui/imgui.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\imgui\imgui.h" />
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\imgui\roboto_regular.ttf.h" />
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\imgui\robotomono_regular.ttf.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\imgui\varying.def.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\imgui\vs_imgui_image.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\imgui\vs_imgui_image.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\imgui\vs_ocornut_imgui.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\imgui\vs_ocornut_imgui.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\nanovg\fontstash.h" />
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\nanovg\fs_nanovg_fill.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\nanovg\fs_nanovg_fill.sc">
+    </None>
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\nanovg\nanovg.cpp" />
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\nanovg\nanovg.h" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\nanovg\nanovg_bgfx.cpp" />
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\nanovg\nanovg_bgfx.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\nanovg\varying.def.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\nanovg\vs_nanovg_fill.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\nanovg\vs_nanovg_fill.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\ps\fs_particle.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\ps\fs_particle.sc">
+    </None>
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\ps\particle_system.cpp" />
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\ps\particle_system.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\ps\varying.def.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\ps\vs_particle.bin.h" />
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\ps\vs_particle.sc">
+    </None>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\aviwriter.h" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\bgfx_utils.cpp" />
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\bgfx_utils.h" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\camera.cpp" />
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\camera.h" />
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\common.h" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\cube_atlas.cpp" />
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\cube_atlas.h" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\example-glue.cpp" />
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\common\packrect.h" />
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty\dear-imgui\imconfig.h" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty\dear-imgui\imgui.cpp">
+      <ObjectFileName>$(IntDir)/__/__/bgfx/3rdparty/dear-imgui/imgui.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty\dear-imgui\imgui.h" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty\dear-imgui\imgui_demo.cpp" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty\dear-imgui\imgui_draw.cpp" />
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty\dear-imgui\imgui_internal.h" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty\dear-imgui\imgui_tables.cpp" />
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty\dear-imgui\imgui_user.h" />
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty\dear-imgui\imgui_user.inl" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty\dear-imgui\imgui_widgets.cpp" />
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty\dear-imgui\imstb_rectpack.h" />
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty\dear-imgui\imstb_textedit.h" />
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty\dear-imgui\imstb_truetype.h" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\allocator.cpp" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\clusterizer.cpp" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\indexcodec.cpp" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\indexgenerator.cpp" />
+    <ClInclude Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\meshoptimizer.h" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\overdrawanalyzer.cpp" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\overdrawoptimizer.cpp" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\quantization.cpp" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\simplifier.cpp" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\spatialorder.cpp" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\stripifier.cpp" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vcacheanalyzer.cpp" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vcacheoptimizer.cpp" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vertexcodec.cpp" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vertexfilter.cpp" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vfetchanalyzer.cpp" />
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\3rdparty\meshoptimizer\src\vfetchoptimizer.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\ZERO_CHECK.vcxproj">
+      <Project>{A422E3E6-A329-35F2-BBDC-FC46E441E9EC}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bgfx\bgfx.vcxproj">
+      <Project>{0C88039C-520A-3731-8D31-6AE5F83E49AD}</Project>
+      <Name>bgfx</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bimg\bimg.vcxproj">
+      <Project>{277A32B8-1ADE-3C0C-A261-35116D8902F6}</Project>
+      <Name>bimg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bimg\bimg_decode.vcxproj">
+      <Project>{96D8D124-B949-3E38-BC0F-8A356BF24A7F}</Project>
+      <Name>bimg_decode</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\build\libs\bgfx.cmake\cmake\bx\bx.vcxproj">
+      <Project>{622BA829-D5F3-38BF-A964-F09C0176E5A3}</Project>
+      <Name>bx</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

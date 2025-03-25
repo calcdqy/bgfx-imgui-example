@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\13-stencil\stencil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\13-stencil\fs_stencil_color_black.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\13-stencil\fs_stencil_color_lighting.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\13-stencil\fs_stencil_color_texture.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\13-stencil\fs_stencil_texture.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\13-stencil\fs_stencil_texture_lighting.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\13-stencil\vs_stencil_color.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\13-stencil\vs_stencil_color_lighting.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\13-stencil\vs_stencil_color_texture.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\13-stencil\vs_stencil_texture.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\13-stencil\vs_stencil_texture_lighting.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\13-stencil\varying.def.sc">
+      <Filter>Shader Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{FDE76015-B606-3A88-8411-1BD4F9BC540F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{859F2598-65E2-3184-80FC-561AA5CFB94B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

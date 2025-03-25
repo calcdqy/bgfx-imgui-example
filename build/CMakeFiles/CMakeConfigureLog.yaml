@@ -1,0 +1,1539 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.9+e0f243f1e
+      鐢熸垚鍚姩鏃堕棿涓?2025/3/26 0:43:12銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\3.31.3\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdC.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\3.31.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdC.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\3.31.3\\CompilerIdC\\CompilerIdC.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:00.81
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/3.31.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.9+e0f243f1e
+      鐢熸垚鍚姩鏃堕棿涓?2025/3/26 0:43:13銆?
+      
+      鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\3.31.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)銆?
+      PrepareForBuild:
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\鈥濄€?
+        宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+        姝ｅ湪鍒涘缓鐩綍鈥淒ebug\\CompilerIdCXX.tlog\\鈥濄€?
+      InitializeBuildStatus:
+        姝ｅ湪鍒涘缓鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\3.31.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        姝ｅ湪鍒犻櫎鏂囦欢鈥淒ebug\\CompilerIdCXX.tlog\\unsuccessfulbuild鈥濄€?
+        姝ｅ湪瀵光€淒ebug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+      宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\3.31.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+      
+      宸叉垚鍔熺敓鎴愩€?
+          0 涓鍛?
+          0 涓敊璇?
+      
+      宸茬敤鏃堕棿 00:00:00.75
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/3.31.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-g212da"
+      binary: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-g212da"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-g212da'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_529e0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.9+e0f243f1e
+        鐢熸垚鍚姩鏃堕棿涓?2025/3/26 0:43:15銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g212da\\cmTC_529e0.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_529e0.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g212da\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_529e0.dir\\Debug\\cmTC_529e0.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_529e0.dir\\Debug\\cmTC_529e0.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_529e0.dir\\Debug\\cmTC_529e0.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_529e0.dir\\Debug\\\\" /Fd"cmTC_529e0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34808 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_529e0.dir\\Debug\\\\" /Fd"cmTC_529e0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "D:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g212da\\Debug\\cmTC_529e0.exe" /INCREMENTAL /ILK:"cmTC_529e0.dir\\Debug\\cmTC_529e0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-g212da/Debug/cmTC_529e0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-g212da/Debug/cmTC_529e0.lib" /MACHINE:X64  /machine:x64 cmTC_529e0.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_529e0.vcxproj -> C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g212da\\Debug\\cmTC_529e0.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_529e0.dir\\Debug\\cmTC_529e0.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_529e0.dir\\Debug\\cmTC_529e0.tlog\\cmTC_529e0.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-g212da\\cmTC_529e0.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.72
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34808.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-tayn2a"
+      binary: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-tayn2a"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-tayn2a'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a3293.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.9+e0f243f1e
+        鐢熸垚鍚姩鏃堕棿涓?2025/3/26 0:43:16銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tayn2a\\cmTC_a3293.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_a3293.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tayn2a\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_a3293.dir\\Debug\\cmTC_a3293.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_a3293.dir\\Debug\\cmTC_a3293.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_a3293.dir\\Debug\\cmTC_a3293.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a3293.dir\\Debug\\\\" /Fd"cmTC_a3293.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34808 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a3293.dir\\Debug\\\\" /Fd"cmTC_a3293.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "D:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tayn2a\\Debug\\cmTC_a3293.exe" /INCREMENTAL /ILK:"cmTC_a3293.dir\\Debug\\cmTC_a3293.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-tayn2a/Debug/cmTC_a3293.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-tayn2a/Debug/cmTC_a3293.lib" /MACHINE:X64  /machine:x64 cmTC_a3293.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_a3293.vcxproj -> C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tayn2a\\Debug\\cmTC_a3293.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_a3293.dir\\Debug\\cmTC_a3293.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_a3293.dir\\Debug\\cmTC_a3293.tlog\\cmTC_a3293.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tayn2a\\cmTC_a3293.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.74
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34808.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "libs/spdlog/CMakeLists.txt:151 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-kgkr03"
+      binary: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-kgkr03"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-kgkr03'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_013c8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.9+e0f243f1e
+        鐢熸垚鍚姩鏃堕棿涓?2025/3/26 0:43:17銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kgkr03\\cmTC_013c8.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_013c8.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kgkr03\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_013c8.dir\\Debug\\cmTC_013c8.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_013c8.dir\\Debug\\cmTC_013c8.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_013c8.dir\\Debug\\cmTC_013c8.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_013c8.dir\\Debug\\\\" /Fd"cmTC_013c8.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kgkr03\\src.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34808 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_013c8.dir\\Debug\\\\" /Fd"cmTC_013c8.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kgkr03\\src.c"
+          src.c
+        C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kgkr03\\src.c(1,10): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥減thread.h鈥? No such file or directory [C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kgkr03\\cmTC_013c8.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kgkr03\\cmTC_013c8.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kgkr03\\cmTC_013c8.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kgkr03\\src.c(1,10): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥減thread.h鈥? No such file or directory [C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-kgkr03\\cmTC_013c8.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.41
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "libs/spdlog/CMakeLists.txt:151 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-qgo6d7"
+      binary: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-qgo6d7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-qgo6d7'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c6e2f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.9+e0f243f1e
+        鐢熸垚鍚姩鏃堕棿涓?2025/3/26 0:43:17銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgo6d7\\cmTC_c6e2f.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_c6e2f.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgo6d7\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_c6e2f.dir\\Debug\\cmTC_c6e2f.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_c6e2f.dir\\Debug\\cmTC_c6e2f.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_c6e2f.dir\\Debug\\cmTC_c6e2f.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c6e2f.dir\\Debug\\\\" /Fd"cmTC_c6e2f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgo6d7\\CheckFunctionExists.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34808 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c6e2f.dir\\Debug\\\\" /Fd"cmTC_c6e2f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgo6d7\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgo6d7\\Debug\\cmTC_c6e2f.exe" /INCREMENTAL /ILK:"cmTC_c6e2f.dir\\Debug\\cmTC_c6e2f.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-qgo6d7/Debug/cmTC_c6e2f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-qgo6d7/Debug/cmTC_c6e2f.lib" /MACHINE:X64  /machine:x64 cmTC_c6e2f.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減threads.lib鈥?[C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgo6d7\\cmTC_c6e2f.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgo6d7\\cmTC_c6e2f.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgo6d7\\cmTC_c6e2f.vcxproj鈥?榛樿鐩爣) (1) ->
+        (Link 鐩爣) -> 
+          LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減threads.lib鈥?[C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qgo6d7\\cmTC_c6e2f.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.56
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "libs/spdlog/CMakeLists.txt:151 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-8rdpue"
+      binary: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-8rdpue"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-8rdpue'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_88d05.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.9+e0f243f1e
+        鐢熸垚鍚姩鏃堕棿涓?2025/3/26 0:43:18銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8rdpue\\cmTC_88d05.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_88d05.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8rdpue\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_88d05.dir\\Debug\\cmTC_88d05.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_88d05.dir\\Debug\\cmTC_88d05.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_88d05.dir\\Debug\\cmTC_88d05.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_88d05.dir\\Debug\\\\" /Fd"cmTC_88d05.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8rdpue\\CheckFunctionExists.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34808 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_88d05.dir\\Debug\\\\" /Fd"cmTC_88d05.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8rdpue\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8rdpue\\Debug\\cmTC_88d05.exe" /INCREMENTAL /ILK:"cmTC_88d05.dir\\Debug\\cmTC_88d05.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-8rdpue/Debug/cmTC_88d05.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-8rdpue/Debug/cmTC_88d05.lib" /MACHINE:X64  /machine:x64 cmTC_88d05.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減thread.lib鈥?[C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8rdpue\\cmTC_88d05.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8rdpue\\cmTC_88d05.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8rdpue\\cmTC_88d05.vcxproj鈥?榛樿鐩爣) (1) ->
+        (Link 鐩爣) -> 
+          LINK : fatal error LNK1104: 鏃犳硶鎵撳紑鏂囦欢鈥減thread.lib鈥?[C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8rdpue\\cmTC_88d05.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.56
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "libs/spdlog/CMakeLists.txt:248 (check_symbol_exists)"
+    checks:
+      - "Looking for _fwrite_nolock"
+    directories:
+      source: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-0r33z2"
+      binary: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-0r33z2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "HAVE_FWRITE_UNLOCKED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-0r33z2'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_00b1d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.9+e0f243f1e
+        鐢熸垚鍚姩鏃堕棿涓?2025/3/26 0:43:19銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0r33z2\\cmTC_00b1d.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_00b1d.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0r33z2\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_00b1d.dir\\Debug\\cmTC_00b1d.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_00b1d.dir\\Debug\\cmTC_00b1d.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_00b1d.dir\\Debug\\cmTC_00b1d.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_00b1d.dir\\Debug\\\\" /Fd"cmTC_00b1d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0r33z2\\CheckSymbolExists.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34808 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_00b1d.dir\\Debug\\\\" /Fd"cmTC_00b1d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0r33z2\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0r33z2\\Debug\\cmTC_00b1d.exe" /INCREMENTAL /ILK:"cmTC_00b1d.dir\\Debug\\cmTC_00b1d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-0r33z2/Debug/cmTC_00b1d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-0r33z2/Debug/cmTC_00b1d.lib" /MACHINE:X64  /machine:x64 cmTC_00b1d.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_00b1d.vcxproj -> C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0r33z2\\Debug\\cmTC_00b1d.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_00b1d.dir\\Debug\\cmTC_00b1d.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_00b1d.dir\\Debug\\cmTC_00b1d.tlog\\cmTC_00b1d.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0r33z2\\cmTC_00b1d.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.86
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CheckCXXCompilerFlag.cmake:55 (cmake_check_compiler_flag)"
+      - "libs/bgfx.cmake/cmake/bimg/bimg_encode.cmake:71 (check_cxx_compiler_flag)"
+      - "libs/bgfx.cmake/cmake/bimg/CMakeLists.txt:24 (include)"
+    checks:
+      - "Performing Test flag_supported"
+    directories:
+      source: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-36o7jo"
+      binary: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-36o7jo"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "flag_supported"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-36o7jo'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_293d5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.9+e0f243f1e
+        鐢熸垚鍚姩鏃堕棿涓?2025/3/26 0:43:20銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-36o7jo\\cmTC_293d5.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_293d5.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-36o7jo\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_293d5.dir\\Debug\\cmTC_293d5.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_293d5.dir\\Debug\\cmTC_293d5.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_293d5.dir\\Debug\\cmTC_293d5.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D flag_supported /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_293d5.dir\\Debug\\\\" /Fd"cmTC_293d5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  -Wno-implicit-fallthrough "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-36o7jo\\src.cxx"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34808 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D flag_supported /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /std:c++17 /Fo"cmTC_293d5.dir\\Debug\\\\" /Fd"cmTC_293d5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  -Wno-implicit-fallthrough "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-36o7jo\\src.cxx"
+        cl : 鍛戒护琛? error D8021: 鏃犳晥鐨勬暟鍊煎弬鏁扳€?Wno-implicit-fallthrough鈥?[C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-36o7jo\\cmTC_293d5.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-36o7jo\\cmTC_293d5.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-36o7jo\\cmTC_293d5.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          cl : 鍛戒护琛? error D8021: 鏃犳晥鐨勬暟鍊煎弬鏁扳€?Wno-implicit-fallthrough鈥?[C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-36o7jo\\cmTC_293d5.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.40
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "libs/SDL3/cmake/sdlcpu.cmake:93 (try_compile)"
+      - "libs/SDL3/CMakeLists.txt:81 (SDL_DetectTargetCPUArchitectures)"
+    directories:
+      source: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/libs/SDL3/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/libs/SDL3/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/SDL3/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "SDL_CPU_CHECK_ALL"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/libs/SDL3/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6bdca.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.9+e0f243f1e
+        鐢熸垚鍚姩鏃堕棿涓?2025/3/26 0:43:22銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\libs\\SDL3\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\cmTC_6bdca.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_6bdca.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\libs\\SDL3\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_6bdca.dir\\Debug\\cmTC_6bdca.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_6bdca.dir\\Debug\\cmTC_6bdca.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_6bdca.dir\\Debug\\cmTC_6bdca.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6bdca.dir\\Debug\\\\" /Fd"C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\libs\\SDL3\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_6bdca.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\libs\\SDL3\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34808 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6bdca.dir\\Debug\\\\" /Fd"C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\libs\\SDL3\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_6bdca.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\libs\\SDL3\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c"
+          SDL_detect_arch.c
+        Lib:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\Lib.exe /OUT:"C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\libs\\SDL3\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_6bdca.lib" /NOLOGO /MACHINE:X64  /machine:x64 cmTC_6bdca.dir\\Debug\\SDL_detect_arch.obj
+          cmTC_6bdca.vcxproj -> C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\libs\\SDL3\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_6bdca.lib
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_6bdca.dir\\Debug\\cmTC_6bdca.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_6bdca.dir\\Debug\\cmTC_6bdca.tlog\\cmTC_6bdca.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\libs\\SDL3\\CMakeFiles\\CMakeTmp\\SDL_detect_arch\\CMakeFiles\\CMakeTmp\\cmTC_6bdca.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.62
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "libs/SDL3/CMakeLists.txt:653 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_MMX"
+    directories:
+      source: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-wkid1m"
+      binary: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-wkid1m"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/SDL3/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_MMX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-wkid1m'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_41623.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.9+e0f243f1e
+        鐢熸垚鍚姩鏃堕棿涓?2025/3/26 0:43:23銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wkid1m\\cmTC_41623.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_41623.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wkid1m\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_41623.dir\\Debug\\cmTC_41623.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_41623.dir\\Debug\\cmTC_41623.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_41623.dir\\Debug\\cmTC_41623.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_MMX /D "CMAKE_INTDIR=\\"Debug\\"" /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_41623.dir\\Debug\\\\" /Fd"cmTC_41623.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wkid1m\\src.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34808 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_MMX /D "CMAKE_INTDIR=\\"Debug\\"" /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_41623.dir\\Debug\\\\" /Fd"cmTC_41623.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wkid1m\\src.c"
+          src.c
+        C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wkid1m\\src.c(5,25): error C2440: 鈥?鈥? 鏃犳硶浠庘€渋nt鈥濊浆鎹负鈥淿_m64鈥?[C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wkid1m\\cmTC_41623.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wkid1m\\cmTC_41623.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wkid1m\\cmTC_41623.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wkid1m\\src.c(5,25): error C2440: 鈥?鈥? 鏃犳硶浠庘€渋nt鈥濊浆鎹负鈥淿_m64鈥?[C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wkid1m\\cmTC_41623.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.42
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "libs/SDL3/CMakeLists.txt:674 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE"
+    directories:
+      source: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-1bmeri"
+      binary: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-1bmeri"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/SDL3/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-1bmeri'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a3eaa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.9+e0f243f1e
+        鐢熸垚鍚姩鏃堕棿涓?2025/3/26 0:43:23銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1bmeri\\cmTC_a3eaa.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_a3eaa.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1bmeri\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_a3eaa.dir\\Debug\\cmTC_a3eaa.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_a3eaa.dir\\Debug\\cmTC_a3eaa.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_a3eaa.dir\\Debug\\cmTC_a3eaa.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE /D "CMAKE_INTDIR=\\"Debug\\"" /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a3eaa.dir\\Debug\\\\" /Fd"cmTC_a3eaa.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1bmeri\\src.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34808 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE /D "CMAKE_INTDIR=\\"Debug\\"" /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a3eaa.dir\\Debug\\\\" /Fd"cmTC_a3eaa.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1bmeri\\src.c"
+          src.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1bmeri\\Debug\\cmTC_a3eaa.exe" /INCREMENTAL /ILK:"cmTC_a3eaa.dir\\Debug\\cmTC_a3eaa.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-1bmeri/Debug/cmTC_a3eaa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-1bmeri/Debug/cmTC_a3eaa.lib" /MACHINE:X64  /machine:x64 cmTC_a3eaa.dir\\Debug\\src.obj
+          cmTC_a3eaa.vcxproj -> C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1bmeri\\Debug\\cmTC_a3eaa.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_a3eaa.dir\\Debug\\cmTC_a3eaa.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_a3eaa.dir\\Debug\\cmTC_a3eaa.tlog\\cmTC_a3eaa.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1bmeri\\cmTC_a3eaa.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.84
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "libs/SDL3/CMakeLists.txt:695 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE2"
+    directories:
+      source: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-uy1eli"
+      binary: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-uy1eli"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/SDL3/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE2"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-uy1eli'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c4cf2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.9+e0f243f1e
+        鐢熸垚鍚姩鏃堕棿涓?2025/3/26 0:43:25銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uy1eli\\cmTC_c4cf2.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_c4cf2.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uy1eli\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_c4cf2.dir\\Debug\\cmTC_c4cf2.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_c4cf2.dir\\Debug\\cmTC_c4cf2.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_c4cf2.dir\\Debug\\cmTC_c4cf2.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE2 /D "CMAKE_INTDIR=\\"Debug\\"" /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c4cf2.dir\\Debug\\\\" /Fd"cmTC_c4cf2.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uy1eli\\src.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34808 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE2 /D "CMAKE_INTDIR=\\"Debug\\"" /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c4cf2.dir\\Debug\\\\" /Fd"cmTC_c4cf2.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uy1eli\\src.c"
+          src.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uy1eli\\Debug\\cmTC_c4cf2.exe" /INCREMENTAL /ILK:"cmTC_c4cf2.dir\\Debug\\cmTC_c4cf2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-uy1eli/Debug/cmTC_c4cf2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-uy1eli/Debug/cmTC_c4cf2.lib" /MACHINE:X64  /machine:x64 cmTC_c4cf2.dir\\Debug\\src.obj
+          cmTC_c4cf2.vcxproj -> C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uy1eli\\Debug\\cmTC_c4cf2.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_c4cf2.dir\\Debug\\cmTC_c4cf2.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_c4cf2.dir\\Debug\\cmTC_c4cf2.tlog\\cmTC_c4cf2.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-uy1eli\\cmTC_c4cf2.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.81
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "libs/SDL3/CMakeLists.txt:716 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE3"
+    directories:
+      source: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-59ouc1"
+      binary: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-59ouc1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/SDL3/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE3"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-59ouc1'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_90afc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.9+e0f243f1e
+        鐢熸垚鍚姩鏃堕棿涓?2025/3/26 0:43:26銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-59ouc1\\cmTC_90afc.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_90afc.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-59ouc1\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_90afc.dir\\Debug\\cmTC_90afc.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_90afc.dir\\Debug\\cmTC_90afc.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_90afc.dir\\Debug\\cmTC_90afc.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE3 /D "CMAKE_INTDIR=\\"Debug\\"" /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_90afc.dir\\Debug\\\\" /Fd"cmTC_90afc.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-59ouc1\\src.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34808 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE3 /D "CMAKE_INTDIR=\\"Debug\\"" /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_90afc.dir\\Debug\\\\" /Fd"cmTC_90afc.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-59ouc1\\src.c"
+          src.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-59ouc1\\Debug\\cmTC_90afc.exe" /INCREMENTAL /ILK:"cmTC_90afc.dir\\Debug\\cmTC_90afc.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-59ouc1/Debug/cmTC_90afc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-59ouc1/Debug/cmTC_90afc.lib" /MACHINE:X64  /machine:x64 cmTC_90afc.dir\\Debug\\src.obj
+          cmTC_90afc.vcxproj -> C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-59ouc1\\Debug\\cmTC_90afc.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_90afc.dir\\Debug\\cmTC_90afc.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_90afc.dir\\Debug\\cmTC_90afc.tlog\\cmTC_90afc.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-59ouc1\\cmTC_90afc.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.82
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "libs/SDL3/CMakeLists.txt:737 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE4_1"
+    directories:
+      source: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-j8rqak"
+      binary: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-j8rqak"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/SDL3/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE4_1"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-j8rqak'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bd3ce.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.9+e0f243f1e
+        鐢熸垚鍚姩鏃堕棿涓?2025/3/26 0:43:27銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j8rqak\\cmTC_bd3ce.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_bd3ce.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j8rqak\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_bd3ce.dir\\Debug\\cmTC_bd3ce.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_bd3ce.dir\\Debug\\cmTC_bd3ce.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_bd3ce.dir\\Debug\\cmTC_bd3ce.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_1 /D "CMAKE_INTDIR=\\"Debug\\"" /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bd3ce.dir\\Debug\\\\" /Fd"cmTC_bd3ce.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j8rqak\\src.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34808 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_1 /D "CMAKE_INTDIR=\\"Debug\\"" /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bd3ce.dir\\Debug\\\\" /Fd"cmTC_bd3ce.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j8rqak\\src.c"
+          src.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j8rqak\\Debug\\cmTC_bd3ce.exe" /INCREMENTAL /ILK:"cmTC_bd3ce.dir\\Debug\\cmTC_bd3ce.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-j8rqak/Debug/cmTC_bd3ce.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-j8rqak/Debug/cmTC_bd3ce.lib" /MACHINE:X64  /machine:x64 cmTC_bd3ce.dir\\Debug\\src.obj
+          cmTC_bd3ce.vcxproj -> C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j8rqak\\Debug\\cmTC_bd3ce.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_bd3ce.dir\\Debug\\cmTC_bd3ce.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_bd3ce.dir\\Debug\\cmTC_bd3ce.tlog\\cmTC_bd3ce.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-j8rqak\\cmTC_bd3ce.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.83
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "libs/SDL3/CMakeLists.txt:758 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_SSE4_2"
+    directories:
+      source: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-5w7ngu"
+      binary: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-5w7ngu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/SDL3/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_SSE4_2"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-5w7ngu'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_908ec.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.9+e0f243f1e
+        鐢熸垚鍚姩鏃堕棿涓?2025/3/26 0:43:28銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5w7ngu\\cmTC_908ec.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_908ec.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5w7ngu\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_908ec.dir\\Debug\\cmTC_908ec.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_908ec.dir\\Debug\\cmTC_908ec.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_908ec.dir\\Debug\\cmTC_908ec.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_2 /D "CMAKE_INTDIR=\\"Debug\\"" /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_908ec.dir\\Debug\\\\" /Fd"cmTC_908ec.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5w7ngu\\src.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34808 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_SSE4_2 /D "CMAKE_INTDIR=\\"Debug\\"" /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_908ec.dir\\Debug\\\\" /Fd"cmTC_908ec.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5w7ngu\\src.c"
+          src.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5w7ngu\\Debug\\cmTC_908ec.exe" /INCREMENTAL /ILK:"cmTC_908ec.dir\\Debug\\cmTC_908ec.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-5w7ngu/Debug/cmTC_908ec.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-5w7ngu/Debug/cmTC_908ec.lib" /MACHINE:X64  /machine:x64 cmTC_908ec.dir\\Debug\\src.obj
+          cmTC_908ec.vcxproj -> C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5w7ngu\\Debug\\cmTC_908ec.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_908ec.dir\\Debug\\cmTC_908ec.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_908ec.dir\\Debug\\cmTC_908ec.tlog\\cmTC_908ec.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5w7ngu\\cmTC_908ec.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.80
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "libs/SDL3/CMakeLists.txt:781 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_AVX"
+    directories:
+      source: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-8xxr5x"
+      binary: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-8xxr5x"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/SDL3/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_AVX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-8xxr5x'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_624ff.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.9+e0f243f1e
+        鐢熸垚鍚姩鏃堕棿涓?2025/3/26 0:43:29銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8xxr5x\\cmTC_624ff.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_624ff.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8xxr5x\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_624ff.dir\\Debug\\cmTC_624ff.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_624ff.dir\\Debug\\cmTC_624ff.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_624ff.dir\\Debug\\cmTC_624ff.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX /D "CMAKE_INTDIR=\\"Debug\\"" /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_624ff.dir\\Debug\\\\" /Fd"cmTC_624ff.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8xxr5x\\src.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34808 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX /D "CMAKE_INTDIR=\\"Debug\\"" /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_624ff.dir\\Debug\\\\" /Fd"cmTC_624ff.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8xxr5x\\src.c"
+          src.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8xxr5x\\Debug\\cmTC_624ff.exe" /INCREMENTAL /ILK:"cmTC_624ff.dir\\Debug\\cmTC_624ff.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-8xxr5x/Debug/cmTC_624ff.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-8xxr5x/Debug/cmTC_624ff.lib" /MACHINE:X64  /machine:x64 cmTC_624ff.dir\\Debug\\src.obj
+          cmTC_624ff.vcxproj -> C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8xxr5x\\Debug\\cmTC_624ff.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_624ff.dir\\Debug\\cmTC_624ff.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_624ff.dir\\Debug\\cmTC_624ff.tlog\\cmTC_624ff.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8xxr5x\\cmTC_624ff.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.90
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "libs/SDL3/CMakeLists.txt:802 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_AVX2"
+    directories:
+      source: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-mk0jg5"
+      binary: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-mk0jg5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/SDL3/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_AVX2"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-mk0jg5'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_73e9f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.9+e0f243f1e
+        鐢熸垚鍚姩鏃堕棿涓?2025/3/26 0:43:31銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mk0jg5\\cmTC_73e9f.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_73e9f.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mk0jg5\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_73e9f.dir\\Debug\\cmTC_73e9f.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_73e9f.dir\\Debug\\cmTC_73e9f.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_73e9f.dir\\Debug\\cmTC_73e9f.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX2 /D "CMAKE_INTDIR=\\"Debug\\"" /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_73e9f.dir\\Debug\\\\" /Fd"cmTC_73e9f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mk0jg5\\src.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34808 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX2 /D "CMAKE_INTDIR=\\"Debug\\"" /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_73e9f.dir\\Debug\\\\" /Fd"cmTC_73e9f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mk0jg5\\src.c"
+          src.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mk0jg5\\Debug\\cmTC_73e9f.exe" /INCREMENTAL /ILK:"cmTC_73e9f.dir\\Debug\\cmTC_73e9f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-mk0jg5/Debug/cmTC_73e9f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-mk0jg5/Debug/cmTC_73e9f.lib" /MACHINE:X64  /machine:x64 cmTC_73e9f.dir\\Debug\\src.obj
+          cmTC_73e9f.vcxproj -> C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mk0jg5\\Debug\\cmTC_73e9f.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_73e9f.dir\\Debug\\cmTC_73e9f.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_73e9f.dir\\Debug\\cmTC_73e9f.tlog\\cmTC_73e9f.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mk0jg5\\cmTC_73e9f.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.22
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "libs/SDL3/CMakeLists.txt:823 (check_c_source_compiles)"
+    checks:
+      - "Performing Test COMPILER_SUPPORTS_AVX512F"
+    directories:
+      source: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-nuss90"
+      binary: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-nuss90"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/SDL3/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "COMPILER_SUPPORTS_AVX512F"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-nuss90'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_86b47.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.9+e0f243f1e
+        鐢熸垚鍚姩鏃堕棿涓?2025/3/26 0:43:32銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nuss90\\cmTC_86b47.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_86b47.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nuss90\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_86b47.dir\\Debug\\cmTC_86b47.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_86b47.dir\\Debug\\cmTC_86b47.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_86b47.dir\\Debug\\cmTC_86b47.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX512F /D "CMAKE_INTDIR=\\"Debug\\"" /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_86b47.dir\\Debug\\\\" /Fd"cmTC_86b47.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nuss90\\src.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34808 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D COMPILER_SUPPORTS_AVX512F /D "CMAKE_INTDIR=\\"Debug\\"" /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_86b47.dir\\Debug\\\\" /Fd"cmTC_86b47.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nuss90\\src.c"
+          src.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nuss90\\Debug\\cmTC_86b47.exe" /INCREMENTAL /ILK:"cmTC_86b47.dir\\Debug\\cmTC_86b47.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-nuss90/Debug/cmTC_86b47.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-nuss90/Debug/cmTC_86b47.lib" /MACHINE:X64  /machine:x64 cmTC_86b47.dir\\Debug\\src.obj
+          cmTC_86b47.vcxproj -> C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nuss90\\Debug\\cmTC_86b47.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_86b47.dir\\Debug\\cmTC_86b47.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_86b47.dir\\Debug\\cmTC_86b47.tlog\\cmTC_86b47.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nuss90\\cmTC_86b47.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.22
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "libs/SDL3/CMakeLists.txt:966 (check_include_file)"
+    checks:
+      - "Looking for malloc.h"
+    directories:
+      source: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-nd4jt1"
+      binary: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-nd4jt1"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/SDL3/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "HAVE_MALLOC_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-nd4jt1'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b70a0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.9+e0f243f1e
+        鐢熸垚鍚姩鏃堕棿涓?2025/3/26 0:43:34銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nd4jt1\\cmTC_b70a0.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_b70a0.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nd4jt1\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_b70a0.dir\\Debug\\cmTC_b70a0.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_b70a0.dir\\Debug\\cmTC_b70a0.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_b70a0.dir\\Debug\\cmTC_b70a0.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b70a0.dir\\Debug\\\\" /Fd"cmTC_b70a0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nd4jt1\\CheckIncludeFile.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34808 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b70a0.dir\\Debug\\\\" /Fd"cmTC_b70a0.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nd4jt1\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nd4jt1\\Debug\\cmTC_b70a0.exe" /INCREMENTAL /ILK:"cmTC_b70a0.dir\\Debug\\cmTC_b70a0.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-nd4jt1/Debug/cmTC_b70a0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-nd4jt1/Debug/cmTC_b70a0.lib" /MACHINE:X64  /machine:x64 cmTC_b70a0.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_b70a0.vcxproj -> C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nd4jt1\\Debug\\cmTC_b70a0.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_b70a0.dir\\Debug\\cmTC_b70a0.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_b70a0.dir\\Debug\\cmTC_b70a0.tlog\\cmTC_b70a0.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nd4jt1\\cmTC_b70a0.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.91
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "libs/SDL3/CMakeLists.txt:1047 (check_symbol_exists)"
+    checks:
+      - "Looking for _copysign"
+    directories:
+      source: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-wdu8me"
+      binary: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-wdu8me"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/SDL3/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "LIBC_HAS__COPYSIGN"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-wdu8me'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5102f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.9+e0f243f1e
+        鐢熸垚鍚姩鏃堕棿涓?2025/3/26 0:43:36銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wdu8me\\cmTC_5102f.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_5102f.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wdu8me\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_5102f.dir\\Debug\\cmTC_5102f.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_5102f.dir\\Debug\\cmTC_5102f.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_5102f.dir\\Debug\\cmTC_5102f.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5102f.dir\\Debug\\\\" /Fd"cmTC_5102f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wdu8me\\CheckSymbolExists.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34808 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5102f.dir\\Debug\\\\" /Fd"cmTC_5102f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wdu8me\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wdu8me\\Debug\\cmTC_5102f.exe" /INCREMENTAL /ILK:"cmTC_5102f.dir\\Debug\\cmTC_5102f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-wdu8me/Debug/cmTC_5102f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-wdu8me/Debug/cmTC_5102f.lib" /MACHINE:X64  /machine:x64 cmTC_5102f.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_5102f.vcxproj -> C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wdu8me\\Debug\\cmTC_5102f.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_5102f.dir\\Debug\\cmTC_5102f.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_5102f.dir\\Debug\\cmTC_5102f.tlog\\cmTC_5102f.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-wdu8me\\cmTC_5102f.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.29
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "libs/SDL3/CMakeLists.txt:1047 (check_symbol_exists)"
+    checks:
+      - "Looking for _fseeki64"
+    directories:
+      source: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-yz1yc0"
+      binary: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-yz1yc0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/SDL3/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "LIBC_HAS__FSEEKI64"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-yz1yc0'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_59b8d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.9+e0f243f1e
+        鐢熸垚鍚姩鏃堕棿涓?2025/3/26 0:43:38銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yz1yc0\\cmTC_59b8d.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_59b8d.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yz1yc0\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_59b8d.dir\\Debug\\cmTC_59b8d.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_59b8d.dir\\Debug\\cmTC_59b8d.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_59b8d.dir\\Debug\\cmTC_59b8d.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_59b8d.dir\\Debug\\\\" /Fd"cmTC_59b8d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yz1yc0\\CheckSymbolExists.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34808 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_59b8d.dir\\Debug\\\\" /Fd"cmTC_59b8d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yz1yc0\\CheckSymbolExists.c"
+          CheckSymbolExists.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yz1yc0\\Debug\\cmTC_59b8d.exe" /INCREMENTAL /ILK:"cmTC_59b8d.dir\\Debug\\cmTC_59b8d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-yz1yc0/Debug/cmTC_59b8d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-yz1yc0/Debug/cmTC_59b8d.lib" /MACHINE:X64  /machine:x64 cmTC_59b8d.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_59b8d.vcxproj -> C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yz1yc0\\Debug\\cmTC_59b8d.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_59b8d.dir\\Debug\\cmTC_59b8d.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_59b8d.dir\\Debug\\cmTC_59b8d.tlog\\cmTC_59b8d.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yz1yc0\\cmTC_59b8d.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.91
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "libs/SDL3/CMakeLists.txt:1968 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_GAMEINPUT_H"
+    directories:
+      source: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-mqoshd"
+      binary: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-mqoshd"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/SDL3/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "HAVE_GAMEINPUT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-mqoshd'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_81bef.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.9+e0f243f1e
+        鐢熸垚鍚姩鏃堕棿涓?2025/3/26 0:43:42銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mqoshd\\cmTC_81bef.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_81bef.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mqoshd\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_81bef.dir\\Debug\\cmTC_81bef.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_81bef.dir\\Debug\\cmTC_81bef.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_81bef.dir\\Debug\\cmTC_81bef.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_GAMEINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_81bef.dir\\Debug\\\\" /Fd"cmTC_81bef.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mqoshd\\src.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34808 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_GAMEINPUT_H /D "CMAKE_INTDIR=\\"Debug\\"" /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_81bef.dir\\Debug\\\\" /Fd"cmTC_81bef.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mqoshd\\src.c"
+          src.c
+        C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mqoshd\\src.c(4,14): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥済ameinput.h鈥? No such file or directory [C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mqoshd\\cmTC_81bef.vcxproj]
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mqoshd\\cmTC_81bef.vcxproj鈥?榛樿鐩爣)鐨勬搷浣?- 澶辫触銆?
+        
+        鐢熸垚澶辫触銆?
+        
+        鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mqoshd\\cmTC_81bef.vcxproj鈥?榛樿鐩爣) (1) ->
+        (ClCompile 鐩爣) -> 
+          C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mqoshd\\src.c(4,14): error C1083: 鏃犳硶鎵撳紑鍖呮嫭鏂囦欢: 鈥済ameinput.h鈥? No such file or directory [C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-mqoshd\\cmTC_81bef.vcxproj]
+        
+            0 涓鍛?
+            1 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.89
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "libs/SDL3/CMakeLists.txt:1974 (check_include_file)"
+    checks:
+      - "Looking for dxgi1_6.h"
+    directories:
+      source: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-iwwx53"
+      binary: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-iwwx53"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/SDL3/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "HAVE_DXGI1_6_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-iwwx53'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a0d46.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.9+e0f243f1e
+        鐢熸垚鍚姩鏃堕棿涓?2025/3/26 0:43:43銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iwwx53\\cmTC_a0d46.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_a0d46.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iwwx53\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_a0d46.dir\\Debug\\cmTC_a0d46.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_a0d46.dir\\Debug\\cmTC_a0d46.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_a0d46.dir\\Debug\\cmTC_a0d46.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a0d46.dir\\Debug\\\\" /Fd"cmTC_a0d46.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iwwx53\\CheckIncludeFile.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34808 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D "CMAKE_INTDIR=\\"Debug\\"" /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a0d46.dir\\Debug\\\\" /Fd"cmTC_a0d46.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iwwx53\\CheckIncludeFile.c"
+          CheckIncludeFile.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iwwx53\\Debug\\cmTC_a0d46.exe" /INCREMENTAL /ILK:"cmTC_a0d46.dir\\Debug\\cmTC_a0d46.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-iwwx53/Debug/cmTC_a0d46.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-iwwx53/Debug/cmTC_a0d46.lib" /MACHINE:X64  /machine:x64 cmTC_a0d46.dir\\Debug\\CheckIncludeFile.obj
+          cmTC_a0d46.vcxproj -> C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iwwx53\\Debug\\cmTC_a0d46.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_a0d46.dir\\Debug\\cmTC_a0d46.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_a0d46.dir\\Debug\\cmTC_a0d46.tlog\\cmTC_a0d46.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iwwx53\\cmTC_a0d46.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.51
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "libs/SDL3/CMakeLists.txt:1981 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_MFAPI_H"
+    directories:
+      source: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-ns4npk"
+      binary: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-ns4npk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/SDL3/cmake"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "HAVE_MFAPI_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-ns4npk'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9fa8a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.9+e0f243f1e
+        鐢熸垚鍚姩鏃堕棿涓?2025/3/26 0:43:45銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ns4npk\\cmTC_9fa8a.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_9fa8a.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ns4npk\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_9fa8a.dir\\Debug\\cmTC_9fa8a.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_9fa8a.dir\\Debug\\cmTC_9fa8a.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_9fa8a.dir\\Debug\\cmTC_9fa8a.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_MFAPI_H /D "CMAKE_INTDIR=\\"Debug\\"" /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9fa8a.dir\\Debug\\\\" /Fd"cmTC_9fa8a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ns4npk\\src.c"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34808 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _GNU_SOURCE=1 /D HAVE_MFAPI_H /D "CMAKE_INTDIR=\\"Debug\\"" /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9fa8a.dir\\Debug\\\\" /Fd"cmTC_9fa8a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ns4npk\\src.c"
+          src.c
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ns4npk\\Debug\\cmTC_9fa8a.exe" /INCREMENTAL /ILK:"cmTC_9fa8a.dir\\Debug\\cmTC_9fa8a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-ns4npk/Debug/cmTC_9fa8a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-ns4npk/Debug/cmTC_9fa8a.lib" /MACHINE:X64  /machine:x64 cmTC_9fa8a.dir\\Debug\\src.obj
+          cmTC_9fa8a.vcxproj -> C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ns4npk\\Debug\\cmTC_9fa8a.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_9fa8a.dir\\Debug\\cmTC_9fa8a.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_9fa8a.dir\\Debug\\cmTC_9fa8a.tlog\\cmTC_9fa8a.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ns4npk\\cmTC_9fa8a.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:01.30
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "D:/Program Files/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "libs/gflags/CMakeLists.txt:273 (check_type_size)"
+    checks:
+      - "Check size of __int32"
+    directories:
+      source: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-tkz88e"
+      binary: "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-tkz88e"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_MSVC_RUNTIME_LIBRARY: "MultiThreaded$<$<CONFIG:Debug>:Debug>"
+    buildResult:
+      variable: "HAVE___int32"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-tkz88e'
+        
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c17a4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        閫傜敤浜?.NET Framework MSBuild 鐗堟湰 17.13.9+e0f243f1e
+        鐢熸垚鍚姩鏃堕棿涓?2025/3/26 0:43:47銆?
+        
+        鑺傜偣 1 涓婄殑椤圭洰鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tkz88e\\cmTC_c17a4.vcxproj鈥?榛樿鐩爣)銆?
+        PrepareForBuild:
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_c17a4.dir\\Debug\\鈥濄€?
+          宸插惎鐢ㄧ粨鏋勫寲杈撳嚭銆傜紪璇戝櫒璇婃柇鐨勬牸寮忚缃皢鍙嶆槧閿欒灞傛缁撴瀯銆傛湁鍏宠缁嗕俊鎭紝璇峰弬闃?https://aka.ms/cpp/structured-output銆?
+          姝ｅ湪鍒涘缓鐩綍鈥淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tkz88e\\Debug\\鈥濄€?
+          姝ｅ湪鍒涘缓鐩綍鈥渃mTC_c17a4.dir\\Debug\\cmTC_c17a4.tlog\\鈥濄€?
+        InitializeBuildStatus:
+          姝ｅ湪鍒涘缓鈥渃mTC_c17a4.dir\\Debug\\cmTC_c17a4.tlog\\unsuccessfulbuild鈥濓紝鍥犱负宸叉寚瀹氣€淎lwaysCreate鈥濄€?
+          姝ｅ湪瀵光€渃mTC_c17a4.dir\\Debug\\cmTC_c17a4.tlog\\unsuccessfulbuild鈥濇墽琛?Touch 浠诲姟銆?
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c17a4.dir\\Debug\\\\" /Fd"cmTC_c17a4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tkz88e\\__int32.cpp"
+          鐢ㄤ簬 x64 鐨?Microsoft (R) C/C++ 浼樺寲缂栬瘧鍣?19.43.34808 鐗?
+          鐗堟潈鎵€鏈?C) Microsoft Corporation銆備繚鐣欐墍鏈夋潈鍒┿€?
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c17a4.dir\\Debug\\\\" /Fd"cmTC_c17a4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tkz88e\\__int32.cpp"
+          __int32.cpp
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tkz88e\\Debug\\cmTC_c17a4.exe" /INCREMENTAL /ILK:"cmTC_c17a4.dir\\Debug\\cmTC_c17a4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-tkz88e/Debug/cmTC_c17a4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build/CMakeFiles/CMakeScratch/TryCompile-tkz88e/Debug/cmTC_c17a4.lib" /MACHINE:X64  /machine:x64 cmTC_c17a4.dir\\Debug\\__int32.obj
+          cmTC_c17a4.vcxproj -> C:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tkz88e\\Debug\\cmTC_c17a4.exe
+        FinalizeBuildStatus:
+          姝ｅ湪鍒犻櫎鏂囦欢鈥渃mTC_c17a4.dir\\Debug\\cmTC_c17a4.tlog\\unsuccessfulbuild鈥濄€?
+          姝ｅ湪瀵光€渃mTC_c17a4.dir\\Debug\\cmTC_c17a4.tlog\\cmTC_c17a4.lastbuildstate鈥濇墽琛?Touch 浠诲姟銆?
+        宸插畬鎴愮敓鎴愰」鐩€淐:\\Users\\CALCDQY\\Documents\\sdl3-bgfx-imgui example\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tkz88e\\cmTC_c17a4.vcxproj鈥?榛樿鐩爣)鐨勬搷浣溿€?
+        
+        宸叉垚鍔熺敓鎴愩€?
+            0 涓鍛?
+            0 涓敊璇?
+        
+        宸茬敤鏃堕棿 00:00:00.99
+        
+      exitCode: 0
+...

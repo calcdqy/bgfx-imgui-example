@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\39-assao\assao.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\39-assao\cs_assao_apply.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\39-assao\cs_assao_generate_importance_map.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\39-assao\cs_assao_generate_q0.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\39-assao\cs_assao_generate_q1.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\39-assao\cs_assao_generate_q2.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\39-assao\cs_assao_generate_q3.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\39-assao\cs_assao_generate_q3base.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\39-assao\cs_assao_load_counter_clear.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\39-assao\cs_assao_non_smart_apply.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\39-assao\cs_assao_non_smart_blur.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\39-assao\cs_assao_non_smart_half_apply.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\39-assao\cs_assao_postprocess_importance_map_a.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\39-assao\cs_assao_postprocess_importance_map_b.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\39-assao\cs_assao_prepare_depth_mip.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\39-assao\cs_assao_prepare_depths.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\39-assao\cs_assao_prepare_depths_and_normals.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\39-assao\cs_assao_prepare_depths_and_normals_half.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\39-assao\cs_assao_prepare_depths_half.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\39-assao\cs_assao_smart_blur.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\39-assao\cs_assao_smart_blur_wide.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\39-assao\fs_assao_deferred_combine.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\39-assao\fs_assao_gbuffer.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\39-assao\vs_assao.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\39-assao\vs_assao_gbuffer.sc">
+      <Filter>Shader Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\cmake\bgfx\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\CALCDQY\Documents\sdl3-bgfx-imgui example\libs\bgfx.cmake\bgfx\examples\39-assao\varying.def.sc">
+      <Filter>Shader Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{FDE76015-B606-3A88-8411-1BD4F9BC540F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{859F2598-65E2-3184-80FC-561AA5CFB94B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

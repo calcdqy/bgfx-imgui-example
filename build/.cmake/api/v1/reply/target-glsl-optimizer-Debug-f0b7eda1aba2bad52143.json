@@ -1,0 +1,1510 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "libs/Debug/glsl-optimizer.lib"
+		}
+	],
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"add_compile_options",
+			"target_compile_options",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"libs/bgfx.cmake/cmake/bgfx/3rdparty/glsl-optimizer.cmake",
+			"libs/bgfx.cmake/cmake/bgfx/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 182,
+				"parent" : 2
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 26,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 205,
+				"parent" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 197,
+				"parent" : 2
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 187,
+				"parent" : 2
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MTd"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/MTd"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/wd4100"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/wd4127"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/wd4132"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/wd4189"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/wd4204"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/wd4244"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/wd4389"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/wd4245"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/wd4701"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/wd4702"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/wd4706"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/wd4996"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "__STDC_VERSION__=199901L"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "__STDC__"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "alloca=_alloca"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "isascii=__isascii"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "strdup=_strdup"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/mesa"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/mapi"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				8,
+				9,
+				15,
+				16,
+				18,
+				20,
+				22,
+				24,
+				26,
+				27,
+				29,
+				31,
+				33,
+				34,
+				35,
+				36,
+				38,
+				39,
+				40,
+				42,
+				44,
+				45,
+				47,
+				49,
+				51,
+				53,
+				55,
+				58,
+				60,
+				61,
+				64,
+				65,
+				66,
+				67,
+				69,
+				70,
+				71,
+				72,
+				74,
+				77,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				127,
+				129
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MTd"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "/MTd"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/wd4100"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/wd4127"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/wd4132"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/wd4189"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/wd4204"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/wd4244"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/wd4389"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/wd4245"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/wd4701"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/wd4702"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/wd4706"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "/wd4996"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 7,
+					"define" : "__STDC_VERSION__=199901L"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "__STDC__"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "alloca=_alloca"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "isascii=__isascii"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "strdup=_strdup"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/mesa"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/mapi"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				10,
+				11,
+				14,
+				131,
+				141,
+				147,
+				151,
+				153,
+				156
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "bgfx"
+	},
+	"id" : "glsl-optimizer::@455da43f6415cef8105b",
+	"name" : "glsl-optimizer",
+	"nameOnDisk" : "glsl-optimizer.lib",
+	"paths" : 
+	{
+		"build" : "libs/bgfx.cmake/cmake/bgfx",
+		"source" : "libs/bgfx.cmake/cmake/bgfx"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				7,
+				12,
+				13,
+				17,
+				19,
+				21,
+				23,
+				25,
+				28,
+				30,
+				32,
+				37,
+				41,
+				43,
+				46,
+				48,
+				50,
+				52,
+				54,
+				56,
+				57,
+				59,
+				62,
+				63,
+				68,
+				73,
+				75,
+				76,
+				78,
+				126,
+				128,
+				130,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				142,
+				143,
+				144,
+				145,
+				146,
+				148,
+				149,
+				150,
+				152,
+				154,
+				155,
+				157
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				8,
+				9,
+				10,
+				11,
+				14,
+				15,
+				16,
+				18,
+				20,
+				22,
+				24,
+				26,
+				27,
+				29,
+				31,
+				33,
+				34,
+				35,
+				36,
+				38,
+				39,
+				40,
+				42,
+				44,
+				45,
+				47,
+				49,
+				51,
+				53,
+				55,
+				58,
+				60,
+				61,
+				64,
+				65,
+				66,
+				67,
+				69,
+				70,
+				71,
+				72,
+				74,
+				77,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				127,
+				129,
+				131,
+				141,
+				147,
+				151,
+				153,
+				156
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ast.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ast_array_index.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ast_expr.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ast_function.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ast_to_hir.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ast_type.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/builtin_functions.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/builtin_type_macros.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/builtin_types.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/builtin_variables.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/glcpp/glcpp-lex.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/glcpp/glcpp-parse.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/glcpp/glcpp-parse.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/glcpp/glcpp.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/glcpp/pp.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/glsl_lexer.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/glsl_optimizer.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/glsl_optimizer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/glsl_parser.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/glsl_parser.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/glsl_parser_extras.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/glsl_parser_extras.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/glsl_symbol_table.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/glsl_symbol_table.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/glsl_types.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/glsl_types.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/hir_field_selection.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_basic_block.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_basic_block.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_builder.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_builder.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_clone.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_constant_expression.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_equals.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_expression_flattening.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_expression_flattening.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_function.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_function_can_inline.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_function_detect_recursion.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_function_inlining.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_hierarchical_visitor.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_hierarchical_visitor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_hv_accept.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_import_prototypes.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_optimization.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_print_glsl_visitor.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_print_glsl_visitor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_print_metal_visitor.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_print_metal_visitor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_print_visitor.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_print_visitor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_rvalue_visitor.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_rvalue_visitor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_stats.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_stats.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_uniform.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_unused_structs.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_unused_structs.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_validate.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_variable_refcount.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_variable_refcount.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/ir_visitor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/link_atomics.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/link_functions.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/link_interface_blocks.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/link_uniform_block_active_visitor.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/link_uniform_block_active_visitor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/link_uniform_blocks.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/link_uniform_initializers.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/link_uniforms.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/link_varyings.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/link_varyings.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/linker.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/linker.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/list.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/loop_analysis.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/loop_analysis.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/loop_controls.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/loop_unroll.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/lower_clip_distance.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/lower_discard.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/lower_discard_flow.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/lower_if_to_cond_assign.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/lower_instructions.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/lower_jumps.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/lower_mat_op_to_vec.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/lower_named_interface_blocks.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/lower_noise.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/lower_offset_array.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/lower_output_reads.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/lower_packed_varyings.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/lower_packing_builtins.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/lower_ubo_reference.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/lower_variable_index_to_cond_assign.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/lower_vec_index_to_cond_assign.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/lower_vec_index_to_swizzle.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/lower_vector.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/lower_vector_insert.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/lower_vertex_id.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/opt_algebraic.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/opt_array_splitting.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/opt_constant_folding.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/opt_constant_propagation.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/opt_constant_variable.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/opt_copy_propagation.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/opt_copy_propagation_elements.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/opt_cse.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/opt_dead_builtin_variables.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/opt_dead_builtin_varyings.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/opt_dead_code.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/opt_dead_code_local.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/opt_dead_functions.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/opt_flatten_nested_if_blocks.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/opt_flip_matrices.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/opt_function_inlining.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/opt_if_simplification.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/opt_minmax.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/opt_noop_swizzle.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/opt_rebalance_tree.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/opt_redundant_jumps.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/opt_structure_splitting.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/opt_swizzle_swizzle.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/opt_tree_grafting.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/opt_vectorize.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/program.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/s_expression.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/s_expression.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 0,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/standalone_scaffolding.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/standalone_scaffolding.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/strtod.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/glsl/strtod.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/mesa/main/compiler.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/mesa/main/config.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/mesa/main/context.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/mesa/main/core.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/mesa/main/dd.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/mesa/main/errors.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/mesa/main/glheader.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/mesa/main/glminimal.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/mesa/main/imports.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/mesa/main/imports.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/mesa/main/macros.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/mesa/main/mtypes.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/mesa/main/simple_list.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/mesa/program/hash_table.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/mesa/program/prog_hash_table.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/mesa/program/prog_instruction.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/mesa/program/prog_parameter.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/mesa/program/prog_statevars.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/mesa/program/symbol_table.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/mesa/program/symbol_table.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/util/hash_table.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/util/hash_table.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/util/macros.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 3,
+			"compileGroupIndex" : 1,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/util/ralloc.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 3,
+			"path" : "libs/bgfx.cmake/bgfx/3rdparty/glsl-optimizer/src/util/ralloc.h",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

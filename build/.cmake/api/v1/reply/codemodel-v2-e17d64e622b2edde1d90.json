@@ -1,0 +1,3608 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						9,
+						69
+					]
+				},
+				{
+					"build" : "libs/spdlog",
+					"jsonFile" : "directory-libs.spdlog-Debug-19e2713325f70c6af392.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "libs/spdlog",
+					"targetIndexes" : 
+					[
+						1,
+						71
+					]
+				},
+				{
+					"build" : "libs/bgfx.cmake",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.bgfx.cmake-Debug-b50fc9a2086b3688e491.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "libs/bgfx.cmake",
+					"targetIndexes" : 
+					[
+						3,
+						76
+					]
+				},
+				{
+					"build" : "libs/bgfx.cmake/cmake/bx",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.bgfx.cmake.cmake.bx-Debug-ba78632d93317ffca32d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "libs/bgfx.cmake/cmake/bx",
+					"targetIndexes" : 
+					[
+						14,
+						15
+					]
+				},
+				{
+					"build" : "libs/bgfx.cmake/cmake/bimg",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.bgfx.cmake.cmake.bimg-Debug-c853f1727e42c994078e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "libs/bgfx.cmake/cmake/bimg",
+					"targetIndexes" : 
+					[
+						11,
+						12,
+						13,
+						74
+					]
+				},
+				{
+					"build" : "libs/bgfx.cmake/cmake/bgfx",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.bgfx.cmake.cmake.bgfx-Debug-2029802db7cc0ca05c3f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "libs/bgfx.cmake/cmake/bgfx",
+					"targetIndexes" : 
+					[
+						10,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						67,
+						68,
+						70,
+						72,
+						73,
+						75
+					]
+				},
+				{
+					"build" : "libs/SDL3",
+					"jsonFile" : "directory-libs.SDL3-Debug-1a378ba9982a1dc9db41.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "libs/SDL3",
+					"targetIndexes" : 
+					[
+						2,
+						5,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "libs/gflags",
+					"jsonFile" : "directory-libs.gflags-Debug-9d2761f79d871d37abb9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "libs/gflags",
+					"targetIndexes" : 
+					[
+						4,
+						66
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sdl3-bgfx-imgui-example",
+					"targetIndexes" : 
+					[
+						0,
+						9,
+						69
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "spdlog",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						71
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "bgfx",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						67,
+						68,
+						70,
+						72,
+						73,
+						74,
+						75,
+						76
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "SDL3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						5,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "gflags",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						66
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Debug-c05664f2b0f7ab60c5cf.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@f9417c48a877073874e9",
+					"jsonFile" : "target-ALL_BUILD-Debug-61b90e8ab0f2c5dad2f7.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@1536e03098708b12d592",
+					"jsonFile" : "target-ALL_BUILD-Debug-faa53b31138ddd8bf66c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@9575996a9cff00d61e7a",
+					"jsonFile" : "target-ALL_BUILD-Debug-b6a7fedc5b0663906449.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@8c2f8e33155656870a84",
+					"jsonFile" : "target-ALL_BUILD-Debug-a05d0071abd5454887cf.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "SDL3-shared::@1536e03098708b12d592",
+					"jsonFile" : "target-SDL3-shared-Debug-94d6c5613f9c8635e23e.json",
+					"name" : "SDL3-shared",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "SDL3-static::@1536e03098708b12d592",
+					"jsonFile" : "target-SDL3-static-Debug-71e9f2d7041b9afde6a0.json",
+					"name" : "SDL3-static",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "SDL3_test::@1536e03098708b12d592",
+					"jsonFile" : "target-SDL3_test-Debug-c1f307c6f832c698030a.json",
+					"name" : "SDL3_test",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "SDL_uclibc::@1536e03098708b12d592",
+					"jsonFile" : "target-SDL_uclibc-Debug-093e2f1efd5affb2774a.json",
+					"name" : "SDL_uclibc",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Debug-d5369862925b32743e1c.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "bgfx::@455da43f6415cef8105b",
+					"jsonFile" : "target-bgfx-Debug-c382bcac7d37e69934d5.json",
+					"name" : "bgfx",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "bimg::@bdbe9d6b5707547dc02b",
+					"jsonFile" : "target-bimg-Debug-705b5c7f2796c2fc9322.json",
+					"name" : "bimg",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "bimg_decode::@bdbe9d6b5707547dc02b",
+					"jsonFile" : "target-bimg_decode-Debug-fdc56ed527b158b7d49c.json",
+					"name" : "bimg_decode",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "bimg_encode::@bdbe9d6b5707547dc02b",
+					"jsonFile" : "target-bimg_encode-Debug-0df1a8f112a672b90909.json",
+					"name" : "bimg_encode",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "bin2c::@bb4065b6c6ef8de9e685",
+					"jsonFile" : "target-bin2c-Debug-e32f295ff43746eb9586.json",
+					"name" : "bin2c",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "bx::@bb4065b6c6ef8de9e685",
+					"jsonFile" : "target-bx-Debug-605b3e55a57c807bd900.json",
+					"name" : "bx",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-00-helloworld::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-00-helloworld-Debug-60ac05ef03fde4c9198e.json",
+					"name" : "example-00-helloworld",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-01-cubes::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-01-cubes-Debug-38695b342e0e16a2e558.json",
+					"name" : "example-01-cubes",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-02-metaballs::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-02-metaballs-Debug-4e6b59898ab1beb05d29.json",
+					"name" : "example-02-metaballs",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-03-raymarch::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-03-raymarch-Debug-84f009ad469569d32846.json",
+					"name" : "example-03-raymarch",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-04-mesh::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-04-mesh-Debug-9d3c035e595ee88b4e09.json",
+					"name" : "example-04-mesh",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-05-instancing::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-05-instancing-Debug-3b06c0660bdb880443ab.json",
+					"name" : "example-05-instancing",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-06-bump::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-06-bump-Debug-138c9e3c7db24cc482a6.json",
+					"name" : "example-06-bump",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-07-callback::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-07-callback-Debug-25eef1f3cde537451c81.json",
+					"name" : "example-07-callback",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-08-update::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-08-update-Debug-c26e2e3096ddc90ffcf6.json",
+					"name" : "example-08-update",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-09-hdr::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-09-hdr-Debug-6da20daced5f0fd02f5d.json",
+					"name" : "example-09-hdr",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-10-font::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-10-font-Debug-5373ac8103c858964f6b.json",
+					"name" : "example-10-font",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-11-fontsdf::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-11-fontsdf-Debug-3e6d8d7b53b51378b9bb.json",
+					"name" : "example-11-fontsdf",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-12-lod::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-12-lod-Debug-4f229f61a6c3cd47a3d0.json",
+					"name" : "example-12-lod",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-13-stencil::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-13-stencil-Debug-34677a096e4bc370cd6a.json",
+					"name" : "example-13-stencil",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-14-shadowvolumes::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-14-shadowvolumes-Debug-fb521be9c3518e0c142c.json",
+					"name" : "example-14-shadowvolumes",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-15-shadowmaps-simple::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-15-shadowmaps-simple-Debug-4acac64520950a9f5b57.json",
+					"name" : "example-15-shadowmaps-simple",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-16-shadowmaps::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-16-shadowmaps-Debug-8141782310a95d454457.json",
+					"name" : "example-16-shadowmaps",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-17-drawstress::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-17-drawstress-Debug-255ef5c8af3a8b1ba060.json",
+					"name" : "example-17-drawstress",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-18-ibl::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-18-ibl-Debug-353e0ced3dc1c51bbb6d.json",
+					"name" : "example-18-ibl",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-19-oit::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-19-oit-Debug-87a4ea7b338eb060fa57.json",
+					"name" : "example-19-oit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-20-nanovg::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-20-nanovg-Debug-58498eaab0f39d51a0b6.json",
+					"name" : "example-20-nanovg",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-22-windows::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-22-windows-Debug-fdd63fbbf27395794a63.json",
+					"name" : "example-22-windows",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-23-vectordisplay::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-23-vectordisplay-Debug-ba8223442ed0dd84169d.json",
+					"name" : "example-23-vectordisplay",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-24-nbody::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-24-nbody-Debug-1eaec3b4cc7e5e1df48d.json",
+					"name" : "example-24-nbody",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-25-c99::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-25-c99-Debug-1c91016417c395de2bae.json",
+					"name" : "example-25-c99",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-26-occlusion::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-26-occlusion-Debug-9031d671e0f46821af16.json",
+					"name" : "example-26-occlusion",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-27-terrain::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-27-terrain-Debug-81ddab7abccee1b6a0d5.json",
+					"name" : "example-27-terrain",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-28-wireframe::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-28-wireframe-Debug-97a420b44743a67f65c3.json",
+					"name" : "example-28-wireframe",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-29-debugdraw::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-29-debugdraw-Debug-b9dc4b9b78a45acece3a.json",
+					"name" : "example-29-debugdraw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-30-picking::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-30-picking-Debug-67ea75d049913a2f1809.json",
+					"name" : "example-30-picking",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-31-rsm::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-31-rsm-Debug-9d21353111b3132b2b85.json",
+					"name" : "example-31-rsm",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-32-particles::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-32-particles-Debug-9b4f6cb40de14a2d5c16.json",
+					"name" : "example-32-particles",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-33-pom::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-33-pom-Debug-30ab5e6cec47906d1787.json",
+					"name" : "example-33-pom",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-34-mvs::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-34-mvs-Debug-460c7f828d65dff3af38.json",
+					"name" : "example-34-mvs",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-35-dynamic::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-35-dynamic-Debug-e6d73359c7bde1e4cd9f.json",
+					"name" : "example-35-dynamic",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-36-sky::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-36-sky-Debug-9d9e8798d05bc0ae687c.json",
+					"name" : "example-36-sky",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-38-bloom::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-38-bloom-Debug-7b00269581c88712b066.json",
+					"name" : "example-38-bloom",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-39-assao::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-39-assao-Debug-7d270557f771d5452a9f.json",
+					"name" : "example-39-assao",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-40-svt::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-40-svt-Debug-85a2bbf772161ddc4a2a.json",
+					"name" : "example-40-svt",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-42-bunnylod::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-42-bunnylod-Debug-e53365943f6e1e0e9add.json",
+					"name" : "example-42-bunnylod",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-43-denoise::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-43-denoise-Debug-e773c29aa8f29778a81c.json",
+					"name" : "example-43-denoise",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-44-sss::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-44-sss-Debug-a2efa8891fb5293ea416.json",
+					"name" : "example-44-sss",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-45-bokeh::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-45-bokeh-Debug-caa6a70d0ba41abb80a2.json",
+					"name" : "example-45-bokeh",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-46-fsr::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-46-fsr-Debug-a99b315200ce9f33ea93.json",
+					"name" : "example-46-fsr",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-47-pixelformats::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-47-pixelformats-Debug-32f34eb9ea7228ab5b7e.json",
+					"name" : "example-47-pixelformats",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-common::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-common-Debug-a42871c9700ca0b0c8a4.json",
+					"name" : "example-common",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "examples::@455da43f6415cef8105b",
+					"jsonFile" : "target-examples-Debug-13b6eae526cdd328fb4b.json",
+					"name" : "examples",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "fcpp::@455da43f6415cef8105b",
+					"jsonFile" : "target-fcpp-Debug-918e3389b85586bc9ac6.json",
+					"name" : "fcpp",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "geometryc::@455da43f6415cef8105b",
+					"jsonFile" : "target-geometryc-Debug-af283be5e9643fc4d6c8.json",
+					"name" : "geometryc",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "geometryv::@455da43f6415cef8105b",
+					"jsonFile" : "target-geometryv-Debug-8e61be94127c938a746c.json",
+					"name" : "geometryv",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "gflags_nothreads_static::@8c2f8e33155656870a84",
+					"jsonFile" : "target-gflags_nothreads_static-Debug-06f32ae4c6a1cb2bc9fa.json",
+					"name" : "gflags_nothreads_static",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glsl-optimizer::@455da43f6415cef8105b",
+					"jsonFile" : "target-glsl-optimizer-Debug-f0b7eda1aba2bad52143.json",
+					"name" : "glsl-optimizer",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glslang::@455da43f6415cef8105b",
+					"jsonFile" : "target-glslang-Debug-f124b0aeb956e5e22eb4.json",
+					"name" : "glslang",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sdl3-bgfx-imgui-example::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sdl3-bgfx-imgui-example-Debug-6ef4fb7bcf07387aedd4.json",
+					"name" : "sdl3-bgfx-imgui-example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "shaderc::@455da43f6415cef8105b",
+					"jsonFile" : "target-shaderc-Debug-62ebe3171567e2187942.json",
+					"name" : "shaderc",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "spdlog::@f9417c48a877073874e9",
+					"jsonFile" : "target-spdlog-Debug-ac5b8e062d36e4ef7a81.json",
+					"name" : "spdlog",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "spirv-cross::@455da43f6415cef8105b",
+					"jsonFile" : "target-spirv-cross-Debug-2716ef189f95a7297a6e.json",
+					"name" : "spirv-cross",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "spirv-opt::@455da43f6415cef8105b",
+					"jsonFile" : "target-spirv-opt-Debug-ce6cb942d8d6eb3ecce6.json",
+					"name" : "spirv-opt",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "texturec::@bdbe9d6b5707547dc02b",
+					"jsonFile" : "target-texturec-Debug-ceea74d4e5f55de321f0.json",
+					"name" : "texturec",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "texturev::@455da43f6415cef8105b",
+					"jsonFile" : "target-texturev-Debug-e4d689fd16cd9fee35fe.json",
+					"name" : "texturev",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "tools::@9575996a9cff00d61e7a",
+					"jsonFile" : "target-tools-Debug-5f9cd0c8c2fe51f08bf6.json",
+					"name" : "tools",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						9,
+						69
+					]
+				},
+				{
+					"build" : "libs/spdlog",
+					"jsonFile" : "directory-libs.spdlog-Release-19e2713325f70c6af392.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "libs/spdlog",
+					"targetIndexes" : 
+					[
+						1,
+						71
+					]
+				},
+				{
+					"build" : "libs/bgfx.cmake",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.bgfx.cmake-Release-b50fc9a2086b3688e491.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "libs/bgfx.cmake",
+					"targetIndexes" : 
+					[
+						3,
+						76
+					]
+				},
+				{
+					"build" : "libs/bgfx.cmake/cmake/bx",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.bgfx.cmake.cmake.bx-Release-1bf7c30af76fbeb6d6c7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "libs/bgfx.cmake/cmake/bx",
+					"targetIndexes" : 
+					[
+						14,
+						15
+					]
+				},
+				{
+					"build" : "libs/bgfx.cmake/cmake/bimg",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.bgfx.cmake.cmake.bimg-Release-60d17d20799f750874a8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "libs/bgfx.cmake/cmake/bimg",
+					"targetIndexes" : 
+					[
+						11,
+						12,
+						13,
+						74
+					]
+				},
+				{
+					"build" : "libs/bgfx.cmake/cmake/bgfx",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.bgfx.cmake.cmake.bgfx-Release-c73313e8f5cb789eee91.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "libs/bgfx.cmake/cmake/bgfx",
+					"targetIndexes" : 
+					[
+						10,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						67,
+						68,
+						70,
+						72,
+						73,
+						75
+					]
+				},
+				{
+					"build" : "libs/SDL3",
+					"jsonFile" : "directory-libs.SDL3-Release-1a378ba9982a1dc9db41.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "libs/SDL3",
+					"targetIndexes" : 
+					[
+						2,
+						5,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "libs/gflags",
+					"jsonFile" : "directory-libs.gflags-Release-9d2761f79d871d37abb9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "libs/gflags",
+					"targetIndexes" : 
+					[
+						4,
+						66
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sdl3-bgfx-imgui-example",
+					"targetIndexes" : 
+					[
+						0,
+						9,
+						69
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "spdlog",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						71
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "bgfx",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						67,
+						68,
+						70,
+						72,
+						73,
+						74,
+						75,
+						76
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "SDL3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						5,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "gflags",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						66
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-Release-c05664f2b0f7ab60c5cf.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@f9417c48a877073874e9",
+					"jsonFile" : "target-ALL_BUILD-Release-61b90e8ab0f2c5dad2f7.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@1536e03098708b12d592",
+					"jsonFile" : "target-ALL_BUILD-Release-faa53b31138ddd8bf66c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@9575996a9cff00d61e7a",
+					"jsonFile" : "target-ALL_BUILD-Release-b6a7fedc5b0663906449.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@8c2f8e33155656870a84",
+					"jsonFile" : "target-ALL_BUILD-Release-a05d0071abd5454887cf.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "SDL3-shared::@1536e03098708b12d592",
+					"jsonFile" : "target-SDL3-shared-Release-b0398a954312559d4b94.json",
+					"name" : "SDL3-shared",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "SDL3-static::@1536e03098708b12d592",
+					"jsonFile" : "target-SDL3-static-Release-0f432358db757f703a96.json",
+					"name" : "SDL3-static",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "SDL3_test::@1536e03098708b12d592",
+					"jsonFile" : "target-SDL3_test-Release-1e0d6dd85c6b9c24f805.json",
+					"name" : "SDL3_test",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "SDL_uclibc::@1536e03098708b12d592",
+					"jsonFile" : "target-SDL_uclibc-Release-a18884c32d7d51572715.json",
+					"name" : "SDL_uclibc",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-Release-d5369862925b32743e1c.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "bgfx::@455da43f6415cef8105b",
+					"jsonFile" : "target-bgfx-Release-18eb29d09478240f0c07.json",
+					"name" : "bgfx",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "bimg::@bdbe9d6b5707547dc02b",
+					"jsonFile" : "target-bimg-Release-8846d32ae109b98215ff.json",
+					"name" : "bimg",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "bimg_decode::@bdbe9d6b5707547dc02b",
+					"jsonFile" : "target-bimg_decode-Release-c0e58c6c69fedc09fa0b.json",
+					"name" : "bimg_decode",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "bimg_encode::@bdbe9d6b5707547dc02b",
+					"jsonFile" : "target-bimg_encode-Release-a5b3276f9ba505a5dfee.json",
+					"name" : "bimg_encode",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "bin2c::@bb4065b6c6ef8de9e685",
+					"jsonFile" : "target-bin2c-Release-3e9679cd08fd7560ab84.json",
+					"name" : "bin2c",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "bx::@bb4065b6c6ef8de9e685",
+					"jsonFile" : "target-bx-Release-fd2cf22513d293e9578f.json",
+					"name" : "bx",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-00-helloworld::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-00-helloworld-Release-8e3a373b53568656aced.json",
+					"name" : "example-00-helloworld",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-01-cubes::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-01-cubes-Release-e36614699e2e733e753b.json",
+					"name" : "example-01-cubes",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-02-metaballs::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-02-metaballs-Release-e6c3c6839f3184270815.json",
+					"name" : "example-02-metaballs",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-03-raymarch::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-03-raymarch-Release-e7700d868470a61b45b8.json",
+					"name" : "example-03-raymarch",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-04-mesh::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-04-mesh-Release-f7aa994b3d6715732815.json",
+					"name" : "example-04-mesh",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-05-instancing::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-05-instancing-Release-4e197ec02f5339113fd5.json",
+					"name" : "example-05-instancing",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-06-bump::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-06-bump-Release-6428f52b7e0a09800cc3.json",
+					"name" : "example-06-bump",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-07-callback::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-07-callback-Release-b9693e24240f145952ab.json",
+					"name" : "example-07-callback",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-08-update::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-08-update-Release-cc5a38c2c10506b5e61e.json",
+					"name" : "example-08-update",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-09-hdr::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-09-hdr-Release-1a6bc2b5606189d09438.json",
+					"name" : "example-09-hdr",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-10-font::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-10-font-Release-04696a03e4645ee92656.json",
+					"name" : "example-10-font",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-11-fontsdf::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-11-fontsdf-Release-ec6d5f187bf385e8e18b.json",
+					"name" : "example-11-fontsdf",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-12-lod::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-12-lod-Release-bbc4acac7248edaa11c7.json",
+					"name" : "example-12-lod",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-13-stencil::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-13-stencil-Release-25babeed2e8456299f86.json",
+					"name" : "example-13-stencil",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-14-shadowvolumes::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-14-shadowvolumes-Release-07463ad77851c29134d9.json",
+					"name" : "example-14-shadowvolumes",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-15-shadowmaps-simple::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-15-shadowmaps-simple-Release-4d7141821bf0523638f5.json",
+					"name" : "example-15-shadowmaps-simple",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-16-shadowmaps::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-16-shadowmaps-Release-2c977807d268b0f4f7f5.json",
+					"name" : "example-16-shadowmaps",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-17-drawstress::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-17-drawstress-Release-c03c471c93f0445bf623.json",
+					"name" : "example-17-drawstress",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-18-ibl::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-18-ibl-Release-8f78492c23fafe921ffc.json",
+					"name" : "example-18-ibl",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-19-oit::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-19-oit-Release-12502f05dcf7522ba205.json",
+					"name" : "example-19-oit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-20-nanovg::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-20-nanovg-Release-20d2c2d61e12aedc738a.json",
+					"name" : "example-20-nanovg",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-22-windows::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-22-windows-Release-b72b4db3860443e4ef95.json",
+					"name" : "example-22-windows",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-23-vectordisplay::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-23-vectordisplay-Release-ff513d0c7d59f8129212.json",
+					"name" : "example-23-vectordisplay",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-24-nbody::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-24-nbody-Release-bd77b1e4ff5a5777fee5.json",
+					"name" : "example-24-nbody",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-25-c99::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-25-c99-Release-966a4de3a4c593cfd02c.json",
+					"name" : "example-25-c99",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-26-occlusion::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-26-occlusion-Release-929ed1ac31bea36660d3.json",
+					"name" : "example-26-occlusion",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-27-terrain::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-27-terrain-Release-e668012e11c687fad72e.json",
+					"name" : "example-27-terrain",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-28-wireframe::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-28-wireframe-Release-a7cf7032915e3bb00518.json",
+					"name" : "example-28-wireframe",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-29-debugdraw::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-29-debugdraw-Release-65308c58b443bc52f03f.json",
+					"name" : "example-29-debugdraw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-30-picking::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-30-picking-Release-75d68dbf771fe4590edb.json",
+					"name" : "example-30-picking",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-31-rsm::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-31-rsm-Release-bb838a09327265549c79.json",
+					"name" : "example-31-rsm",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-32-particles::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-32-particles-Release-72a922af008e2c3f78bf.json",
+					"name" : "example-32-particles",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-33-pom::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-33-pom-Release-caa6aa0b41af383ea912.json",
+					"name" : "example-33-pom",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-34-mvs::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-34-mvs-Release-8b21876b185c35d07064.json",
+					"name" : "example-34-mvs",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-35-dynamic::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-35-dynamic-Release-71ef4e0972f8b6bca9b7.json",
+					"name" : "example-35-dynamic",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-36-sky::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-36-sky-Release-62da8c61e68c4a9c3137.json",
+					"name" : "example-36-sky",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-38-bloom::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-38-bloom-Release-8350d7d318f9544abf81.json",
+					"name" : "example-38-bloom",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-39-assao::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-39-assao-Release-fd72dbb8500dbdf9eb98.json",
+					"name" : "example-39-assao",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-40-svt::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-40-svt-Release-7ae1e613ec4de5ace814.json",
+					"name" : "example-40-svt",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-42-bunnylod::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-42-bunnylod-Release-e84ac9bd962fd24f7bc9.json",
+					"name" : "example-42-bunnylod",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-43-denoise::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-43-denoise-Release-d7f8c889f3fb3786cc4d.json",
+					"name" : "example-43-denoise",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-44-sss::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-44-sss-Release-3eb8222b6efd1a2b9755.json",
+					"name" : "example-44-sss",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-45-bokeh::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-45-bokeh-Release-a068575c6534793d8c20.json",
+					"name" : "example-45-bokeh",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-46-fsr::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-46-fsr-Release-2f7acfb93c8ea1ce300d.json",
+					"name" : "example-46-fsr",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-47-pixelformats::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-47-pixelformats-Release-84c70133c0f6d3e6d7b0.json",
+					"name" : "example-47-pixelformats",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-common::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-common-Release-10c20abd5c991aaca063.json",
+					"name" : "example-common",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "examples::@455da43f6415cef8105b",
+					"jsonFile" : "target-examples-Release-13b6eae526cdd328fb4b.json",
+					"name" : "examples",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "fcpp::@455da43f6415cef8105b",
+					"jsonFile" : "target-fcpp-Release-ab77b081124f2cd63842.json",
+					"name" : "fcpp",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "geometryc::@455da43f6415cef8105b",
+					"jsonFile" : "target-geometryc-Release-d19e4f4f6a54d21a85dc.json",
+					"name" : "geometryc",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "geometryv::@455da43f6415cef8105b",
+					"jsonFile" : "target-geometryv-Release-0b6e64095a5f565c08bd.json",
+					"name" : "geometryv",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "gflags_nothreads_static::@8c2f8e33155656870a84",
+					"jsonFile" : "target-gflags_nothreads_static-Release-1231f9eade45a20c372d.json",
+					"name" : "gflags_nothreads_static",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glsl-optimizer::@455da43f6415cef8105b",
+					"jsonFile" : "target-glsl-optimizer-Release-b3569122c8c61d99adc3.json",
+					"name" : "glsl-optimizer",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glslang::@455da43f6415cef8105b",
+					"jsonFile" : "target-glslang-Release-793477a744dd37527434.json",
+					"name" : "glslang",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sdl3-bgfx-imgui-example::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sdl3-bgfx-imgui-example-Release-b2cbc0fe76b3a0653520.json",
+					"name" : "sdl3-bgfx-imgui-example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "shaderc::@455da43f6415cef8105b",
+					"jsonFile" : "target-shaderc-Release-bcbfeed570b170417ec4.json",
+					"name" : "shaderc",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "spdlog::@f9417c48a877073874e9",
+					"jsonFile" : "target-spdlog-Release-8cabcac5b3140b7dc27f.json",
+					"name" : "spdlog",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "spirv-cross::@455da43f6415cef8105b",
+					"jsonFile" : "target-spirv-cross-Release-7faad5386c94b2fb50b8.json",
+					"name" : "spirv-cross",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "spirv-opt::@455da43f6415cef8105b",
+					"jsonFile" : "target-spirv-opt-Release-797a025581afc9f10760.json",
+					"name" : "spirv-opt",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "texturec::@bdbe9d6b5707547dc02b",
+					"jsonFile" : "target-texturec-Release-c6cecdba24338f2a61ed.json",
+					"name" : "texturec",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "texturev::@455da43f6415cef8105b",
+					"jsonFile" : "target-texturev-Release-d1cefdb0b7a923f2ab5c.json",
+					"name" : "texturev",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "tools::@9575996a9cff00d61e7a",
+					"jsonFile" : "target-tools-Release-5f9cd0c8c2fe51f08bf6.json",
+					"name" : "tools",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-MinSizeRel-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						9,
+						69
+					]
+				},
+				{
+					"build" : "libs/spdlog",
+					"jsonFile" : "directory-libs.spdlog-MinSizeRel-19e2713325f70c6af392.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "libs/spdlog",
+					"targetIndexes" : 
+					[
+						1,
+						71
+					]
+				},
+				{
+					"build" : "libs/bgfx.cmake",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.bgfx.cmake-MinSizeRel-b50fc9a2086b3688e491.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "libs/bgfx.cmake",
+					"targetIndexes" : 
+					[
+						3,
+						76
+					]
+				},
+				{
+					"build" : "libs/bgfx.cmake/cmake/bx",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.bgfx.cmake.cmake.bx-MinSizeRel-34a05ca8a53435fe14d0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "libs/bgfx.cmake/cmake/bx",
+					"targetIndexes" : 
+					[
+						14,
+						15
+					]
+				},
+				{
+					"build" : "libs/bgfx.cmake/cmake/bimg",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.bgfx.cmake.cmake.bimg-MinSizeRel-93ff27aeb611692bba99.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "libs/bgfx.cmake/cmake/bimg",
+					"targetIndexes" : 
+					[
+						11,
+						12,
+						13,
+						74
+					]
+				},
+				{
+					"build" : "libs/bgfx.cmake/cmake/bgfx",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.bgfx.cmake.cmake.bgfx-MinSizeRel-cac312bd49dd56332d35.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "libs/bgfx.cmake/cmake/bgfx",
+					"targetIndexes" : 
+					[
+						10,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						67,
+						68,
+						70,
+						72,
+						73,
+						75
+					]
+				},
+				{
+					"build" : "libs/SDL3",
+					"jsonFile" : "directory-libs.SDL3-MinSizeRel-1a378ba9982a1dc9db41.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "libs/SDL3",
+					"targetIndexes" : 
+					[
+						2,
+						5,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "libs/gflags",
+					"jsonFile" : "directory-libs.gflags-MinSizeRel-9d2761f79d871d37abb9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "libs/gflags",
+					"targetIndexes" : 
+					[
+						4,
+						66
+					]
+				}
+			],
+			"name" : "MinSizeRel",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sdl3-bgfx-imgui-example",
+					"targetIndexes" : 
+					[
+						0,
+						9,
+						69
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "spdlog",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						71
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "bgfx",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						67,
+						68,
+						70,
+						72,
+						73,
+						74,
+						75,
+						76
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "SDL3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						5,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "gflags",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						66
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-c05664f2b0f7ab60c5cf.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@f9417c48a877073874e9",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-61b90e8ab0f2c5dad2f7.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@1536e03098708b12d592",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-faa53b31138ddd8bf66c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@9575996a9cff00d61e7a",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-b6a7fedc5b0663906449.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@8c2f8e33155656870a84",
+					"jsonFile" : "target-ALL_BUILD-MinSizeRel-a05d0071abd5454887cf.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "SDL3-shared::@1536e03098708b12d592",
+					"jsonFile" : "target-SDL3-shared-MinSizeRel-f7fb9b0508bdac419164.json",
+					"name" : "SDL3-shared",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "SDL3-static::@1536e03098708b12d592",
+					"jsonFile" : "target-SDL3-static-MinSizeRel-cd35b38455fcdaba4b2b.json",
+					"name" : "SDL3-static",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "SDL3_test::@1536e03098708b12d592",
+					"jsonFile" : "target-SDL3_test-MinSizeRel-4b7d9ae7457b4fd899ef.json",
+					"name" : "SDL3_test",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "SDL_uclibc::@1536e03098708b12d592",
+					"jsonFile" : "target-SDL_uclibc-MinSizeRel-d66bb2736f9a0030daae.json",
+					"name" : "SDL_uclibc",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-MinSizeRel-d5369862925b32743e1c.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "bgfx::@455da43f6415cef8105b",
+					"jsonFile" : "target-bgfx-MinSizeRel-83e6f5854753b41c066d.json",
+					"name" : "bgfx",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "bimg::@bdbe9d6b5707547dc02b",
+					"jsonFile" : "target-bimg-MinSizeRel-dbf2dfa9ebc15f516f3f.json",
+					"name" : "bimg",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "bimg_decode::@bdbe9d6b5707547dc02b",
+					"jsonFile" : "target-bimg_decode-MinSizeRel-11f9f5a98bf90eddf1b3.json",
+					"name" : "bimg_decode",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "bimg_encode::@bdbe9d6b5707547dc02b",
+					"jsonFile" : "target-bimg_encode-MinSizeRel-7574634a087565f4b461.json",
+					"name" : "bimg_encode",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "bin2c::@bb4065b6c6ef8de9e685",
+					"jsonFile" : "target-bin2c-MinSizeRel-34a4bad9631bc81efb79.json",
+					"name" : "bin2c",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "bx::@bb4065b6c6ef8de9e685",
+					"jsonFile" : "target-bx-MinSizeRel-d6b635719d98a710fb70.json",
+					"name" : "bx",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-00-helloworld::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-00-helloworld-MinSizeRel-df0669a80db0f380a4d2.json",
+					"name" : "example-00-helloworld",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-01-cubes::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-01-cubes-MinSizeRel-a54778b2d0e4eaf853ba.json",
+					"name" : "example-01-cubes",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-02-metaballs::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-02-metaballs-MinSizeRel-8c39a80636a5faf7b7c0.json",
+					"name" : "example-02-metaballs",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-03-raymarch::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-03-raymarch-MinSizeRel-d70491d5bd6d47ac3ce1.json",
+					"name" : "example-03-raymarch",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-04-mesh::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-04-mesh-MinSizeRel-2c8d55efc25e559ced22.json",
+					"name" : "example-04-mesh",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-05-instancing::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-05-instancing-MinSizeRel-47c36db6696df224431d.json",
+					"name" : "example-05-instancing",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-06-bump::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-06-bump-MinSizeRel-1204977f31736da55832.json",
+					"name" : "example-06-bump",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-07-callback::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-07-callback-MinSizeRel-844c0459c8f2ab276069.json",
+					"name" : "example-07-callback",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-08-update::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-08-update-MinSizeRel-5d3e5764903de2efd495.json",
+					"name" : "example-08-update",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-09-hdr::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-09-hdr-MinSizeRel-37d189045df2334eba1c.json",
+					"name" : "example-09-hdr",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-10-font::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-10-font-MinSizeRel-60f30b00eba1cdb54994.json",
+					"name" : "example-10-font",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-11-fontsdf::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-11-fontsdf-MinSizeRel-99b34bfe20a6a60aca73.json",
+					"name" : "example-11-fontsdf",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-12-lod::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-12-lod-MinSizeRel-6ed4bac492e53d9000e3.json",
+					"name" : "example-12-lod",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-13-stencil::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-13-stencil-MinSizeRel-55ce01cc4331d671a406.json",
+					"name" : "example-13-stencil",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-14-shadowvolumes::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-14-shadowvolumes-MinSizeRel-90f3e7e2b6ff1e868aba.json",
+					"name" : "example-14-shadowvolumes",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-15-shadowmaps-simple::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-15-shadowmaps-simple-MinSizeRel-1eda4b08e055ccef97ba.json",
+					"name" : "example-15-shadowmaps-simple",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-16-shadowmaps::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-16-shadowmaps-MinSizeRel-b1a331f08724387e1648.json",
+					"name" : "example-16-shadowmaps",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-17-drawstress::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-17-drawstress-MinSizeRel-dda2d6fc04e1854aa897.json",
+					"name" : "example-17-drawstress",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-18-ibl::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-18-ibl-MinSizeRel-b626ed935779b8f44a84.json",
+					"name" : "example-18-ibl",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-19-oit::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-19-oit-MinSizeRel-8f3f9447c1ae32c9294a.json",
+					"name" : "example-19-oit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-20-nanovg::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-20-nanovg-MinSizeRel-1f6401a126d97eb95186.json",
+					"name" : "example-20-nanovg",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-22-windows::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-22-windows-MinSizeRel-90a05c671ff7a0688d8a.json",
+					"name" : "example-22-windows",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-23-vectordisplay::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-23-vectordisplay-MinSizeRel-0af6cc4d76da9c34465c.json",
+					"name" : "example-23-vectordisplay",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-24-nbody::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-24-nbody-MinSizeRel-7cc45b62d391f9d2af7f.json",
+					"name" : "example-24-nbody",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-25-c99::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-25-c99-MinSizeRel-9a35fd0159019253c530.json",
+					"name" : "example-25-c99",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-26-occlusion::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-26-occlusion-MinSizeRel-e4c3dacf1f1d2b58e931.json",
+					"name" : "example-26-occlusion",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-27-terrain::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-27-terrain-MinSizeRel-e5177615f26945a978e0.json",
+					"name" : "example-27-terrain",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-28-wireframe::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-28-wireframe-MinSizeRel-841abb7a5aa68602fafd.json",
+					"name" : "example-28-wireframe",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-29-debugdraw::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-29-debugdraw-MinSizeRel-0e3b93db9f9661e7eb1d.json",
+					"name" : "example-29-debugdraw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-30-picking::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-30-picking-MinSizeRel-a0158d2a8e697e04f31d.json",
+					"name" : "example-30-picking",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-31-rsm::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-31-rsm-MinSizeRel-590c329673f4dd6b8036.json",
+					"name" : "example-31-rsm",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-32-particles::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-32-particles-MinSizeRel-ef85e437f0d60ba93e84.json",
+					"name" : "example-32-particles",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-33-pom::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-33-pom-MinSizeRel-36310f5d839db3ea6cd8.json",
+					"name" : "example-33-pom",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-34-mvs::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-34-mvs-MinSizeRel-95a84a16001933ddba28.json",
+					"name" : "example-34-mvs",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-35-dynamic::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-35-dynamic-MinSizeRel-022f0d4d7bacf035d761.json",
+					"name" : "example-35-dynamic",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-36-sky::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-36-sky-MinSizeRel-a13fe06c6a41b7be91e4.json",
+					"name" : "example-36-sky",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-38-bloom::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-38-bloom-MinSizeRel-9d12e917888770b69772.json",
+					"name" : "example-38-bloom",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-39-assao::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-39-assao-MinSizeRel-99837579822775f5b425.json",
+					"name" : "example-39-assao",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-40-svt::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-40-svt-MinSizeRel-906b6894da497ddd4b6d.json",
+					"name" : "example-40-svt",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-42-bunnylod::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-42-bunnylod-MinSizeRel-4700b463725b56ae9d60.json",
+					"name" : "example-42-bunnylod",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-43-denoise::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-43-denoise-MinSizeRel-32f2c3d67d65ca564bbf.json",
+					"name" : "example-43-denoise",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-44-sss::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-44-sss-MinSizeRel-6a239853af4107ff2f7c.json",
+					"name" : "example-44-sss",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-45-bokeh::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-45-bokeh-MinSizeRel-f887db8f5e90f5d1d431.json",
+					"name" : "example-45-bokeh",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-46-fsr::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-46-fsr-MinSizeRel-73b7ff7df9df4af25af8.json",
+					"name" : "example-46-fsr",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-47-pixelformats::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-47-pixelformats-MinSizeRel-61b831ffaac0ab508f72.json",
+					"name" : "example-47-pixelformats",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-common::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-common-MinSizeRel-2e84604c187a465f41fa.json",
+					"name" : "example-common",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "examples::@455da43f6415cef8105b",
+					"jsonFile" : "target-examples-MinSizeRel-13b6eae526cdd328fb4b.json",
+					"name" : "examples",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "fcpp::@455da43f6415cef8105b",
+					"jsonFile" : "target-fcpp-MinSizeRel-aca8660a24c30453bd9e.json",
+					"name" : "fcpp",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "geometryc::@455da43f6415cef8105b",
+					"jsonFile" : "target-geometryc-MinSizeRel-01c5a65916b1716d40e9.json",
+					"name" : "geometryc",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "geometryv::@455da43f6415cef8105b",
+					"jsonFile" : "target-geometryv-MinSizeRel-fc349bd4d72358416c53.json",
+					"name" : "geometryv",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "gflags_nothreads_static::@8c2f8e33155656870a84",
+					"jsonFile" : "target-gflags_nothreads_static-MinSizeRel-f13a6ba05f70af65f83f.json",
+					"name" : "gflags_nothreads_static",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glsl-optimizer::@455da43f6415cef8105b",
+					"jsonFile" : "target-glsl-optimizer-MinSizeRel-aeffd3f626dc2b32f809.json",
+					"name" : "glsl-optimizer",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glslang::@455da43f6415cef8105b",
+					"jsonFile" : "target-glslang-MinSizeRel-15db990c8997f46bdff4.json",
+					"name" : "glslang",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sdl3-bgfx-imgui-example::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sdl3-bgfx-imgui-example-MinSizeRel-16d6d0c70338d7e97f85.json",
+					"name" : "sdl3-bgfx-imgui-example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "shaderc::@455da43f6415cef8105b",
+					"jsonFile" : "target-shaderc-MinSizeRel-9b987ad197af04f9856c.json",
+					"name" : "shaderc",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "spdlog::@f9417c48a877073874e9",
+					"jsonFile" : "target-spdlog-MinSizeRel-d355a481c74ea3ad2022.json",
+					"name" : "spdlog",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "spirv-cross::@455da43f6415cef8105b",
+					"jsonFile" : "target-spirv-cross-MinSizeRel-b6fdafd622718bed494f.json",
+					"name" : "spirv-cross",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "spirv-opt::@455da43f6415cef8105b",
+					"jsonFile" : "target-spirv-opt-MinSizeRel-89288cd8682b7e0531e7.json",
+					"name" : "spirv-opt",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "texturec::@bdbe9d6b5707547dc02b",
+					"jsonFile" : "target-texturec-MinSizeRel-a7ddb306b2e6ceab763b.json",
+					"name" : "texturec",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "texturev::@455da43f6415cef8105b",
+					"jsonFile" : "target-texturev-MinSizeRel-c5de71e23677f73b0a37.json",
+					"name" : "texturev",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "tools::@9575996a9cff00d61e7a",
+					"jsonFile" : "target-tools-MinSizeRel-5f9cd0c8c2fe51f08bf6.json",
+					"name" : "tools",
+					"projectIndex" : 2
+				}
+			]
+		},
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-RelWithDebInfo-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						9,
+						69
+					]
+				},
+				{
+					"build" : "libs/spdlog",
+					"jsonFile" : "directory-libs.spdlog-RelWithDebInfo-19e2713325f70c6af392.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "libs/spdlog",
+					"targetIndexes" : 
+					[
+						1,
+						71
+					]
+				},
+				{
+					"build" : "libs/bgfx.cmake",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.bgfx.cmake-RelWithDebInfo-b50fc9a2086b3688e491.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "libs/bgfx.cmake",
+					"targetIndexes" : 
+					[
+						3,
+						76
+					]
+				},
+				{
+					"build" : "libs/bgfx.cmake/cmake/bx",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.bgfx.cmake.cmake.bx-RelWithDebInfo-cb0ab456184aca4df80d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "libs/bgfx.cmake/cmake/bx",
+					"targetIndexes" : 
+					[
+						14,
+						15
+					]
+				},
+				{
+					"build" : "libs/bgfx.cmake/cmake/bimg",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.bgfx.cmake.cmake.bimg-RelWithDebInfo-ee34c4b1d1b9b465f4bc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "libs/bgfx.cmake/cmake/bimg",
+					"targetIndexes" : 
+					[
+						11,
+						12,
+						13,
+						74
+					]
+				},
+				{
+					"build" : "libs/bgfx.cmake/cmake/bgfx",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-libs.bgfx.cmake.cmake.bgfx-RelWithDebInfo-63244738f1bdc48559cd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "libs/bgfx.cmake/cmake/bgfx",
+					"targetIndexes" : 
+					[
+						10,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						67,
+						68,
+						70,
+						72,
+						73,
+						75
+					]
+				},
+				{
+					"build" : "libs/SDL3",
+					"jsonFile" : "directory-libs.SDL3-RelWithDebInfo-1a378ba9982a1dc9db41.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "libs/SDL3",
+					"targetIndexes" : 
+					[
+						2,
+						5,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"build" : "libs/gflags",
+					"jsonFile" : "directory-libs.gflags-RelWithDebInfo-9d2761f79d871d37abb9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "libs/gflags",
+					"targetIndexes" : 
+					[
+						4,
+						66
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "sdl3-bgfx-imgui-example",
+					"targetIndexes" : 
+					[
+						0,
+						9,
+						69
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "spdlog",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						71
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5
+					],
+					"name" : "bgfx",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						67,
+						68,
+						70,
+						72,
+						73,
+						74,
+						75,
+						76
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "SDL3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						5,
+						6,
+						7,
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "gflags",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4,
+						66
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-c05664f2b0f7ab60c5cf.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ALL_BUILD::@f9417c48a877073874e9",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-61b90e8ab0f2c5dad2f7.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "ALL_BUILD::@1536e03098708b12d592",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-faa53b31138ddd8bf66c.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ALL_BUILD::@9575996a9cff00d61e7a",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-b6a7fedc5b0663906449.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "ALL_BUILD::@8c2f8e33155656870a84",
+					"jsonFile" : "target-ALL_BUILD-RelWithDebInfo-a05d0071abd5454887cf.json",
+					"name" : "ALL_BUILD",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "SDL3-shared::@1536e03098708b12d592",
+					"jsonFile" : "target-SDL3-shared-RelWithDebInfo-4bfe2721748cee9dff65.json",
+					"name" : "SDL3-shared",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "SDL3-static::@1536e03098708b12d592",
+					"jsonFile" : "target-SDL3-static-RelWithDebInfo-115db676adf162932785.json",
+					"name" : "SDL3-static",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "SDL3_test::@1536e03098708b12d592",
+					"jsonFile" : "target-SDL3_test-RelWithDebInfo-9f3985719f11849afded.json",
+					"name" : "SDL3_test",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "SDL_uclibc::@1536e03098708b12d592",
+					"jsonFile" : "target-SDL_uclibc-RelWithDebInfo-bbca51e19c3c8e3c42d6.json",
+					"name" : "SDL_uclibc",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ZERO_CHECK-RelWithDebInfo-d5369862925b32743e1c.json",
+					"name" : "ZERO_CHECK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "bgfx::@455da43f6415cef8105b",
+					"jsonFile" : "target-bgfx-RelWithDebInfo-0bc0f0db4b13768d82a1.json",
+					"name" : "bgfx",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "bimg::@bdbe9d6b5707547dc02b",
+					"jsonFile" : "target-bimg-RelWithDebInfo-cbca617e9e1ae190afb0.json",
+					"name" : "bimg",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "bimg_decode::@bdbe9d6b5707547dc02b",
+					"jsonFile" : "target-bimg_decode-RelWithDebInfo-46519b8253eb22ecb330.json",
+					"name" : "bimg_decode",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "bimg_encode::@bdbe9d6b5707547dc02b",
+					"jsonFile" : "target-bimg_encode-RelWithDebInfo-0da362214ed805386d81.json",
+					"name" : "bimg_encode",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "bin2c::@bb4065b6c6ef8de9e685",
+					"jsonFile" : "target-bin2c-RelWithDebInfo-ef347aceb4c32439ef40.json",
+					"name" : "bin2c",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "bx::@bb4065b6c6ef8de9e685",
+					"jsonFile" : "target-bx-RelWithDebInfo-ac2bd804d5245a969995.json",
+					"name" : "bx",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-00-helloworld::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-00-helloworld-RelWithDebInfo-36cff9fd9f10d800d9f2.json",
+					"name" : "example-00-helloworld",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-01-cubes::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-01-cubes-RelWithDebInfo-b2a174123377ea533fe2.json",
+					"name" : "example-01-cubes",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-02-metaballs::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-02-metaballs-RelWithDebInfo-bbdd343556142bdfce3b.json",
+					"name" : "example-02-metaballs",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-03-raymarch::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-03-raymarch-RelWithDebInfo-d35bb2af46ef9c1ef294.json",
+					"name" : "example-03-raymarch",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-04-mesh::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-04-mesh-RelWithDebInfo-14ae4967e23e2ec82724.json",
+					"name" : "example-04-mesh",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-05-instancing::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-05-instancing-RelWithDebInfo-45633edcc2015a60b10e.json",
+					"name" : "example-05-instancing",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-06-bump::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-06-bump-RelWithDebInfo-447abe1e638258a75354.json",
+					"name" : "example-06-bump",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-07-callback::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-07-callback-RelWithDebInfo-3ca8b72ac783a8006d93.json",
+					"name" : "example-07-callback",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-08-update::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-08-update-RelWithDebInfo-af8ebcaa4fe81e47f21a.json",
+					"name" : "example-08-update",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-09-hdr::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-09-hdr-RelWithDebInfo-022cc6d739487a3385d2.json",
+					"name" : "example-09-hdr",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-10-font::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-10-font-RelWithDebInfo-722bbb3b11eefc96669e.json",
+					"name" : "example-10-font",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-11-fontsdf::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-11-fontsdf-RelWithDebInfo-bc678f8976be676392a1.json",
+					"name" : "example-11-fontsdf",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-12-lod::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-12-lod-RelWithDebInfo-cdade8d56fa8484dbcf1.json",
+					"name" : "example-12-lod",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-13-stencil::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-13-stencil-RelWithDebInfo-3304f92bc68a0fc6c358.json",
+					"name" : "example-13-stencil",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-14-shadowvolumes::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-14-shadowvolumes-RelWithDebInfo-806d08e177106abb4692.json",
+					"name" : "example-14-shadowvolumes",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-15-shadowmaps-simple::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-15-shadowmaps-simple-RelWithDebInfo-e01e5fd72686d04eb18e.json",
+					"name" : "example-15-shadowmaps-simple",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-16-shadowmaps::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-16-shadowmaps-RelWithDebInfo-c96c36713735a3ae5af8.json",
+					"name" : "example-16-shadowmaps",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-17-drawstress::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-17-drawstress-RelWithDebInfo-31e378b4874e27856b03.json",
+					"name" : "example-17-drawstress",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-18-ibl::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-18-ibl-RelWithDebInfo-0026556236359e338314.json",
+					"name" : "example-18-ibl",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-19-oit::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-19-oit-RelWithDebInfo-520a37feccf673e0b41a.json",
+					"name" : "example-19-oit",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-20-nanovg::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-20-nanovg-RelWithDebInfo-aff2e88d5447f10bc0f4.json",
+					"name" : "example-20-nanovg",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-22-windows::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-22-windows-RelWithDebInfo-c5b6221f4054d38c5cd1.json",
+					"name" : "example-22-windows",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-23-vectordisplay::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-23-vectordisplay-RelWithDebInfo-2d409b6bd65023d55524.json",
+					"name" : "example-23-vectordisplay",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-24-nbody::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-24-nbody-RelWithDebInfo-ad09f891d55cabf66c20.json",
+					"name" : "example-24-nbody",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-25-c99::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-25-c99-RelWithDebInfo-02b70eff73ba7b187fb2.json",
+					"name" : "example-25-c99",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-26-occlusion::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-26-occlusion-RelWithDebInfo-5e7f1e08f508dfea14cc.json",
+					"name" : "example-26-occlusion",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-27-terrain::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-27-terrain-RelWithDebInfo-713d491674ebeccdd1db.json",
+					"name" : "example-27-terrain",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-28-wireframe::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-28-wireframe-RelWithDebInfo-32ae6d70090c829f8026.json",
+					"name" : "example-28-wireframe",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-29-debugdraw::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-29-debugdraw-RelWithDebInfo-3d0380b6c4e08c41d888.json",
+					"name" : "example-29-debugdraw",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-30-picking::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-30-picking-RelWithDebInfo-80cc020e3aa1a063f53f.json",
+					"name" : "example-30-picking",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-31-rsm::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-31-rsm-RelWithDebInfo-4b7f1192bd74994fcb3d.json",
+					"name" : "example-31-rsm",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-32-particles::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-32-particles-RelWithDebInfo-35a7e46232a92616abc0.json",
+					"name" : "example-32-particles",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-33-pom::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-33-pom-RelWithDebInfo-5efd1bf07d3f96c839ea.json",
+					"name" : "example-33-pom",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-34-mvs::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-34-mvs-RelWithDebInfo-72b758b7c3bf29978afe.json",
+					"name" : "example-34-mvs",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-35-dynamic::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-35-dynamic-RelWithDebInfo-8610c5184589c2815099.json",
+					"name" : "example-35-dynamic",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-36-sky::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-36-sky-RelWithDebInfo-caaaef2cba61a16782f5.json",
+					"name" : "example-36-sky",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-38-bloom::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-38-bloom-RelWithDebInfo-cc58298360cfd3554e22.json",
+					"name" : "example-38-bloom",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-39-assao::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-39-assao-RelWithDebInfo-a1bccaf7c975fc06c138.json",
+					"name" : "example-39-assao",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-40-svt::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-40-svt-RelWithDebInfo-40e6d0836355680c9b3d.json",
+					"name" : "example-40-svt",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-42-bunnylod::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-42-bunnylod-RelWithDebInfo-ca5a4a4824b3e3d9c141.json",
+					"name" : "example-42-bunnylod",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-43-denoise::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-43-denoise-RelWithDebInfo-0bcd337ae0ed60e555fb.json",
+					"name" : "example-43-denoise",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-44-sss::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-44-sss-RelWithDebInfo-a5b2f60683c43d8b435a.json",
+					"name" : "example-44-sss",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-45-bokeh::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-45-bokeh-RelWithDebInfo-bdd575cac67071200856.json",
+					"name" : "example-45-bokeh",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-46-fsr::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-46-fsr-RelWithDebInfo-e789ff6711358296f46e.json",
+					"name" : "example-46-fsr",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-47-pixelformats::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-47-pixelformats-RelWithDebInfo-89dc34dc9915bc015cb8.json",
+					"name" : "example-47-pixelformats",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "example-common::@455da43f6415cef8105b",
+					"jsonFile" : "target-example-common-RelWithDebInfo-bff4781b7a1088765e0c.json",
+					"name" : "example-common",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "examples::@455da43f6415cef8105b",
+					"jsonFile" : "target-examples-RelWithDebInfo-13b6eae526cdd328fb4b.json",
+					"name" : "examples",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "fcpp::@455da43f6415cef8105b",
+					"jsonFile" : "target-fcpp-RelWithDebInfo-f4297a99f9a60c4bd1f8.json",
+					"name" : "fcpp",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "geometryc::@455da43f6415cef8105b",
+					"jsonFile" : "target-geometryc-RelWithDebInfo-e2ff73083d8586bce7f1.json",
+					"name" : "geometryc",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "geometryv::@455da43f6415cef8105b",
+					"jsonFile" : "target-geometryv-RelWithDebInfo-222216a51d0b8370db19.json",
+					"name" : "geometryv",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "gflags_nothreads_static::@8c2f8e33155656870a84",
+					"jsonFile" : "target-gflags_nothreads_static-RelWithDebInfo-9d57f0882a15142279db.json",
+					"name" : "gflags_nothreads_static",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glsl-optimizer::@455da43f6415cef8105b",
+					"jsonFile" : "target-glsl-optimizer-RelWithDebInfo-dd4dc529123a7b1872b0.json",
+					"name" : "glsl-optimizer",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "glslang::@455da43f6415cef8105b",
+					"jsonFile" : "target-glslang-RelWithDebInfo-07ab04229c0b7d6de8f8.json",
+					"name" : "glslang",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sdl3-bgfx-imgui-example::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sdl3-bgfx-imgui-example-RelWithDebInfo-2f1985f39e6323729d2f.json",
+					"name" : "sdl3-bgfx-imgui-example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "shaderc::@455da43f6415cef8105b",
+					"jsonFile" : "target-shaderc-RelWithDebInfo-6c54bf255f81d30372d7.json",
+					"name" : "shaderc",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "spdlog::@f9417c48a877073874e9",
+					"jsonFile" : "target-spdlog-RelWithDebInfo-da1f754afc57f0a9bb7b.json",
+					"name" : "spdlog",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "spirv-cross::@455da43f6415cef8105b",
+					"jsonFile" : "target-spirv-cross-RelWithDebInfo-877b9a0d8c6d47871752.json",
+					"name" : "spirv-cross",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "spirv-opt::@455da43f6415cef8105b",
+					"jsonFile" : "target-spirv-opt-RelWithDebInfo-edc479b36fc5c7e350b7.json",
+					"name" : "spirv-opt",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "texturec::@bdbe9d6b5707547dc02b",
+					"jsonFile" : "target-texturec-RelWithDebInfo-a193763116a5af14fc25.json",
+					"name" : "texturec",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "texturev::@455da43f6415cef8105b",
+					"jsonFile" : "target-texturev-RelWithDebInfo-4bf004587274c9c70328.json",
+					"name" : "texturev",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "tools::@9575996a9cff00d61e7a",
+					"jsonFile" : "target-tools-RelWithDebInfo-5f9cd0c8c2fe51f08bf6.json",
+					"name" : "tools",
+					"projectIndex" : 2
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example/build",
+		"source" : "C:/Users/CALCDQY/Documents/sdl3-bgfx-imgui example"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

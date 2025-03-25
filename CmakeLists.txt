@@ -1,0 +1,85 @@
+cmake_minimum_required(VERSION 3.20)
+
+project(sdl3-bgfx-imgui-example VERSION 1.0)
+
+set(CMAKE_CXX_STANDARD 17)
+set(SDL_STATIC true)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/build/bin/${PROJECT_NAME})
+set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/build/bin/${PROJECT_NAME})
+set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/build/libs)
+
+if (CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+    if (WIN32)
+        add_compile_options(
+            $<$<CONFIG:Debug>:-MTd>
+            $<$<CONFIG:Release>:-MT>
+        )
+        add_link_options(
+            $<$<CONFIG:Debug>:-MTd>
+            $<$<CONFIG:Release>:-MT>
+        )
+    endif()
+elseif (CMAKE_CXX_COMPILER_ID MATCHES "GNU")
+    set(CMAKE_EXE_LINKER_FLAGS "-static ${CMAKE_EXE_LINKER_FLAGS}")
+elseif (CMAKE_CXX_COMPILER_ID MATCHES "MSVC")
+    set(CMAKE_MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
+    add_compile_options(
+        $<$<CONFIG:Debug>:/MTd>
+        $<$<CONFIG:Release>:/MT>
+    )
+endif()
+
+add_subdirectory(libs/spdlog)
+add_subdirectory(libs/bgfx.cmake)
+add_subdirectory(libs/SDL3)
+add_subdirectory(libs/gflags)
+
+file(GLOB imgui
+    libs/imgui/*.cpp
+    libs/imgui/backends/imgui_impl_sdl3.cpp
+    libs/imgui/backends/imgui_impl_sdl_bgfx.cpp
+)
+
+add_executable(${PROJECT_NAME}
+    src/main.cpp
+    ${imgui}
+)
+
+target_include_directories(${PROJECT_NAME}
+    PUBLIC
+    ${gflags_INCLUDE_DIR}
+    libs/spdlog/include
+    libs/imgui
+    libs/imgui/backends
+    libs/bgfx.cmake/bgfx/include
+    libs/bgfx.cmake/bimg/include
+    libs/bgfx.cmake/bx/include
+    libs/SDL3/include
+)
+
+target_link_libraries(${PROJECT_NAME}
+    spdlog
+    gflags_nothreads_static
+    SDL3::SDL3-static
+    bgfx
+)
+
+# bx:When using MSVC you must set /Zc:__cplusplus compiler option.
+if (MSVC)
+    target_compile_options(${PROJECT_NAME}
+    PUBLIC /Zc:__cplusplus 
+    PUBLIC /Zc:preprocessor)
+endif()
+
+if (CMAKE_BUILD_TYPE STREQUAL "Debug")
+    add_definitions(-DBX_CONFIG_DEBUG=1)
+else()
+    add_definitions(-DBX_CONFIG_DEBUG=0)
+endif()
+
+add_custom_command(
+    TARGET ${PROJECT_NAME}
+    PRE_BUILD
+    COMMAND echo ${PROJECT_NAME}: Copying Resources
+    COMMAND ${CMAKE_COMMAND} -E copy_directory ${PROJECT_SOURCE_DIR}/res  ${PROJECT_SOURCE_DIR}/build/bin/${PROJECT_NAME}/${CMAKE_CFG_INTDIR}
+)

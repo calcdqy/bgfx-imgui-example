@@ -1,0 +1,85 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"libs/bgfx.cmake/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "texturec::@bdbe9d6b5707547dc02b"
+		},
+		{
+			"id" : "bimg_decode::@bdbe9d6b5707547dc02b"
+		},
+		{
+			"id" : "bimg_encode::@bdbe9d6b5707547dc02b"
+		},
+		{
+			"id" : "bgfx::@455da43f6415cef8105b"
+		},
+		{
+			"id" : "texturev::@455da43f6415cef8105b"
+		},
+		{
+			"id" : "glslang::@455da43f6415cef8105b"
+		},
+		{
+			"id" : "fcpp::@455da43f6415cef8105b"
+		},
+		{
+			"id" : "geometryc::@455da43f6415cef8105b"
+		},
+		{
+			"id" : "spirv-opt::@455da43f6415cef8105b"
+		},
+		{
+			"id" : "glsl-optimizer::@455da43f6415cef8105b"
+		},
+		{
+			"id" : "geometryv::@455da43f6415cef8105b"
+		},
+		{
+			"id" : "spirv-cross::@455da43f6415cef8105b"
+		},
+		{
+			"id" : "bimg::@bdbe9d6b5707547dc02b"
+		},
+		{
+			"id" : "bx::@bb4065b6c6ef8de9e685"
+		},
+		{
+			"id" : "bin2c::@bb4065b6c6ef8de9e685"
+		},
+		{
+			"id" : "shaderc::@455da43f6415cef8105b"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMakePredefinedTargets"
+	},
+	"id" : "ALL_BUILD::@9575996a9cff00d61e7a",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "libs/bgfx.cmake",
+		"source" : "libs/bgfx.cmake"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}
