@@ -67,6 +67,7 @@ int SDL_main(int argc, char *argv[])
     SDL_SetHint(SDL_HINT_IME_SHOW_UI, "1");
 #endif
     SDL_SetHint(SDL_HINT_MOUSE_FOCUS_CLICKTHROUGH, "1");
+    SDL_SetHint(SDL_HINT_JOYSTICK_RAWINPUT, "0");
     window_flags = (SDL_WindowFlags)(SDL_WINDOW_HIGH_PIXEL_DENSITY | SDL_WINDOW_UTILITY | SDL_WINDOW_BORDERLESS);
     MainWindow = SDL_CreateWindow("MainWindow", 0, 0, window_flags);
     if (!MainWindow)
