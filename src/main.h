@@ -1,6 +1,5 @@
 #include <iostream>
 #include <cstdlib>
-// #include <Windows.h>
 #include <filesystem>
 namespace fs = std::filesystem;
 #include <ctime>
@@ -16,3 +15,7 @@ namespace fs = std::filesystem;
 #include <imgui.h>
 #include <imgui_impl_sdl3.h>
 #include <imgui_impl_sdl_bgfx.h>
+#include <funchook.h>
+
+void SetupImGuiStyleLight() {}
+void SetupImGuiStyleDark() {}
