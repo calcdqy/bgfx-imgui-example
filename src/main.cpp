@@ -1,12 +1,21 @@
 #include "main.h"
+#include "roboto_font.h"
 
 DEFINE_bool(nogui, false, "Cancels UI rendering");
 DEFINE_bool(debug, false, "Set debug mode");
-bgfx::ViewId MainViewId = 255;
+bgfx::ViewId MainViewId = 0;
 SDL_WindowFlags window_flags;
 SDL_Window *MainWindow = nullptr;
 
-int SDL_main(int argc, char *argv[])
+static bool (*Original_ImGui_Begin)(const char *, bool *, ImGuiWindowFlags) = nullptr;
+
+bool Hooked_ImGui_Begin(const char *name, bool *p_open, ImGuiWindowFlags flags)
+{
+    flags |= ImGuiWindowFlags_NoTitleBar;
+    return Original_ImGui_Begin(name, p_open, flags);
+}
+
+int main(int argc, char *argv[])
 {
     // parser args
     gflags::ParseCommandLineFlags(&argc, &argv, false); // Setup spdlog
@@ -26,7 +35,7 @@ int SDL_main(int argc, char *argv[])
             }
             catch (const spdlog::spdlog_ex &ex)
             {
-                std::cout << "Log initialization failed: " << ex.what() << "\n";
+                std::cerr << "Log initialization failed: " << ex.what() << "\n";
                 return 1;
             }
             break;
@@ -54,6 +63,35 @@ int SDL_main(int argc, char *argv[])
     delete[] i;
     i = nullptr;
 
+    // Init funchook and hook
+    funchook_t *funchook = funchook_create();
+    if (!funchook)
+    {
+        spdlog::critical("Failed to create funchook instance\n");
+        return -1;
+    }
+    spdlog::info("Funchook initialization successful");
+
+    Original_ImGui_Begin = ImGui::Begin;
+    int ret = funchook_prepare(funchook,
+                               reinterpret_cast<void **>(&Original_ImGui_Begin),
+                               reinterpret_cast<void *>(Hooked_ImGui_Begin));
+
+    if (ret != 0)
+    {
+        spdlog::critical("Hook preparation failed: {}\n", funchook_error_message(funchook));
+        funchook_destroy(funchook);
+        return -1;
+    }
+
+    ret = funchook_install(funchook, 0);
+    if (ret != 0)
+    {
+        spdlog::critical("Hook installation failed: {}\n", funchook_error_message(funchook));
+        funchook_destroy(funchook);
+        return -1;
+    }
+
     // Init SDL
     if (!SDL_Init(SDL_INIT_VIDEO | SDL_INIT_GAMEPAD))
     {
@@ -76,15 +114,34 @@ int SDL_main(int argc, char *argv[])
         SDL_Quit();
         return -1;
     }
+    SDL_PumpEvents();
 
     // Init bgfx
-    bgfx::PlatformData pd;
+    const char *sdlDriver = SDL_GetCurrentVideoDriver();
+    spdlog::info("Using SDL driver: {}", sdlDriver);
+    bgfx::PlatformData pd = {};
     pd.ndt = nullptr;
 
 #if BX_PLATFORM_LINUX || BX_PLATFORM_BSD // Linux or BSD
     SDL_PropertiesID props = SDL_GetWindowProperties(MainWindow);
-    pd.ndt = SDL_GetPointerProperty(props, "SDL.window.x11.display", nullptr);
-    pd.nwh = (void *)(uintptr_t)SDL_GetNumberProperty(props, "SDL.window.x11.window", 0);
+    if (strcmp(sdlDriver, "wayland") == 0)
+    {
+        pd.nwh = SDL_GetPointerProperty(props, "SDL.window.wayland.surface", nullptr);
+        pd.ndt = SDL_GetPointerProperty(props, "SDL.window.wayland.display", nullptr);
+        spdlog::debug("Wayland surface: {}, display: {}", pd.nwh, pd.ndt);
+    }
+    else
+    {
+        pd.ndt = SDL_GetPointerProperty(props, "SDL.window.x11.display", nullptr);
+        pd.nwh = (void *)(uintptr_t)SDL_GetNumberProperty(props, "SDL.window.x11.window", 0);
+        spdlog::debug("X11 window: {}, display: {}", pd.nwh, pd.ndt);
+    }
+
+    if (!pd.nwh || (!pd.ndt && strcmp(sdlDriver, "x11") == 0))
+    {
+        spdlog::critical("Failed to get native handle for driver: {}", sdlDriver);
+        return -1;
+    }
 #elif BX_PLATFORM_OSX     // Apple
     SDL_PropertiesID props = SDL_GetWindowProperties(MainWindow);
     pd.nwh = SDL_GetPointerProperty(props, "SDL.window.cocoa.window", nullptr);
@@ -95,7 +152,8 @@ int SDL_main(int argc, char *argv[])
 #error Your system is not supported!
 #endif
 
-    bgfx::renderFrame();
+    // bgfx::renderFrame();
+    bgfx::setPlatformData(pd);
 
     bgfx::Init bgfxInit;
     bgfxInit.debug = true;
@@ -107,7 +165,7 @@ int SDL_main(int argc, char *argv[])
     bgfx::init(bgfxInit);
 
     bgfx::setViewClear(MainViewId, BGFX_CLEAR_COLOR | BGFX_CLEAR_DEPTH, 0x443355FF, 1.0f, 0);
-    bgfx::setViewRect(0, 0, 0, 1280, 720);
+    bgfx::setViewRect(MainViewId, 0, 0, 1, 1);
     spdlog::info("BGFX initialization successful");
 
     // Setup Dear ImGui context
@@ -120,14 +178,23 @@ int SDL_main(int argc, char *argv[])
     io.ConfigFlags |= ImGuiConfigFlags_ViewportsEnable;   // Enable Viewports
     io.BackendFlags |= ImGuiBackendFlags_RendererHasVtxOffset;
     io.BackendFlags |= ImGuiBackendFlags_RendererHasViewports;
-    io.ConfigViewportsNoDecoration = true;
+    io.ConfigViewportsNoDecoration = false;
     io.ConfigViewportsNoAutoMerge = true;
     io.ConfigViewportsNoTaskBarIcon = false;
     io.IniFilename = NULL;
     io.LogFilename = NULL;
+    ImFont *font = io.Fonts->AddFontFromMemoryTTF(
+        Roboto_Regular_ttf,
+        Roboto_Regular_ttf_len,
+        16.0f,
+        nullptr,
+        io.Fonts->GetGlyphRangesDefault());
 
     // Setup style
     ImGuiStyle &style = ImGui::GetStyle();
+
+    // SetupImGuiStyleLight();
+    SetupImGuiStyleDark();
     if (io.ConfigFlags & ImGuiConfigFlags_ViewportsEnable)
         style.Colors[ImGuiCol_WindowBg].w = 1.0f;
     style.WindowRounding = 10.0f;
@@ -226,6 +293,8 @@ int SDL_main(int argc, char *argv[])
     ImGui_ImplSDL3_Shutdown();
     ImGui::DestroyContext();
     bgfx::shutdown();
+    funchook_uninstall(funchook, 0);
+    funchook_destroy(funchook);
     SDL_DestroyWindow(MainWindow);
     SDL_Quit();
 
