@@ -46,6 +46,7 @@ add_subdirectory(libs/spdlog)
 add_subdirectory(libs/bgfx.cmake)
 add_subdirectory(libs/SDL3)
 add_subdirectory(libs/gflags)
+add_subdirectory(libs/funchook)
 
 file(GLOB imgui
     libs/imgui/*.cpp
@@ -60,7 +61,7 @@ add_executable(${PROJECT_NAME}
 )
 
 target_include_directories(${PROJECT_NAME}
-    PUBLIC
+    PRIVATE
     ${gflags_INCLUDE_DIR}
     libs/spdlog/include
     libs/imgui
@@ -69,13 +70,16 @@ target_include_directories(${PROJECT_NAME}
     libs/bgfx.cmake/bimg/include
     libs/bgfx.cmake/bx/include
     libs/SDL3/include
+    libs/funchook/include
 )
 
 target_link_libraries(${PROJECT_NAME}
+    PRIVATE
     spdlog
     gflags_nothreads_static
     SDL3::SDL3-static
     bgfx
+    funchook-static
 )
 
 # bx:When using MSVC you must set /Zc:__cplusplus compiler option.
@@ -86,9 +90,12 @@ if (MSVC)
 endif()
 
 if (CMAKE_BUILD_TYPE STREQUAL "Debug")
-    add_definitions(-DBX_CONFIG_DEBUG=1)
+    target_compile_definitions(${PROJECT_NAME} PRIVATE BX_CONFIG_DEBUG=1)
 else()
-    add_definitions(-DBX_CONFIG_DEBUG=0)
+    target_compile_definitions(${PROJECT_NAME} PRIVATE BX_CONFIG_DEBUG=1)
+endif()
+if (LINUX)
+    target_compile_definitions(${PROJECT_NAME} PRIVATE SDL_MAIN_HANDLED)
 endif()
 
 add_custom_command(
