@@ -15,6 +15,7 @@
 
 #include <string>
 #include <vector>
+#include <algorithm>
 
 // Data
 static uint8_t main_view_id{255};
@@ -25,6 +26,7 @@ static bgfx::UniformHandle uniform_texture = BGFX_INVALID_HANDLE;
 static bgfx::VertexLayout vertex_layout;
 static std::vector<bgfx::ViewId> free_view_ids;
 static bgfx::ViewId sub_view_id = 100;
+static const bgfx::ViewId kMaxViewId = 255;
 
 static bgfx::ViewId allocate_view_id()
 {
@@ -39,6 +41,14 @@ static bgfx::ViewId allocate_view_id()
 
 static void free_view_id(bgfx::ViewId id)
 {
+    if (id > kMaxViewId)
+    {
+        return;
+    }
+    if (std::find(free_view_ids.begin(), free_view_ids.end(), id) != free_view_ids.end())
+    {
+        return;
+    }
     free_view_ids.push_back(id);
 }
 
@@ -62,6 +72,7 @@ enum class BgfxTextureFlags : uint32_t
 
 void *native_window_handle(ImGuiViewport *viewport)
 {
+    const char *driver = SDL_GetCurrentVideoDriver();
     if (!viewport)
     {
         SDL_LogError(SDL_LOG_CATEGORY_APPLICATION, "Null viewport");
@@ -69,7 +80,7 @@ void *native_window_handle(ImGuiViewport *viewport)
     }
     if (viewport == ImGui::GetMainViewport())
     {
-        static void *main_window_handle = []()
+        static void *main_window_handle = [driver]()
         {
             SDL_Window *main_window = SDL_GetWindowFromID(1);
             if (!main_window)
@@ -81,7 +92,14 @@ void *native_window_handle(ImGuiViewport *viewport)
 #elif BX_PLATFORM_OSX
             return SDL_GetPointerProperty(props, "SDL.window.cocoa.window", nullptr);
 #elif BX_PLATFORM_LINUX
-            return SDL_GetPointerProperty(props, "SDL.window.x11.window", nullptr);
+            if (strcmp(driver, "wayland") == 0)
+            {
+                return SDL_GetPointerProperty(props, "SDL.window.wayland.surface", nullptr);
+            }
+            else
+            {
+                return (void *)(uintptr_t)SDL_GetNumberProperty(props, "SDL.window.x11.window", 0);
+            }
 #endif
         }();
         return main_window_handle;
@@ -106,7 +124,14 @@ void *native_window_handle(ImGuiViewport *viewport)
 #elif BX_PLATFORM_OSX
     return SDL_GetPointerProperty(props, "SDL.window.cocoa.window", nullptr);
 #elif BX_PLATFORM_LINUX
-    return SDL_GetPointerProperty(props, "SDL.window.x11.window", nullptr);
+    if (strcmp(driver, "wayland") == 0)
+    {
+        return SDL_GetPointerProperty(props, "SDL.window.wayland.surface", nullptr);
+    }
+    else
+    {
+        return (void *)(uintptr_t)SDL_GetNumberProperty(props, "SDL.window.x11.window", 0);
+    }
 #else
 #error "Unsupported platform!"
 #endif
