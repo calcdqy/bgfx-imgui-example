@@ -60,7 +60,7 @@ int main(int argc, char *argv[])
     spdlog::info("Log initialization successful");
     spdlog::debug("Debug mode on");
 
-    delete[] i;
+    delete i;
     i = nullptr;
 
     // Init funchook and hook
@@ -183,18 +183,16 @@ int main(int argc, char *argv[])
     io.ConfigViewportsNoTaskBarIcon = false;
     io.IniFilename = NULL;
     io.LogFilename = NULL;
-    ImFont *font = io.Fonts->AddFontFromMemoryTTF(
-        Roboto_Regular_ttf,
-        Roboto_Regular_ttf_len,
-        16.0f,
-        nullptr,
-        io.Fonts->GetGlyphRangesDefault());
+    // ImFont *font = io.Fonts->AddFontFromMemoryTTF(
+    //     Roboto_Regular_ttf,
+    //     Roboto_Regular_ttf_len,
+    //     16.0f,
+    //     nullptr,
+    //     io.Fonts->GetGlyphRangesDefault());
 
     // Setup style
     ImGuiStyle &style = ImGui::GetStyle();
 
-    // SetupImGuiStyleLight();
-    SetupImGuiStyleDark();
     if (io.ConfigFlags & ImGuiConfigFlags_ViewportsEnable)
         style.Colors[ImGuiCol_WindowBg].w = 1.0f;
     style.WindowRounding = 10.0f;
@@ -210,13 +208,21 @@ int main(int argc, char *argv[])
 
     // Main loop
     bool isClose = true;
+    bool show_demo_window = true;
+    bool show_another_window = false;
+    ImVec4 clear_color = ImVec4(0.45f, 0.55f, 0.60f, 1.00f);
+    float f = 0;
+    int counter = 0;
+    SDL_SystemTheme theme = SDL_GetSystemTheme();
+    bool isDark = (theme == SDL_SYSTEM_THEME_DARK);
+    if (isDark)
+        SetupDarkTheme();
+    else
+        SetupLightTheme();
+
     while (isClose)
     {
-        static bool show_demo_window = true;
-        static bool show_another_window = false;
-        static ImVec4 clear_color = ImVec4(0.45f, 0.55f, 0.60f, 1.00f);
-        static float f = 0;
-        static int counter = 0;
+
         SDL_Event event;
 
         while (SDL_PollEvent(&event))
@@ -254,6 +260,23 @@ int main(int argc, char *argv[])
 
             ImGui::Checkbox("Demo Window", &show_demo_window); // Edit bools storing our window open/close state
             ImGui::Checkbox("Another Window", &show_another_window);
+
+            if (isDark)
+            {
+                if (ImGui::Button("Change light"))
+                {
+                    isDark = false;
+                    SetupLightTheme();
+                }
+            }
+            else
+            {
+                if (ImGui::Button("Change dark"))
+                {
+                    isDark = true;
+                    SetupDarkTheme();
+                }
+            }
 
             ImGui::SliderFloat("float", &f, 0.0f, 1.0f);             // Edit 1 float using a slider from 0.0f to 1.0f
             ImGui::ColorEdit3("clear color", (float *)&clear_color); // Edit 3 floats representing a color
