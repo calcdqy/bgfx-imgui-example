@@ -1,3 +1,12 @@
 [submodule "libs/SDL3"]
 	path = libs/SDL3
 	url = https://github.com/libsdl-org/SDL.git
+[submodule "libs/bgfx.cmake/bgfx"]
+	path = libs/bgfx.cmake/bgfx
+	url = https://github.com/bkaradzic/bgfx.git
+[submodule "libs/bgfx.cmake/bimg"]
+	path = libs/bgfx.cmake/bimg
+	url = https://github.com/bkaradzic/bimg.git
+[submodule "libs/bgfx.cmake/bx"]
+	path = libs/bgfx.cmake/bx
+	url = https://github.com/bkaradzic/bx.git
