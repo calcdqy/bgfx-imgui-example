@@ -16,3 +16,6 @@
 [submodule "libs/gflags"]
 	path = libs/gflags
 	url = https://github.com/gflags/gflags.git
+[submodule "libs/spdlog"]
+	path = libs/spdlog
+	url = https://github.com/gabime/spdlog.git
