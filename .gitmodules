@@ -13,3 +13,6 @@
 [submodule "libs/funchook"]
 	path = libs/funchook
 	url = https://github.com/kubo/funchook.git
+[submodule "libs/gflags"]
+	path = libs/gflags
+	url = https://github.com/gflags/gflags.git
