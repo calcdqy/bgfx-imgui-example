@@ -10,3 +10,6 @@
 [submodule "libs/bgfx.cmake/bx"]
 	path = libs/bgfx.cmake/bx
 	url = https://github.com/bkaradzic/bx.git
+[submodule "libs/funchook"]
+	path = libs/funchook
+	url = https://github.com/kubo/funchook.git
