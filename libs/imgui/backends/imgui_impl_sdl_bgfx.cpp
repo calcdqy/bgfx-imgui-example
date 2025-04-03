@@ -389,11 +389,16 @@ void ImGui_Implbgfx_InvalidateDeviceObjects()
         shader_handle.idx = bgfx::kInvalidHandle;
     }
 
+    if (ImGui::GetIO().Fonts &&
+        ImGui::GetIO().Fonts->TexID == (intptr_t)font_texture.idx)
+    {
+        ImGui::GetIO().Fonts->TexID = 0;
+    }
+
     if (isValid(font_texture))
     {
         bgfx::destroy(font_texture);
         font_texture.idx = bgfx::kInvalidHandle;
-        ImGui::GetIO().Fonts->TexID = 0;
     }
     is_init = false;
 }

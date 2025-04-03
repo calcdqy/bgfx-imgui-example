@@ -183,12 +183,15 @@ int main(int argc, char *argv[])
     io.ConfigViewportsNoTaskBarIcon = false;
     io.IniFilename = NULL;
     io.LogFilename = NULL;
-    // ImFont *font = io.Fonts->AddFontFromMemoryTTF(
-    //     Roboto_Regular_ttf,
-    //     Roboto_Regular_ttf_len,
-    //     16.0f,
-    //     nullptr,
-    //     io.Fonts->GetGlyphRangesDefault());
+
+    ImFontConfig font_config;
+    font_config.FontDataOwnedByAtlas = false;
+    ImFont *font = io.Fonts->AddFontFromMemoryTTF(
+        Roboto_Regular_ttf,
+        Roboto_Regular_ttf_len,
+        16.0f,
+        &font_config,
+        io.Fonts->GetGlyphRangesDefault());
 
     // Setup style
     ImGuiStyle &style = ImGui::GetStyle();
@@ -314,6 +317,7 @@ int main(int argc, char *argv[])
     // Clean up
     ImGui_Impl_sdl_bgfx_Shutdown();
     ImGui_ImplSDL3_Shutdown();
+    io.Fonts->Clear();
     ImGui::DestroyContext();
     bgfx::shutdown();
     funchook_uninstall(funchook, 0);
