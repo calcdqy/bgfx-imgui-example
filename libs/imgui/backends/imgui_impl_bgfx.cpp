@@ -1,10 +1,9 @@
 #define IMGUI_DEFINE_MATH_OPERATORS
-#include "imgui_impl_sdl_bgfx.h"
+#include "imgui_impl_bgfx.h"
 
 #include "fs_ocornut_imgui.bin.h"
 #include "vs_ocornut_imgui.bin.h"
 
-#include <SDL3/SDL.h>
 #include <bgfx/bgfx.h>
 #include <bgfx/embedded_shader.h>
 #include <bx/bx.h>
@@ -27,6 +26,7 @@ static bgfx::VertexLayout vertex_layout;
 static std::vector<bgfx::ViewId> free_view_ids;
 static bgfx::ViewId sub_view_id = 100;
 static const bgfx::ViewId kMaxViewId = 255;
+static ImGuiBgfx_ViewportHandleConverter s_ViewportHandleConverter;
 
 static bgfx::ViewId allocate_view_id()
 {
@@ -70,71 +70,14 @@ enum class BgfxTextureFlags : uint32_t
     All = Opaque | PointSampler,
 };
 
-void *native_window_handle(ImGuiViewport *viewport)
+static void *native_window_handle(ImGuiViewport *viewport)
 {
-    const char *driver = SDL_GetCurrentVideoDriver();
-    if (!viewport)
+    if (!s_ViewportHandleConverter)
     {
-        SDL_LogError(SDL_LOG_CATEGORY_APPLICATION, "Null viewport");
+        IM_ASSERT(0 && "Viewport handle converter not provided!");
         return nullptr;
     }
-    if (viewport == ImGui::GetMainViewport())
-    {
-        static void *main_window_handle = [driver]()
-        {
-            SDL_Window *main_window = SDL_GetWindowFromID(1);
-            if (!main_window)
-                return (void *)nullptr;
-
-            SDL_PropertiesID props = SDL_GetWindowProperties(main_window);
-#if BX_PLATFORM_WINDOWS
-            return SDL_GetPointerProperty(props, "SDL.window.win32.hwnd", nullptr);
-#elif BX_PLATFORM_OSX
-            return SDL_GetPointerProperty(props, "SDL.window.cocoa.window", nullptr);
-#elif BX_PLATFORM_LINUX
-            if (strcmp(driver, "wayland") == 0)
-            {
-                return SDL_GetPointerProperty(props, "SDL.window.wayland.surface", nullptr);
-            }
-            else
-            {
-                return (void *)(uintptr_t)SDL_GetNumberProperty(props, "SDL.window.x11.window", 0);
-            }
-#endif
-        }();
-        return main_window_handle;
-    }
-    SDL_WindowID window_id = (SDL_WindowID)(intptr_t)viewport->PlatformHandle;
-    SDL_Window *window = SDL_GetWindowFromID(window_id);
-    if (!window)
-    {
-        SDL_LogError(SDL_LOG_CATEGORY_VIDEO,
-                     "Failed to get SDL_Window from ID: %u", window_id);
-        return nullptr;
-    }
-    SDL_PropertiesID props = SDL_GetWindowProperties(window);
-    if (!props)
-    {
-        SDL_LogError(SDL_LOG_CATEGORY_VIDEO, "Failed to get window properties");
-        return nullptr;
-    }
-
-#if BX_PLATFORM_WINDOWS
-    return SDL_GetPointerProperty(props, "SDL.window.win32.hwnd", nullptr);
-#elif BX_PLATFORM_OSX
-    return SDL_GetPointerProperty(props, "SDL.window.cocoa.window", nullptr);
-#elif BX_PLATFORM_LINUX
-    if (strcmp(driver, "wayland") == 0)
-    {
-        return SDL_GetPointerProperty(props, "SDL.window.wayland.surface", nullptr);
-    }
-    else
-    {
-        return (void *)(uintptr_t)SDL_GetNumberProperty(props, "SDL.window.x11.window", 0);
-    }
-#else
-#error "Unsupported platform!"
-#endif
+    return s_ViewportHandleConverter(viewport);
 }
 
 struct imgui_viewport_data
@@ -149,7 +92,7 @@ static void ImguiBgfxOnCreateWindow(ImGuiViewport *viewport)
 {
     if (!viewport->PlatformHandle)
     {
-        SDL_LogWarn(SDL_LOG_CATEGORY_VIDEO, "Viewport handle not ready, delaying creation");
+        fprintf(stderr, "Viewport handle not ready, delaying creation");
         return;
     }
     auto data = new imgui_viewport_data();
@@ -160,7 +103,7 @@ static void ImguiBgfxOnCreateWindow(ImGuiViewport *viewport)
     void *native_handle = native_window_handle(viewport);
     if (!native_handle)
     {
-        SDL_LogError(SDL_LOG_CATEGORY_RENDER, "Failed to get native window handle");
+        fprintf(stderr, "Failed to get native window handle");
         delete data;
         return;
     }
@@ -171,7 +114,7 @@ static void ImguiBgfxOnCreateWindow(ImGuiViewport *viewport)
 
     if (!bgfx::isValid(data->frameBufferHandle))
     {
-        SDL_LogError(SDL_LOG_CATEGORY_RENDER, "Failed to create framebuffer");
+        fprintf(stderr, "Failed to create framebuffer");
         delete data;
         return;
     }
@@ -201,25 +144,13 @@ static void ImguiBgfxOnRenderWindow(ImGuiViewport *viewport, void *)
 {
     if (auto data = (imgui_viewport_data *)viewport->RendererUserData; data)
     {
-        ImGui_Impl_sdl_bgfx_Render(
+        ImGui_ImplBgfx_Render(
             data->viewId, viewport->DrawData,
             !(viewport->Flags & ImGuiViewportFlags_NoRendererClear) ? 0x000000ff : 0);
     }
 }
 
-void ImGui_Impl_sdl_bgfx_Resize(SDL_Window *window)
-{
-    int drawable_width{0};
-    int drawable_height{0};
-    SDL_GetWindowSizeInPixels(window, &drawable_width, &drawable_height);
-    ImGuiIO &io = ImGui::GetIO();
-    io.DisplaySize = ImVec2((float)drawable_width, (float)drawable_height);
-    bgfx::reset(drawable_width, drawable_height,
-                BGFX_RESET_VSYNC | BGFX_RESET_HIDPI | BGFX_RESET_FLUSH_AFTER_RENDER |
-                    BGFX_RESET_MSAA_X4);
-}
-
-void ImGui_Impl_sdl_bgfx_Render(const bgfx::ViewId view_id, ImDrawData *draw_data, uint32_t clearColor)
+void ImGui_ImplBgfx_Render(const bgfx::ViewId view_id, ImDrawData *draw_data, uint32_t clearColor)
 {
     if (ImGuiIO &io = ImGui::GetIO(); io.DisplaySize.x <= 0 || io.DisplaySize.y <= 0)
     {
@@ -352,7 +283,7 @@ void ImGui_Impl_sdl_bgfx_Render(const bgfx::ViewId view_id, ImDrawData *draw_dat
     }
 }
 
-void ImGui_Implbgfx_CreateDeviceObjects()
+void ImGui_ImplBgfx_CreateDeviceObjects()
 {
     const auto type = bgfx::getRendererType();
     shader_handle = bgfx::createProgram(
@@ -381,7 +312,7 @@ void ImGui_Implbgfx_CreateDeviceObjects()
     io.Fonts->TexID = (intptr_t)font_texture.idx;
 }
 
-void ImGui_Implbgfx_InvalidateDeviceObjects()
+void ImGui_ImplBgfx_InvalidateDeviceObjects()
 {
     if (bgfx::isValid(shader_handle))
     {
@@ -403,8 +334,10 @@ void ImGui_Implbgfx_InvalidateDeviceObjects()
     is_init = false;
 }
 
-void ImGui_Impl_sdl_bgfx_Init(int view)
+void ImGui_ImplBgfx_Init(int view, ImGuiBgfx_ViewportHandleConverter converter)
 {
+    s_ViewportHandleConverter = converter;
+
     main_view_id = (uint8_t)(view & 0xff);
     ImGuiPlatformIO &platform_io = ImGui::GetPlatformIO();
     platform_io.Renderer_CreateWindow = ImguiBgfxOnCreateWindow;
@@ -413,15 +346,15 @@ void ImGui_Impl_sdl_bgfx_Init(int view)
     platform_io.Renderer_RenderWindow = ImguiBgfxOnRenderWindow;
 }
 
-void ImGui_Impl_sdl_bgfx_Shutdown()
+void ImGui_ImplBgfx_Shutdown()
 {
-    ImGui_Implbgfx_InvalidateDeviceObjects();
+    ImGui_ImplBgfx_InvalidateDeviceObjects();
 }
 
-void ImGui_Impl_sdl_bgfx_NewFrame()
+void ImGui_ImplBgfx_NewFrame()
 {
     if (!is_init)
     {
-        ImGui_Implbgfx_CreateDeviceObjects();
+        ImGui_ImplBgfx_CreateDeviceObjects();
     }
 }

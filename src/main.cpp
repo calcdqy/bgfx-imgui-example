@@ -206,8 +206,76 @@ int main(int argc, char *argv[])
     style.TabRounding = 5.0f;
 
     // Init ImGui
+    // Create a Lambda to get window handle
+    auto viewport_window_handle = [](ImGuiViewport *viewport) -> void *
+    {
+        const char *driver = SDL_GetCurrentVideoDriver();
+        if (!viewport)
+        {
+            SDL_LogError(SDL_LOG_CATEGORY_APPLICATION, "Null viewport");
+            return nullptr;
+        }
+        if (viewport == ImGui::GetMainViewport())
+        {
+            static void *main_window_handle = [driver]()
+            {
+                SDL_Window *main_window = SDL_GetWindowFromID(1);
+                if (!main_window)
+                    return (void *)nullptr;
+
+                SDL_PropertiesID props = SDL_GetWindowProperties(main_window);
+#if BX_PLATFORM_WINDOWS
+                return SDL_GetPointerProperty(props, "SDL.window.win32.hwnd", nullptr);
+#elif BX_PLATFORM_OSX
+                return SDL_GetPointerProperty(props, "SDL.window.cocoa.window", nullptr);
+#elif BX_PLATFORM_LINUX
+                if (strcmp(driver, "wayland") == 0)
+                {
+                    return SDL_GetPointerProperty(props, "SDL.window.wayland.surface", nullptr);
+                }
+                else
+                {
+                    return (void *)(uintptr_t)SDL_GetNumberProperty(props, "SDL.window.x11.window", 0);
+                }
+#endif
+            }();
+            return main_window_handle;
+        }
+        SDL_WindowID window_id = (SDL_WindowID)(intptr_t)viewport->PlatformHandle;
+        SDL_Window *window = SDL_GetWindowFromID(window_id);
+        if (!window)
+        {
+            SDL_LogError(SDL_LOG_CATEGORY_VIDEO,
+                         "Failed to get SDL_Window from ID: %u", window_id);
+            return nullptr;
+        }
+        SDL_PropertiesID props = SDL_GetWindowProperties(window);
+        if (!props)
+        {
+            SDL_LogError(SDL_LOG_CATEGORY_VIDEO, "Failed to get window properties");
+            return nullptr;
+        }
+
+#if BX_PLATFORM_WINDOWS
+        return SDL_GetPointerProperty(props, "SDL.window.win32.hwnd", nullptr);
+#elif BX_PLATFORM_OSX
+        return SDL_GetPointerProperty(props, "SDL.window.cocoa.window", nullptr);
+#elif BX_PLATFORM_LINUX
+        if (strcmp(driver, "wayland") == 0)
+        {
+            return SDL_GetPointerProperty(props, "SDL.window.wayland.surface", nullptr);
+        }
+        else
+        {
+            return (void *)(uintptr_t)SDL_GetNumberProperty(props, "SDL.window.x11.window", 0);
+        }
+#else
+#error "Unsupported platform!"
+#endif
+    };
+
     ImGui_ImplSDL3_InitForOther(MainWindow);
-    ImGui_Impl_sdl_bgfx_Init(MainViewId);
+    ImGui_ImplBgfx_Init(MainViewId, viewport_window_handle);
 
     // Main loop
     bool isClose = true;
@@ -249,7 +317,7 @@ int main(int argc, char *argv[])
             }
         }
 
-        ImGui_Impl_sdl_bgfx_NewFrame();
+        ImGui_ImplBgfx_NewFrame();
         ImGui_ImplSDL3_NewFrame();
         ImGui::NewFrame();
 
@@ -303,7 +371,7 @@ int main(int argc, char *argv[])
         }
 
         ImGui::Render();
-        ImGui_Impl_sdl_bgfx_Render(MainViewId, ImGui::GetDrawData(), 0x443355FF);
+        ImGui_ImplBgfx_Render(MainViewId, ImGui::GetDrawData(), 0x443355FF);
 
         if (io.ConfigFlags & ImGuiConfigFlags_ViewportsEnable)
         {
@@ -315,7 +383,7 @@ int main(int argc, char *argv[])
     }
 
     // Clean up
-    ImGui_Impl_sdl_bgfx_Shutdown();
+    ImGui_ImplBgfx_Shutdown();
     ImGui_ImplSDL3_Shutdown();
     io.Fonts->Clear();
     ImGui::DestroyContext();

@@ -51,7 +51,7 @@ add_subdirectory(libs/funchook)
 file(GLOB imgui
     libs/imgui/*.cpp
     libs/imgui/backends/imgui_impl_sdl3.cpp
-    libs/imgui/backends/imgui_impl_sdl_bgfx.cpp
+    libs/imgui/backends/imgui_impl_bgfx.cpp
 )
 
 add_executable(${PROJECT_NAME}
