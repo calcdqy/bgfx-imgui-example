@@ -217,29 +217,25 @@ int main(int argc, char *argv[])
         }
         if (viewport == ImGui::GetMainViewport())
         {
-            static void *main_window_handle = [driver]()
-            {
-                SDL_Window *main_window = SDL_GetWindowFromID(1);
-                if (!main_window)
-                    return (void *)nullptr;
+            SDL_Window *main_window = SDL_GetWindowFromID(1);
+            if (!main_window)
+                return (void *)nullptr;
 
-                SDL_PropertiesID props = SDL_GetWindowProperties(main_window);
+            SDL_PropertiesID props = SDL_GetWindowProperties(main_window);
 #if BX_PLATFORM_WINDOWS
-                return SDL_GetPointerProperty(props, "SDL.window.win32.hwnd", nullptr);
+            return SDL_GetPointerProperty(props, "SDL.window.win32.hwnd", nullptr);
 #elif BX_PLATFORM_OSX
-                return SDL_GetPointerProperty(props, "SDL.window.cocoa.window", nullptr);
+            return SDL_GetPointerProperty(props, "SDL.window.cocoa.window", nullptr);
 #elif BX_PLATFORM_LINUX
-                if (strcmp(driver, "wayland") == 0)
-                {
-                    return SDL_GetPointerProperty(props, "SDL.window.wayland.surface", nullptr);
-                }
-                else
-                {
-                    return (void *)(uintptr_t)SDL_GetNumberProperty(props, "SDL.window.x11.window", 0);
-                }
+            if (strcmp(driver, "wayland") == 0)
+            {
+                return SDL_GetPointerProperty(props, "SDL.window.wayland.surface", nullptr);
+            }
+            else
+            {
+                return (void *)(uintptr_t)SDL_GetNumberProperty(props, "SDL.window.x11.window", 0);
+            }
 #endif
-            }();
-            return main_window_handle;
         }
         SDL_WindowID window_id = (SDL_WindowID)(intptr_t)viewport->PlatformHandle;
         SDL_Window *window = SDL_GetWindowFromID(window_id);
