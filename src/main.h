@@ -19,6 +19,7 @@
 
 void SetupLightTheme()
 {
+    ImGui::StyleColorsLight();
     ImGuiStyle &style = ImGui::GetStyle();
     ImVec4 *colors = style.Colors;
 
@@ -51,6 +52,7 @@ void SetupLightTheme()
 }
 void SetupDarkTheme()
 {
+    ImGui::StyleColorsDark();
     ImGuiStyle &style = ImGui::GetStyle();
     ImVec4 *colors = style.Colors;
 
