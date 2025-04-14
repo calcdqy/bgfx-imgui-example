@@ -15,20 +15,20 @@ typedef std::function<void *(ImGuiViewport *)> ImGuiBgfx_ViewportHandleConverter
  * Example usage with different backends:
  *
  * // GLFW
- * ImGui_ImplBGFX_Init(255, [](ImGuiViewport* vp) {
+ * ImGui_ImplBgfx_Init(255, [](ImGuiViewport* vp) {
  *     return glfwGetWin32Window((GLFWwindow*)vp->PlatformHandle); // Windows
  *     // return glfwGetX11Window((GLFWwindow*)vp->PlatformHandle); // Linux
  * });
  *
  * // SDL
- * ImGui_ImplBGFX_Init(255, [](ImGuiViewport* vp) {
+ * ImGui_ImplBgfx_Init(255, [](ImGuiViewport* vp) {
  *     SDL_SysWMinfo wmInfo;
  *     SDL_GetWindowWMInfo((SDL_Window*)vp->PlatformHandle, &wmInfo);
  *     return wmInfo.info.win.window; // Platform-specific extraction
  * });
  *
  * // Custom backend (if PlatformHandle is already native)
- * ImGui_ImplBGFX_Init(255, [](ImGuiViewport* vp) {
+ * ImGui_ImplBgfx_Init(255, [](ImGuiViewport* vp) {
  *     return vp->PlatformHandle; // No conversion needed
  * });
  */
@@ -39,6 +39,6 @@ void ImGui_ImplBgfx_Render(const bgfx::ViewId viewId, ImDrawData *draw_data, uin
 
 // Use if you want to reset your rendering device without losing ImGui state.
 void ImGui_ImplBgfx_InvalidateDeviceObjects();
-bool ImGui_Impl_sdl_bgfx_CreateDeviceObjects();
+void ImGui_ImplBgfx_CreateDeviceObjects();
 
 void *native_window_handle(ImGuiViewport *viewport);

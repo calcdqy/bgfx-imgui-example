@@ -336,9 +336,20 @@ void ImGui_ImplBgfx_InvalidateDeviceObjects()
 
 void ImGui_ImplBgfx_Init(int view, ImGuiBgfx_ViewportHandleConverter converter)
 {
+    ImGuiIO &io = ImGui::GetIO();
+
+    io.BackendFlags |= ImGuiBackendFlags_RendererHasVtxOffset;
+    io.BackendFlags |= ImGuiBackendFlags_RendererHasViewports;
+
+    io.BackendFlags |= ImGuiBackendFlags_PlatformHasViewports;
+
+    io.BackendPlatformName = "imgui_impl_bgfx";
+    io.BackendRendererName = "imgui_impl_bgfx";
+
     s_ViewportHandleConverter = converter;
 
     main_view_id = (uint8_t)(view & 0xff);
+
     ImGuiPlatformIO &platform_io = ImGui::GetPlatformIO();
     platform_io.Renderer_CreateWindow = ImguiBgfxOnCreateWindow;
     platform_io.Renderer_DestroyWindow = ImguiBgfxOnDestroyWindow;
