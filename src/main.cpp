@@ -19,14 +19,15 @@ int main(int argc, char *argv[])
 {
     // parser args
     gflags::ParseCommandLineFlags(&argc, &argv, false); // Setup spdlog
-    time_t t = time(NULL);
-    struct tm *local_tm = localtime(&t);
+    time_t t = std::time(NULL);
+    struct tm *local_tm = std::localtime(&t);
     char logfilename[80];
-    strftime(logfilename, 80, "logs/%Y-%m-%d-", local_tm);
+    std::strftime(logfilename, 80, "logs/%Y-%m-%d-", local_tm);
     int *i = new int(1);
     for (;; (*i)++)
     {
-        if (!(fs::exists(fs::path(logfilename + std::to_string(*i) + ".log"))))
+        bx::FileInfo info;
+        if (!bx::stat(info, (logfilename + std::to_string(*i) + ".log").c_str()))
         {
             try
             {
@@ -124,7 +125,7 @@ int main(int argc, char *argv[])
 
 #if BX_PLATFORM_LINUX || BX_PLATFORM_BSD // Linux or BSD
     SDL_PropertiesID props = SDL_GetWindowProperties(MainWindow);
-    if (strcmp(sdlDriver, "wayland") == 0)
+    if (std::strcmp(sdlDriver, "wayland") == 0)
     {
         pd.nwh = SDL_GetPointerProperty(props, "SDL.window.wayland.surface", nullptr);
         pd.ndt = SDL_GetPointerProperty(props, "SDL.window.wayland.display", nullptr);
@@ -152,7 +153,6 @@ int main(int argc, char *argv[])
 #error Your system is not supported!
 #endif
 
-    // bgfx::renderFrame();
     bgfx::setPlatformData(pd);
 
     bgfx::Init bgfxInit;
@@ -175,9 +175,7 @@ int main(int argc, char *argv[])
     (void)io;
     io.ConfigFlags |= ImGuiConfigFlags_NavEnableKeyboard; // Enable Keyboard Controls
     io.ConfigFlags |= ImGuiConfigFlags_NavEnableGamepad;  // Enable Gamepad Controls
-    io.ConfigFlags |= ImGuiConfigFlags_ViewportsEnable;   // Enable Viewports
-    io.BackendFlags |= ImGuiBackendFlags_RendererHasVtxOffset;
-    io.BackendFlags |= ImGuiBackendFlags_RendererHasViewports;
+    io.ConfigFlags |= ImGuiConfigFlags_ViewportsEnable;   // Enable Multi-Viewport / Platform Windows
     io.ConfigViewportsNoDecoration = false;
     io.ConfigViewportsNoAutoMerge = true;
     io.ConfigViewportsNoTaskBarIcon = false;
