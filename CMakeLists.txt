@@ -42,11 +42,8 @@ elseif(UNIX AND NOT APPLE)
     endif()
 endif()
 
-add_subdirectory(libs/spdlog)
 add_subdirectory(libs/bgfx.cmake)
 add_subdirectory(libs/SDL3)
-add_subdirectory(libs/gflags)
-add_subdirectory(libs/funchook)
 
 file(GLOB imgui
     libs/imgui/*.cpp
@@ -62,24 +59,18 @@ add_executable(${PROJECT_NAME}
 
 target_include_directories(${PROJECT_NAME}
     PRIVATE
-    ${gflags_INCLUDE_DIR}
-    libs/spdlog/include
     libs/imgui
     libs/imgui/backends
     libs/bgfx.cmake/bgfx/include
     libs/bgfx.cmake/bimg/include
     libs/bgfx.cmake/bx/include
     libs/SDL3/include
-    libs/funchook/include
 )
 
 target_link_libraries(${PROJECT_NAME}
     PRIVATE
-    spdlog
-    gflags_nothreads_static
     SDL3::SDL3-static
     bgfx
-    funchook-static
 )
 
 # bx:When using MSVC you must set /Zc:__cplusplus compiler option.

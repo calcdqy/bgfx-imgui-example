@@ -1,105 +1,18 @@
 #include "main.h"
 #include "roboto_font.h"
 
-DEFINE_bool(nogui, false, "Cancels UI rendering");
-DEFINE_bool(debug, false, "Set debug mode");
 bgfx::ViewId MainViewId = 0;
 SDL_WindowFlags window_flags;
 SDL_Window *MainWindow = nullptr;
 
-static bool (*Original_ImGui_Begin)(const char *, bool *, ImGuiWindowFlags) = nullptr;
-
-bool Hooked_ImGui_Begin(const char *name, bool *p_open, ImGuiWindowFlags flags)
-{
-    flags |= ImGuiWindowFlags_NoTitleBar;
-    return Original_ImGui_Begin(name, p_open, flags);
-}
-
 int main(int argc, char *argv[])
 {
-    // parser args
-    gflags::ParseCommandLineFlags(&argc, &argv, false); // Setup spdlog
-    time_t t = std::time(NULL);
-    struct tm *local_tm = std::localtime(&t);
-    char logfilename[80];
-    std::strftime(logfilename, 80, "logs/%Y-%m-%d-", local_tm);
-    int *i = new int(1);
-    for (;; (*i)++)
-    {
-        bx::FileInfo info;
-        if (!bx::stat(info, (logfilename + std::to_string(*i) + ".log").c_str()))
-        {
-            try
-            {
-                spdlog::stdout_color_mt("test error1");
-                spdlog::basic_logger_mt("test error2", logfilename + std::to_string(*i) + ".log");
-            }
-            catch (const spdlog::spdlog_ex &ex)
-            {
-                std::cerr << "Log initialization failed: " << ex.what() << "\n";
-                return 1;
-            }
-            break;
-        }
-    }
-    std::vector<spdlog::sink_ptr> sinks;
-    auto consoleSink = std::make_shared<spdlog::sinks::stdout_color_sink_mt>();
-    if (FLAGS_debug)
-    {
-        consoleSink->set_level(spdlog::level::debug);
-    }
-    else
-        consoleSink->set_level(spdlog::level::info);
-    auto fileSink = std::make_shared<spdlog::sinks::basic_file_sink_mt>(logfilename + std::to_string(*i) + ".log");
-    fileSink->set_level(spdlog::level::info);
-    sinks.push_back(consoleSink);
-    sinks.push_back(fileSink);
-    auto logger = std::make_shared<spdlog::logger>("main_logger", begin(sinks), end(sinks));
-    logger->set_pattern("[%H:%M:%S] %^[%t/%l]%$: %v");
-    logger->set_level(spdlog::level::debug);
-    spdlog::set_default_logger(logger);
-    spdlog::info("Log initialization successful");
-    spdlog::debug("Debug mode on");
-
-    delete i;
-    i = nullptr;
-
-    // Init funchook and hook
-    funchook_t *funchook = funchook_create();
-    if (!funchook)
-    {
-        spdlog::critical("Failed to create funchook instance\n");
-        return -1;
-    }
-    spdlog::info("Funchook initialization successful");
-
-    Original_ImGui_Begin = ImGui::Begin;
-    int ret = funchook_prepare(funchook,
-                               reinterpret_cast<void **>(&Original_ImGui_Begin),
-                               reinterpret_cast<void *>(Hooked_ImGui_Begin));
-
-    if (ret != 0)
-    {
-        spdlog::critical("Hook preparation failed: {}\n", funchook_error_message(funchook));
-        funchook_destroy(funchook);
-        return -1;
-    }
-
-    ret = funchook_install(funchook, 0);
-    if (ret != 0)
-    {
-        spdlog::critical("Hook installation failed: {}\n", funchook_error_message(funchook));
-        funchook_destroy(funchook);
-        return -1;
-    }
-
     // Init SDL
     if (!SDL_Init(SDL_INIT_VIDEO | SDL_INIT_GAMEPAD))
     {
-        spdlog::critical("Error: SDL_Init(): {}\n", SDL_GetError());
+        std::cerr << "Error: SDL_Init(): " << SDL_GetError() << std::endl;
         return -1;
     }
-    spdlog::info("SDL initialization successful");
 
     // Create gui window
 #ifdef SDL_HINT_IME_SHOW_UI
@@ -111,7 +24,7 @@ int main(int argc, char *argv[])
     MainWindow = SDL_CreateWindow("MainWindow", 0, 0, window_flags);
     if (!MainWindow)
     {
-        spdlog::critical("SDL window creation failed: {}\n", SDL_GetError());
+        std::cerr << "SDL window creation failed: " << SDL_GetError() << std::endl;
         SDL_Quit();
         return -1;
     }
@@ -119,7 +32,6 @@ int main(int argc, char *argv[])
 
     // Init bgfx
     const char *sdlDriver = SDL_GetCurrentVideoDriver();
-    spdlog::info("Using SDL driver: {}", sdlDriver);
     bgfx::PlatformData pd = {};
     pd.ndt = nullptr;
 
@@ -129,18 +41,16 @@ int main(int argc, char *argv[])
     {
         pd.nwh = SDL_GetPointerProperty(props, "SDL.window.wayland.surface", nullptr);
         pd.ndt = SDL_GetPointerProperty(props, "SDL.window.wayland.display", nullptr);
-        spdlog::debug("Wayland surface: {}, display: {}", pd.nwh, pd.ndt);
     }
     else
     {
         pd.ndt = SDL_GetPointerProperty(props, "SDL.window.x11.display", nullptr);
         pd.nwh = (void *)(uintptr_t)SDL_GetNumberProperty(props, "SDL.window.x11.window", 0);
-        spdlog::debug("X11 window: {}, display: {}", pd.nwh, pd.ndt);
     }
 
     if (!pd.nwh || (!pd.ndt && strcmp(sdlDriver, "x11") == 0))
     {
-        spdlog::critical("Failed to get native handle for driver: {}", sdlDriver);
+        std::cerr << "Failed to get native handle for driver: " << sdlDriver << std::endl;
         return -1;
     }
 #elif BX_PLATFORM_OSX     // Apple
@@ -166,7 +76,6 @@ int main(int argc, char *argv[])
 
     bgfx::setViewClear(MainViewId, BGFX_CLEAR_COLOR | BGFX_CLEAR_DEPTH, 0x443355FF, 1.0f, 0);
     bgfx::setViewRect(MainViewId, 0, 0, 1, 1);
-    spdlog::info("BGFX initialization successful");
 
     // Setup Dear ImGui context
     IMGUI_CHECKVERSION();
@@ -382,8 +291,6 @@ int main(int argc, char *argv[])
     io.Fonts->Clear();
     ImGui::DestroyContext();
     bgfx::shutdown();
-    funchook_uninstall(funchook, 0);
-    funchook_destroy(funchook);
     SDL_DestroyWindow(MainWindow);
     SDL_Quit();
 

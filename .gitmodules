@@ -10,12 +10,3 @@
 [submodule "libs/bgfx.cmake/bx"]
 	path = libs/bgfx.cmake/bx
 	url = https://github.com/bkaradzic/bx.git
-[submodule "libs/funchook"]
-	path = libs/funchook
-	url = https://github.com/kubo/funchook.git
-[submodule "libs/gflags"]
-	path = libs/gflags
-	url = https://github.com/gflags/gflags.git
-[submodule "libs/spdlog"]
-	path = libs/spdlog
-	url = https://github.com/gabime/spdlog.git
