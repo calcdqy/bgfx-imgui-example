@@ -20,8 +20,8 @@ int main(int argc, char *argv[])
 #endif
     SDL_SetHint(SDL_HINT_MOUSE_FOCUS_CLICKTHROUGH, "1");
     SDL_SetHint(SDL_HINT_JOYSTICK_RAWINPUT, "0");
-    window_flags = (SDL_WindowFlags)(SDL_WINDOW_HIGH_PIXEL_DENSITY | SDL_WINDOW_UTILITY | SDL_WINDOW_BORDERLESS);
-    MainWindow = SDL_CreateWindow("MainWindow", 0, 0, window_flags);
+    window_flags = (SDL_WindowFlags)(SDL_WINDOW_HIGH_PIXEL_DENSITY);
+    MainWindow = SDL_CreateWindow("MainWindow", 1280, 720, window_flags);
     if (!MainWindow)
     {
         std::cerr << "SDL window creation failed: " << SDL_GetError() << std::endl;
@@ -75,7 +75,7 @@ int main(int argc, char *argv[])
     bgfx::init(bgfxInit);
 
     bgfx::setViewClear(MainViewId, BGFX_CLEAR_COLOR | BGFX_CLEAR_DEPTH, 0x443355FF, 1.0f, 0);
-    bgfx::setViewRect(MainViewId, 0, 0, 1, 1);
+    bgfx::setViewRect(MainViewId, 1280, 720, 1, 1);
 
     // Setup Dear ImGui context
     IMGUI_CHECKVERSION();
@@ -85,9 +85,6 @@ int main(int argc, char *argv[])
     io.ConfigFlags |= ImGuiConfigFlags_NavEnableKeyboard; // Enable Keyboard Controls
     io.ConfigFlags |= ImGuiConfigFlags_NavEnableGamepad;  // Enable Gamepad Controls
     io.ConfigFlags |= ImGuiConfigFlags_ViewportsEnable;   // Enable Multi-Viewport / Platform Windows
-    io.ConfigViewportsNoDecoration = false;
-    io.ConfigViewportsNoAutoMerge = true;
-    io.ConfigViewportsNoTaskBarIcon = false;
     io.IniFilename = NULL;
     io.LogFilename = NULL;
 

@@ -1,10 +1,6 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
-#include <gflags/gflags.h>
-#include <spdlog/spdlog.h>
-#include <spdlog/sinks/stdout_color_sinks.h>
-#include <spdlog/sinks/basic_file_sink.h>
 #include <bx/bx.h>
 #include <bx/file.h>
 #include <bx/filepath.h>
@@ -15,7 +11,6 @@
 #include <imgui.h>
 #include <imgui_impl_sdl3.h>
 #include "imgui_impl_bgfx.h"
-#include <funchook.h>
 
 void SetupLightTheme()
 {
