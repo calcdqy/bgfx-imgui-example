@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.20)
 
-project(sdl3-bgfx-imgui-example VERSION 1.0)
+project(bgfx-imgui-example VERSION 1.0)
 
 if(NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
     message(STATUS "Setting build type to 'Release' as none was specified.")
